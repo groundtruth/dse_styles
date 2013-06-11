@@ -10,14 +10,21 @@ interactor :off
 guard :shell do
 
   watch /^css.*\.css$/ do |files|
-    system "java -Djava.awt.headless=true -cp '#{GEOSERVER_LIB}/*' org.geoscript.geocss.Converter #{ files.join(" ") }"
-    files.each { |file| system "mv #{ sld_generated(file) } #{ sld_destination(file) }" }
+    existing_files = files.select { |file| File.exist?(file) }
+    removed_files = files - existing_files
 
-    files.map { |file| "#{ Time.now.strftime("%H:%M:%S") } - REGENERATED #{ sld_destination(file) }" }.join("\n") + "\n"
+    system "java -Djava.awt.headless=true -cp '#{GEOSERVER_LIB}/*' org.geoscript.geocss.Converter #{ existing_files.join(" ") }"
+    existing_files.each { |file| system "mv #{ sld_generated(file) } #{ sld_destination(file) }" }
+    removed_files.each { |file| system "rm #{ sld_destination(file) }" }
+
+    files.map do |file|
+      action = removed_files.include?(file) ? "REMOVED" : "REGENERATED"
+      "#{ Time.now.strftime("%H:%M:%S") } - #{ action } #{ sld_destination(file) }"
+    end.join("\n") + "\n"
   end
 
   watch /^sld.*\.sld$/ do |files|
-    system "rsync sld/*.sld '#{ RSYNC_DESTINATION }'"
+    system "rsync --recursive --delete sld/ '#{ RSYNC_DESTINATION }'"
 
     "#{ Time.now.strftime("%H:%M:%S") } - RSYNC'd SLDs to server\n"
   end
