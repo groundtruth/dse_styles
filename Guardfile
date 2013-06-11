@@ -1,5 +1,5 @@
 GEOSERVER_LIB = "/opt/opengeo/suite/webapps/geoserver/WEB-INF/lib"
-SERVER_DESTINATION = "root@s1.pozi.com:/var/lib/tomcat6/webapps/vic_styles/sld/"
+RSYNC_DESTINATION = "root@s1.pozi.com:/var/lib/tomcat6/webapps/vic_styles/sld/"
 
 def sld_generated(css_file); css_file.sub(/css$/, "sld"); end
 def sld_destination(css_file); css_file.gsub("css", "sld"); end
@@ -17,7 +17,7 @@ guard :shell do
   end
 
   watch /^sld.*\.sld$/ do |files|
-    system "rsync sld/*.sld '#{ SERVER_DESTINATION }'"
+    system "rsync sld/*.sld '#{ RSYNC_DESTINATION }'"
 
     "#{ Time.now.strftime("%H:%M:%S") } - RSYNC'd SLDs to server\n"
   end
