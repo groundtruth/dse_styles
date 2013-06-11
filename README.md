@@ -1,6 +1,6 @@
-# DSE Styles
+# VIC Styles
 
-Stylesheets for DSE layers used at Groundtruth.
+Stylesheets for Victorian state-level geodata layers used at Groundtruth.
 
 These are written in [GeoServer CSS](http://docs.geoserver.org/latest/en/user/community/css/index.html)
 but this repository tracks the styles in both CSS and the SLD generated from them.
@@ -11,6 +11,6 @@ but this repository tracks the styles in both CSS and the SLD generated from the
 
 ## Get going
 
-    git clone git@github.com:groundtruth/dse_styles.git && cd dse_styles
+    git clone git@github.com:groundtruth/vic_styles.git && cd vic_styles
 
 
