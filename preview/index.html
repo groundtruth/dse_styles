@@ -18,6 +18,7 @@
     <script type="text/javascript">
         var vmap, layer, layertostyle;
         var sld_base_dir = "http://s1.pozi.com/vic_styles/sld/";
+        var wms_endpoint = "http://services.land.vic.gov.au/catalogue/httpproxy/sdm_geoserver/wms";
         function init(){
                 // Displaying sld_base_dir
                 document.getElementById("sld_base_directory").innerHTML = sld_base_dir;
@@ -83,13 +84,14 @@
                     };
 
                     layertostyle = new OpenLayers.Layer.WMS( "Layer to style",
-                        "http://services.land.vic.gov.au/catalogue/httpproxy/sdm_geoserver/wms",
+                        wms_endpoint,
                         basic_layer_definition,
                         {
                             isBaseLayer: false,
                             singleTile: true
                         }
                     );
+
                     vmap.addLayer(layertostyle);
 
                 }
