@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Remote SLD Styling</title>
+    <link rel="stylesheet" href="openlayers/theme/default/style.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+        .smallmap {
+            border: 1px solid #CCCCCC;
+            height: 512px;
+            width: 1024px;
+        }
+    </style>
+    <script src="openlayers/OpenLayers.js"></script>
+    <script type="text/javascript">
+        var vmap, layer, layertostyle;
+        var sld_base_dir = "http://s1.pozi.com/vic_styles/sld/";
+        function init(){
+                // Displaying sld_base_dir
+                document.getElementById("sld_base_directory").innerHTML = sld_base_dir;
+
+                vmap = new OpenLayers.Map('map',
+                    {
+                        projection: "EPSG:900913",
+                        units: "m",
+                        maxResolution: 156543.0339,
+                        maxExtent: new OpenLayers.Bounds(-20037508.34, -20037508.34, 20037508.34, 20037508.34),
+                        controls:[
+                            new OpenLayers.Control.Navigation(),
+                            new OpenLayers.Control.Zoom(),
+                            new OpenLayers.Control.ScaleLine(),
+                            new OpenLayers.Control.LayerSwitcher(),
+                            new OpenLayers.Control.ZoomBox({'keyMask': OpenLayers.Handler.MOD_SHIFT})
+                        ],
+                        numZoomLevels:20,
+                        theme: null
+                    }
+                );
+
+                baselayer = new OpenLayers.Layer.WMS( "Vicmap Classic",
+                    "http://basemap.pozi.com/geoserver/ows",
+                    {layers: 'VicmapClassic'},
+                    {opacity: 1} 
+                );
+                vmap.addLayer(baselayer);
+
+                refreshWMS();
+
+                vmap.setCenter(
+                    new OpenLayers.LonLat(145, -38).transform(
+                        new OpenLayers.Projection("EPSG:4326"),
+                        vmap.getProjectionObject()
+                    ), 12
+                );
+
+        }
+
+        function refreshWMS(){
+                var layerToRemove = vmap.getLayersByName("Layer to style");
+                if (layerToRemove.length)
+                {
+                    // By construction, there is only one WMS layer with this name
+                    vmap.removeLayer(layerToRemove[0]);
+                }
+
+                // Taking into account current values from the page
+                var lts = document.getElementById("layer_to_style");
+                if (lts.value)
+                {
+                    var basic_layer_definition = {
+                        layers: lts.value,
+                        format:"image/png8",
+                        transparent: true,
+                        srs: "EPSG:900913"
+                    };
+
+                    var sl = document.getElementById("sld_location");
+                    if (sl.value){
+                        basic_layer_definition.sld=sld_base_dir+sl.value;
+                    };
+
+                    layertostyle = new OpenLayers.Layer.WMS( "Layer to style",
+                        "http://services.land.vic.gov.au/catalogue/httpproxy/sdm_geoserver/wms",
+                        basic_layer_definition,
+                        {
+                            isBaseLayer: false,
+                            singleTile: true
+                        }
+                    );
+                    vmap.addLayer(layertostyle);
+
+                }
+
+        }
+    </script>
+  </head>
+  <body onload="init()">
+    <p> 
+        USER=gen_user_allcouncils *
+        LAYER=<input type="text" name="layer_to_style" id="layer_to_style" size=40 value="sii:VMADMIN.LOCALITY_POLYGON" /> *
+        SLD=<span id="sld_base_directory"></span><input type="text" name="sld_location" id="sld_location" size=20 value="" />
+        <button onclick="refreshWMS()">Apply</button>
+    </p>
+    <div id="map" class="smallmap"></div>
+  </body>
+</html>
