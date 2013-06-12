@@ -83,6 +83,12 @@
                         basic_layer_definition.sld=sld_base_dir+sl.value;
                     };
 
+                    // overriding to use a groundtruth layer and style
+                    wms_endpoint = "http://s1.pozi.com/geoserver/wms";
+                    basic_layer_definition.srs = "EPSG:4326";
+                    basic_layer_definition.layers = "DSE_ADMINISTRATIVE_BOUNDARIES:dse_vmadmin_lga_polygon";
+                    basic_layer_definition.styles = "dse_vmadmin_lga_polygon";
+
                     layertostyle = new OpenLayers.Layer.WMS( "Layer to style",
                         wms_endpoint,
                         basic_layer_definition,
