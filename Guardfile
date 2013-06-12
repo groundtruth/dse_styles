@@ -1,4 +1,4 @@
-GEOSERVER_LIB = "/opt/opengeo/suite/webapps/geoserver/WEB-INF/lib"
+GEOSERVER_LIB = 'C:\Program Files (x86)\OpenGeo\OpenGeo Suite\webapps\geoserver\WEB-INF\lib'
 RSYNC_DESTINATION = "root@s1.pozi.com:/var/lib/tomcat6/webapps/vic_styles/sld/"
 
 def sld_generated(css_file); css_file.sub(/css$/, "sld"); end
