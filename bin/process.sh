@@ -19,6 +19,4 @@ echo "Generated raw SLD files"
 ls ./sld/*.sld | xargs ./bin/rewrap.rb
 ls ./sld/*.backup | xargs rm
 
-rsync --recursive --delete sld/ "$RSYNC_DESTINATION"
-
-echo "Synchronized to server"
+./bin/sync.sh

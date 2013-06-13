@@ -14,7 +14,8 @@ ARGV.each do |filename|
 
     inner_text = raw_text.
                     sub(/<\?xml[^\?]*\?>/, '').
-                    sub(/<sld:UserStyle[^>]*>/, '<sld:UserStyle>')
+                    sub(/<sld:UserStyle[^>]*>/, '<sld:UserStyle>').
+                    gsub(/<sld:GraphicFill>\s*<sld:Graphic\/>\s*<\/sld:GraphicFill>/m,'')
 
     workspace_name = filename.split("/").last.split("-").first
     layer_name = filename.split("/").last.split("-").last.sub(/\.sld$/,"")
