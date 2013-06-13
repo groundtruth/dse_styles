@@ -5,7 +5,7 @@ Stylesheets for Victorian state-level geospatial data layers used at Groundtruth
 These are written in [GeoServer CSS](http://docs.geoserver.org/latest/en/user/community/css/index.html)
 but this repository tracks the styles in both CSS and the SLD generated from them.
 
-## Get going
+## Getting started
 
 Before getting started you'll need to
 [install the GeoServer CSS Plugin](http://docs.geoserver.org/latest/en/user/community/css/install.html),
@@ -14,8 +14,14 @@ for example, from [here](http://gridlock.opengeo.org/geoserver/master/community-
 Next, get the code:
 
     git clone git@github.com:groundtruth/vic_styles.git && cd vic_styles
+
+### With automatic file watching
+
+Install the Ruby gems:
+
     bundle install
 
+   
 Make sure the `Guardfile` has the correct settings for `GEOSERVER_LIB` and `RSYNC_DESTINATION`.
 Then run guard to automatically regenerate the SLD files and synchronise them to the server
 in the background:
@@ -24,3 +30,10 @@ in the background:
 
 After that you can edit the CSS files under `css/` and see the results almost immediately.
 
+### Manually
+
+A similar workflow can be used manually. Adjust the variables in `bin/process.sh`
+and run that from the project root:
+
+    ./bin/process.sh
+ 
