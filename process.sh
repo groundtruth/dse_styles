@@ -12,4 +12,7 @@ java -Djava.awt.headless=true \
     
 mv ./css/*.sld ./sld/
 
+ls ./sld/*.sld | xargs ./rewrap.rb
+ls ./sld/*.backup | xargs rm
+
 rsync --recursive --delete sld/ "$RSYNC_DESTINATION"

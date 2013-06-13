@@ -33,6 +33,7 @@
                             new OpenLayers.Control.Navigation(),
                             new OpenLayers.Control.Zoom(),
                             new OpenLayers.Control.ScaleLine(),
+                            new OpenLayers.Control.Scale(),
                             new OpenLayers.Control.LayerSwitcher(),
                             new OpenLayers.Control.ZoomBox({'keyMask': OpenLayers.Handler.MOD_SHIFT})
                         ],
@@ -87,7 +88,7 @@
                     wms_endpoint = "http://s1.pozi.com/geoserver/wms";
                     basic_layer_definition.srs = "EPSG:4326";
                     basic_layer_definition.layers = "DSE_ADMINISTRATIVE_BOUNDARIES:dse_vmadmin_lga_polygon";
-                    basic_layer_definition.styles = "dse_vmadmin_lga_polygon";
+                    basic_layer_definition.sld = "http://s1.pozi.com/vic_styles/sld/dse_vmadmin_lga_polygon.sld";
 
                     layertostyle = new OpenLayers.Layer.WMS( "Layer to style",
                         wms_endpoint,
