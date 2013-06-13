@@ -16,9 +16,9 @@ ARGV.each do |filename|
                     sub(/<\?xml[^\?]*\?>/, '').
                     sub(/<sld:UserStyle[^>]*>/, '<sld:UserStyle>')
 
-    workspace_name = "DSE_ADMINISTRATIVE_BOUNDARIES"
-    layer_name = filename.split("/").last.sub(/\.sld$/,"")
-
+    workspace_name = filename.split("/").last.split("-").first
+    layer_name = filename.split("/").last.split("-").last.sub(/\.sld$/,"")
+    
     rewrapped_text = <<-EOS
 <?xml version="1.0" encoding="UTF-8"?>
 <StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:sld="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:gml="http://www.opengis.net/gml" version="1.0.0">

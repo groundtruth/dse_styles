@@ -1,0 +1,11 @@
+* {
+    stroke: #800080;
+    stroke-width: 4.4;
+    label: [lga_name];
+    font-family: "Times New Roman";
+    font-style: bold;
+    font-fill: #800080;
+    font-size: 18;
+    halo-radius: 1.5;
+    halo-color: #FFFFFF ;
+}
