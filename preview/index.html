@@ -20,9 +20,13 @@
         var sld_base_dir = "http://s1.pozi.com/vic_styles/sld/";
         var wms_endpoint = "http://services.land.vic.gov.au/catalogue/httpproxy/sdm_geoserver/wms";
         function init(){
-                // Displaying sld_base_dir
-                document.getElementById("sld_base_directory").innerHTML = sld_base_dir;
 
+                document.getElementById("wms_endpoint").value = window.location.hash.split("#")[1];
+                document.getElementById("layer_to_style").value = window.location.hash.split("#")[2];
+                document.getElementById("srs").value = window.location.hash.split("#")[3];
+                document.getElementById("sld_location").value = window.location.hash.split("#")[4];
+                document.getElementById("sld_base_directory").innerHTML = sld_base_dir;
+                
                 vmap = new OpenLayers.Map('map',
                     {
                         projection: "EPSG:900913",
@@ -61,6 +65,15 @@
         }
 
         function refreshWMS(){
+
+                window.location.hash = [
+                    "",
+                    document.getElementById("wms_endpoint").value,
+                    document.getElementById("layer_to_style").value,
+                    document.getElementById("srs").value,
+                    document.getElementById("sld_location").value
+                ].join("#")
+
                 var layerToRemove = vmap.getLayersByName("Layer to style");
                 if (layerToRemove.length)
                 {
@@ -72,27 +85,16 @@
                 var lts = document.getElementById("layer_to_style");
                 if (lts.value)
                 {
-                    var basic_layer_definition = {
-                        layers: lts.value,
-                        format:"image/png8",
-                        transparent: true,
-                        srs: "EPSG:900913"
-                    };
-
-                    var sl = document.getElementById("sld_location");
-                    if (sl.value){
-                        basic_layer_definition.sld=sld_base_dir+sl.value;
-                    };
-
-                    // overriding to use a groundtruth layer and style
-                    wms_endpoint = "http://s1.pozi.com/geoserver/wms";
-                    basic_layer_definition.srs = "EPSG:4326";
-                    basic_layer_definition.layers = "DSE_ADMINISTRATIVE_BOUNDARIES:dse_vmadmin_lga_polygon";
-                    basic_layer_definition.sld = "http://s1.pozi.com/vic_styles/sld/DSE_ADMINISTRATIVE_BOUNDARIES-dse_vmadmin_lga_polygon.sld";
 
                     layertostyle = new OpenLayers.Layer.WMS( "Layer to style",
-                        wms_endpoint,
-                        basic_layer_definition,
+                        document.getElementById("wms_endpoint").value,
+                        {
+                            layers: lts.value,
+                            format:"image/png8",
+                            transparent: true,
+                            srs: document.getElementById("srs").value,
+                            sld: sld_base_dir + document.getElementById("sld_location").value
+                        },
                         {
                             isBaseLayer: false,
                             singleTile: true
@@ -108,9 +110,10 @@
   </head>
   <body onload="init()">
     <p> 
-        USER=gen_user_allcouncils *
-        LAYER=<input type="text" name="layer_to_style" id="layer_to_style" size=40 value="sii:VMADMIN.LOCALITY_POLYGON" /> *
-        SLD=<span id="sld_base_directory"></span><input type="text" name="sld_location" id="sld_location" size=20 value="" />
+        WMS_ENDPOINT=<input type="text" name="wms_endpoint" id="wms_endpoint" size=35 value="" />
+        LAYER=<input type="text" name="layer_to_style" id="layer_to_style" size=65 value="" />
+        SRS=<input type="text" name="srs" id="srs" size=10 value="" /> <br/>
+        SLD=<span id="sld_base_directory"></span><input type="text" name="sld_location" id="sld_location" size=80 value="" />
         <button onclick="refreshWMS()">Apply</button>
     </p>
     <div id="map" class="smallmap"></div>
