@@ -3,7 +3,7 @@
 }
 
 [@scale < 217001] {
-    label: [lga_name];
+    label: [LOCALITY_NAME];
     font-family: "DejaVu Sans";
     font-style: normal;
     font-weight: bold;
@@ -17,7 +17,7 @@
 }
 
 [@scale >217000]{
-    label: [lga_name];
+    label: [LOCALITY_NAME];
     font-family: "SansSerif";
     font-style: normal;
     font-fill: #7d1b7e;
