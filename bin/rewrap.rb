@@ -22,6 +22,7 @@ ARGV.each do |filename|
     
     rewrapped_text = <<-EOS
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Styled by Lotta for Groundtruth (http://www.groundtruth.com.au) -->
 <StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:sld="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:gml="http://www.opengis.net/gml">
     <NamedLayer>
         <Name>#{workspace_name}:#{layer_name}</Name>
