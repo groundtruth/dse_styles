@@ -1,9 +1,0 @@
-[@scale<200000][ftype_code='watercourse_stream']{
-    stroke:#DDE8FF;
-    stroke-width:1;
-}
-
-[ftype_code='watercourse_river'][hierarchy='H'][hierarchy='M']{
-    stroke:#DDE8FF;
-    stroke-width:3;
-}
