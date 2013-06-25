@@ -1,0 +1,19 @@
+*{
+    stroke:#342D7E;
+}
+
+[@scale >2000001]{
+    stroke-width:1.2;
+}
+
+[@scale <2000000][@scale >433001]{
+    stroke-width: 2.2;
+}
+
+[@scale <433000][@scale >108001]{
+    stroke-width: 3.8;
+}
+
+[@scale <108000]{
+    stroke-width:4.5;
+}

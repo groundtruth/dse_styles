@@ -1,0 +1,16 @@
+/* http://www.giconnections.vic.gov.au/content/vicgdd/record/ANZVI0803003002.htm
+
+PLEASE NOTE: This dataset has had its last update on 10/03/2010 and is 
+now superseded by the new PLM25 dataset. Proposed Parks and Reserves 
+that are to be included from the River Red Gum Study will be incorporated 
+into the PLM25 dataset and not here.
+
+*/
+
+*{
+    stroke:red;
+}
+
+[X_MMTNEWDESC='Wilderness Area']{
+    fill:blue;
+}

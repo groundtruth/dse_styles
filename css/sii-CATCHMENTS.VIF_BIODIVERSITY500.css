@@ -1,0 +1,15 @@
+/* Biodiversity Program Priorities for the Victorian Investment Framework */
+
+
+
+[TYPE='Remaining']{
+    fill:red;
+}
+
+[TYPE='BioLink']{
+    fill:blue;
+}
+
+[TYPE='Flagship']{
+    fill:green;
+}

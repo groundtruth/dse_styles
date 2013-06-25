@@ -1,0 +1,103 @@
+*{
+    label:[BIOREGION_CODE];
+    font-family: "DejaVu Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-fill: #000000;
+    font-size: 16;
+
+    -gt-label-group:true;
+    -gt-label-max-displacement: 150;
+    -gt-label-fit-godness: 0.2 ;
+}
+
+[BIOREGION_CODE='Brid']{
+    fill:#8BD18E;
+}
+[BIOREGION_CODE='CVU']{
+    fill:#8C7AB0;
+}
+[BIOREGION_CODE='DunT']{
+    fill:#C8A757;
+}
+[BIOREGION_CODE='EGL']{
+    fill:#C18067;
+}
+[BIOREGION_CODE='EGU']{
+    fill:#A0AA18;
+}
+[BIOREGION_CODE='GipP']{
+    fill:#129CA4;
+}
+[BIOREGION_CODE='GleP']{
+    fill:#F65229;
+}
+[BIOREGION_CODE='Gold']{
+    fill:#E8930E;
+}
+[BIOREGION_CODE='GGr']{
+    fill:#5A5A5C;
+}
+[BIOREGION_CODE='HFE']{
+    fill:#1E5F38;
+}
+[BIOREGION_CODE='HNF']{
+    fill:#7BC421;
+}
+[BIOREGION_CODE='HSF']{
+    fill:#34824A;
+}
+[BIOREGION_CODE='LoM']{
+    fill:#F1CC00;
+}
+[BIOREGION_CODE='MonT']{
+    fill:#DBD055;
+}
+[BIOREGION_CODE='MuF']{
+    fill:#91D4DC;
+}
+[BIOREGION_CODE='MuM']{
+    fill:#E1C696;
+}
+[BIOREGION_CODE='MSB']{
+    fill:#01BED6;
+}
+[BIOREGION_CODE='NIS']{
+    fill:#AA341E;
+}
+[BIOREGION_CODE='OtP']{
+    fill:#F7A198;
+}
+[BIOREGION_CODE='OtR']{
+    fill:#31DAFE;
+}
+[BIOREGION_CODE='RobP']{
+    fill:#009592;
+}
+[BIOREGION_CODE='Strz']{
+    fill:#831E93;
+}
+[BIOREGION_CODE='VAlp']{
+    fill:#970B6C;
+}
+[BIOREGION_CODE='VRiv']{
+    fill:#FCD385;
+}
+[BIOREGION_CODE='VVP']{
+    fill:#EAF5E9;
+}
+[BIOREGION_CODE='WaP']{
+    fill:#DAD8D7;
+}
+[BIOREGION_CODE='WPro']{
+    fill:#D63E25;
+}
+[BIOREGION_CODE='Wim']{
+    fill:#6E786A;
+}
+/*
+
+FLORAFAUNA1.VBIOREG100
+fid                         BIOREGION_NO    BIOREGION   BIOREGION_CODE  REG     LAND_TYPE   BIOREGION_SRC   AREASQM         HECTARES
+FLORAFAUNA1.VBIOREG100.125  5.2             Otway Plain OtP             SCP     1           1               1.4866874553E8  14866.87
+*/

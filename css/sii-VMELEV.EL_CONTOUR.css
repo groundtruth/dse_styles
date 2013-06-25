@@ -1,0 +1,44 @@
+/* Definition for the Label*/
+[@scale <50000]{
+    label:[ALTITUDE];
+    label-offset:1;
+    font-family:"SansSerif";
+    font-size: 12;
+    font-fill:#A66829;
+    halo-radius:1;
+    halo-color:#E7E7E8;
+    -gt-label-repeat:150;
+    -gt-label-follow-line:true;
+    -gt-label-force-ltr:false;
+}
+[@scale <12000]{
+    -gt-label-repeat:250;
+}
+/*Definition as default style for every line*/
+*{    
+    stroke:#A67C29;
+    stroke-width:0.2;
+}
+/* special rules for some lines */
+/* could be rewritten as OR, but was slow to process */
+[ALTITUDE='50']   { stroke-width:0.3; stroke:#A65329; }
+[ALTITUDE='100']  { stroke-width:0.3; stroke:#A65329; }
+[ALTITUDE='150']  { stroke-width:0.3; stroke:#A65329; }
+[ALTITUDE='200']  { stroke-width:0.3; stroke:#A65329; }
+[ALTITUDE='300']  { stroke-width:0.3; stroke:#A65329; }
+[ALTITUDE='400']  { stroke-width:0.3; stroke:#A65329; }
+[ALTITUDE='500']  { stroke-width:0.3; stroke:#A65329; }
+[ALTITUDE='600']  { stroke-width:0.3; stroke:#A65329; }
+[ALTITUDE='700']  { stroke-width:0.3; stroke:#A65329; }
+[ALTITUDE='800']  { stroke-width:0.3; stroke:#A65329; }
+[ALTITUDE='900']  { stroke-width:0.3; stroke:#A65329; }
+[ALTITUDE='1000'] { stroke-width:0.3; stroke:#A65329; }
+[ALTITUDE='1100'] { stroke-width:0.3; stroke:#A65329; }
+[ALTITUDE='1200'] { stroke-width:0.3; stroke:#A65329; }
+[ALTITUDE='1300'] { stroke-width:0.3; stroke:#A65329; }
+[ALTITUDE='1400'] { stroke-width:0.3; stroke:#A65329; }
+[ALTITUDE='1500'] { stroke-width:0.3; stroke:#A65329; }
+[ALTITUDE='1600'] { stroke-width:0.3; stroke:#A65329; }
+[ALTITUDE='1700'] { stroke-width:0.3; stroke:#A65329; }
+[ALTITUDE='1800'] { stroke-width:0.3; stroke:#A65329; }
+[ALTITUDE='1900'] { stroke-width:0.3; stroke:#A65329; }

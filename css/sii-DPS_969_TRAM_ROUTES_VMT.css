@@ -1,0 +1,11 @@
+/*Tram route*/
+
+*{
+    stroke:#E7E7E8, #70BF44;
+    stroke-width:3.8, 3;
+}
+
+[@scale <50000]{
+    stroke:#E7E7E8, #70BF44;
+    stroke-width:4.8, 3.5;
+}

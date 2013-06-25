@@ -1,0 +1,11 @@
+/*Metrobus Route*/
+
+*{
+    stroke:#E7E7E8, #EA8D1E;
+    stroke-width:2.8, 2;
+}
+
+[@scale <50000]{
+    stroke:#E7E7E8, #EA8D1E;
+    stroke-width:3.8, 3;
+}

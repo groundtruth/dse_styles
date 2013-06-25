@@ -1,0 +1,67 @@
+/* Streetnetwork */
+
+/*Bicycle Path*/
+[@scale <100000][CLASS_CODE='12']{
+    stroke:#004B00;
+    stroke-dasharray:6;
+    stroke-width:0.5;
+}
+/*Walking Track*/
+[@scale <100000][CLASS_CODE='11']{
+    stroke:#004B00;
+    stroke-dasharray:6;
+    stroke-width:0.5;
+}
+/*Proposed
+[CLASS_CODE='9']{
+    stroke:#808000;
+}*/
+/*4wd*/
+[@scale <100000][CLASS_CODE='7']{
+    stroke:#E42217;
+    stroke-dasharray:4;
+    stroke-width:0.5;
+}
+/*2wd*/
+[@scale <100000][CLASS_CODE='6']{
+    stroke:#E42217;
+    stroke-dasharray:4;
+    stroke-width:0.5;
+}
+/*Local - grey*/
+[@scale <200000][CLASS_CODE='5']{
+    stroke:#505050;
+}
+/*Collector -  grey*/
+[@scale <200000][CLASS_CODE='4']{
+    stroke:#505050;
+    stroke-width:1.5,;
+}
+/*Sub-Arterial - */
+[@scale <7000000][CLASS_CODE='3']{
+    stroke:#C0C0C0,#E42217;
+    stroke-width:2,1;
+}
+/*Arterial - red*/
+[@scale <7000000][CLASS_CODE='2']{
+    stroke:#C0C0C0,#E42217;
+    stroke-width:3,2;
+}
+/*Highway - red*/
+[@scale <7000000][CLASS_CODE='1']{
+    stroke:#C0C0C0,#E42217;
+    stroke-width:4,3;
+}
+[@scale >7000000][CLASS_CODE='1']{
+    stroke:#C0C0C0,#E42217;
+    stroke-width:1,0.5;
+}
+/*Freeway - green*/
+[@scale <7000000][CLASS_CODE='0']{
+    stroke:#C0C0C0,#165417;
+    stroke-width:5,4;
+}
+[@scale >7000000][CLASS_CODE='0']{
+    stroke:#C0C0C0,#165417;
+    stroke-width:2,1;
+}

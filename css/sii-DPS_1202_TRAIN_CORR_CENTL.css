@@ -1,0 +1,10 @@
+/* metrotrain network*/
+* {
+    stroke:#E7E7E8,#018DD0;
+    stroke-width:4.5,4;
+/*
+    stroke-dasharray: ,6;
+    stroke-linecap:butt;
+    stroke-dashoffset: 8;
+*/
+}

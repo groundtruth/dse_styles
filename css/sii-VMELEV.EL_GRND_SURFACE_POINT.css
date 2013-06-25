@@ -1,0 +1,36 @@
+/* Ground Elevation Points */
+
+[@scale <200000]{
+    mark: symbol(circle);
+}
+
+:mark{
+    fill:#A66829;
+    size:3;
+}
+
+:shield{
+    fill:#A66829;
+}
+
+[@scale<50000]{
+    label: [ALTITUDE];
+    label-offset:10;
+    font-family: "DejaVu Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-fill: #A66829;
+    font-size: 12;
+    halo-radius: 1;
+    halo-color: #E7E7E8;
+}
+
+[@scale >200000]{
+    label:['.'];
+    font-family:"DejaVu Sans";
+    font-size: 10;
+    -gt-label-padding:25;
+
+    shield: symbol(circle);
+    shield-size:3;
+}

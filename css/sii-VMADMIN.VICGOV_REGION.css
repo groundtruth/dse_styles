@@ -1,35 +1,33 @@
-/* Einteilung in die verschiedenen Stadtteile */
 * {
-    stroke:#800080;
+    stroke:#C12283;
 }
 
 [@scale <217000]{
-    label: [LOCALITY_NAME];
+    label: [VICGOV_REGION_SNAME];
     font-family: "DejaVu Sans";
     font-style: normal;
     font-weight: bold;
-    font-fill: #7d1b7e;
+    font-fill: #C12283;
     font-size: 16;
     halo-radius: 1;
     halo-color: #E7E7E8;
-    -gt-label-auto-wrap:60;
+    -gt-label-auto-wrap:90;
     -gt-label-max-displacement: 150;
     -gt-label-fit-godness: 0.2 ;
 }
 
-[@scale < 800000] [@scale >217001]{
-    label: [LOCALITY_NAME];
+[@scale >217001]{
+    label: [VICGOV_REGION_SNAME];
     font-family: "DejaVu Sans";
     font-style: normal;
-    font-fill: #7d1b7e;
-    font-size: 10;
+    font-fill: #C12283;
+    font-size: 14;
     halo-radius: 1;
     halo-color: #E7E7E8;
-    -gt-label-auto-wrap:20;
+    -gt-label-auto-wrap:120;
     -gt-label-max-displacement: 150;
     -gt-label-fit-godness: 0.2 ;
     -gt-label-group: true;
-    -gt-label-padding:10;
     -gt-label-max-displacement:10;
 }
 
@@ -47,5 +45,7 @@
 }
 
 [@scale <108000]{
-    stroke-width:6.1;
+    stroke-width:4.1;
 }
+
+/* VICGOV_REGION_CODE   VICGOV_REGION_SNAME VICGOV_REGION   */

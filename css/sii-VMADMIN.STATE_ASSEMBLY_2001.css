@@ -1,14 +1,13 @@
-/* Einteilung in die verschiedenen Stadtteile */
 * {
-    stroke:#800080;
+    stroke:#4E387E;
 }
 
 [@scale <217000]{
-    label: [LOCALITY_NAME];
+    label: [DISTRICT];
     font-family: "DejaVu Sans";
     font-style: normal;
     font-weight: bold;
-    font-fill: #7d1b7e;
+    font-fill: #4E387E;
     font-size: 16;
     halo-radius: 1;
     halo-color: #E7E7E8;
@@ -18,10 +17,10 @@
 }
 
 [@scale < 800000] [@scale >217001]{
-    label: [LOCALITY_NAME];
+    label: [DISTRICT];
     font-family: "DejaVu Sans";
     font-style: normal;
-    font-fill: #7d1b7e;
+    font-fill: #4E387E;
     font-size: 10;
     halo-radius: 1;
     halo-color: #E7E7E8;
@@ -49,3 +48,8 @@
 [@scale <108000]{
     stroke-width:6.1;
 }
+/*
+DISTRICT_CODE   DISTRICT    DISTRICT_LABEL  
+62              NARRACAN    Narracan District
+
+*/

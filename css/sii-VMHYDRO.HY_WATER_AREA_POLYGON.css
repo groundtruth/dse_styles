@@ -1,0 +1,16 @@
+*{
+    fill:#342D7E;
+}
+
+[@scale<50000]{
+    label:[NAME];
+    font-family: "DejaVu Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-fill: #C2DFFF;
+    font-size: 14;
+    halo-radius: 2;
+    halo-color: #342D7E;
+    -gt-label-auto-wrap:120;
+    -gt-label-max-displacement: 50;
+}

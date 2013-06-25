@@ -1,0 +1,15 @@
+*{
+    fill:red;
+}
+[FEATURE_TYPE='30723']{
+    fill:blue;
+}
+
+/*
+
+VMCLTENURE.CL_TENURE_VIEW
+fid                             PFI         CENTROID_PFI    Z_LEVEL FEATURE_TYPE    FEATURE_QUALITY_ID  PFI_CREATED         UFI             UFI_CREATED     UFI_OLD
+VMCLTENURE.CL_TENURE_VIEW.77454 172340249   172340248       G       30723                               11/02/04 8:58 PM    3.13846493E8    2/07/12 5:16 PM 2.89292718E8
+VMCLTENURE.CL_TENURE_VIEW.77453 172183968   172183967       G       30723                               22/01/04 8:47 PM    3.13846492E8    2/07/12 5:16 PM 2.89292717E8
+
+*/

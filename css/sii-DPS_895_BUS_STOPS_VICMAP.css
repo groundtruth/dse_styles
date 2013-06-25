@@ -1,0 +1,38 @@
+ /*Metro Bus stops*/
+
+[@scale <3000]{
+    mark: symbol(triangle);
+}
+
+:mark{
+    size:15;
+    fill:#EA8D1E;
+    stroke:#E7E7E8;
+}
+
+:shield{
+    fill:#EA8D1E;
+    stroke:#E7E7E8;
+}
+
+[@scale <3000]{
+    label: [STOPSPECNAME];
+    label-offset:10;
+    font-family: "DejaVu Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-fill: #EA8D1E;
+    font-size: 16;
+    halo-radius: 1;
+    halo-color: #E7E7E8;
+}
+
+[@scale >3000]{
+    label:['.'];
+    font-family:"DejaVu Sans";
+    font-size: 10;
+    -gt-label-padding:25;
+
+    shield: symbol(triangle);
+    shield-size:15;
+}

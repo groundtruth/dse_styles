@@ -1,0 +1,22 @@
+/*School Bus Routes*/
+
+*{
+    stroke:#E7E7E8, #0A8A8A;
+    stroke-width:3.8, 3;
+}
+
+[@scale <50000]{
+    stroke:#E7E7E8, #0A8A8A;
+    stroke-width:4.8, 3.5;
+}
+
+/*
+[OPERATORNAME LIKE 'O''Shannessy''s Sorrento Travel Pty Ltd as Trustee for the O''Shannessy Family%'], 
+[OPERATORNAME LIKE 'Portsea Passenger Service P/L%'], 
+[OPERATORNAME LIKE 'Driver Group Pty Ltd%'], 
+[OPERATORNAME LIKE 'Hurstbridge Bus & Coach P/L%'], 
+[OPERATORNAME LIKE 'Phillip Island Bus Lines P/L%'], 
+[OPERATORNAME LIKE 'Jeff O''Meara Staff Super Fund%'] {
+    stroke:#FF0000;
+}
+*/

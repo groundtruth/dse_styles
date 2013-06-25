@@ -1,0 +1,42 @@
+*{
+    fill:red;
+}
+
+[@scale <14000 ]{
+    label:[NAME_LABEL];
+    font-family: "DejaVu Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-fill: #000000;
+    font-size: 14;
+    halo-radius: 1;
+    halo-color: #E7E7E8;
+    -gt-label-auto-wrap:120;
+    -gt-label-max-displacement: 50;
+    -gt-label-group: true;
+}
+[FEATURE_TYPE='reserve']
+{fill:green;}
+
+[FEATURE_TYPE='sport facility'],
+[FEATURE_TYPE='recreational resource']
+{fill:#6AA121;}
+
+[FEATURE_TYPE='commercial facility']
+{ fill:pink;}
+
+[FEATURE_TYPE='dumping ground'],
+[FEATURE_TYPE='excavation site']
+{fill:brown;}
+
+[FEATURE_TYPE='power facility'],
+[FEATURE_TYPE='defence site'],
+[FEATURE_TYPE='pipeline facility']
+{ fill:grey;}
+
+[FEATURE_TYPE='residential building'],
+[FEATURE_TYPE='community space']
+{ fill:#FFCBA4;}
+
+[FEATURE_TYPE='landmark']
+{ fill:yellow;}

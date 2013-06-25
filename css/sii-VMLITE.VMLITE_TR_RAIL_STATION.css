@@ -1,0 +1,22 @@
+* {
+    mark: symbol(square);
+}
+
+:mark{
+    fill:#8C3F91;
+    size:15;
+}
+
+[@scale <90000]{
+    label: [NAME];
+    label-anchor:1 1;
+    label-displace:20 0;
+    label-offset:10;
+    font-family: "DejaVu Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-fill: #8C3F91;
+    font-size: 16;
+    halo-radius: 1;
+    halo-color: #E7E7E8;
+}

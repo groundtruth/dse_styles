@@ -1,0 +1,21 @@
+* {
+    stroke:#7F525D;
+    stroke-width:2.5;
+}
+
+[@scale <217000]{
+    label: [TOWNSHIP_NAME];
+    font-family: "DejaVu Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-fill: #7F525D;
+    font-size: 16;
+    halo-radius: 1;
+    halo-color: #E7E7E8;
+    -gt-label-auto-wrap:120;
+    -gt-label-max-displacement: 150;
+    -gt-label-fit-godness: 0.2 ;
+}
+
+
+/* TOWNSHIP_CODE    TOWNSHIP_NAME */

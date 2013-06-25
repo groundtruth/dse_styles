@@ -1,44 +1,40 @@
-/* Einteilung in die verschiedenen Stadtteile */
 * {
-    stroke:#800080;
+    stroke:#7D0552;
 }
 
-[@scale <217000]{
-    label: [LOCALITY_NAME];
+[@scale < 217001] {
+    label: [DSE_REGION];
     font-family: "DejaVu Sans";
     font-style: normal;
     font-weight: bold;
-    font-fill: #7d1b7e;
+    font-fill: #7D0552;
     font-size: 16;
-    halo-radius: 1;
+    halo-radius: 2;
     halo-color: #E7E7E8;
     -gt-label-auto-wrap:60;
     -gt-label-max-displacement: 150;
     -gt-label-fit-godness: 0.2 ;
 }
 
-[@scale < 800000] [@scale >217001]{
-    label: [LOCALITY_NAME];
+[@scale >217000]{
+    label: [DSE_REGION];
     font-family: "DejaVu Sans";
     font-style: normal;
-    font-fill: #7d1b7e;
-    font-size: 10;
-    halo-radius: 1;
+    font-fill: #7D0552;
+    font-size: 16;
+    halo-radius: 1.5;
     halo-color: #E7E7E8;
     -gt-label-auto-wrap:20;
     -gt-label-max-displacement: 150;
     -gt-label-fit-godness: 0.2 ;
     -gt-label-group: true;
-    -gt-label-padding:10;
-    -gt-label-max-displacement:10;
 }
 
-
-[@scale >800000]{
+[@scale >2000001]{
     stroke-width:1.2;
 }
 
-[@scale <750000][@scale >433001]{
+[@scale <2000000][@scale >433001]{
     stroke-width: 2.2;
 }
 

@@ -1,0 +1,7 @@
+*{
+    mark: url('http://s1.pozi.com/vic_styles/sld/airport.png');
+}
+
+:mark{
+    size: 15;
+}

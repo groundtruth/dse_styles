@@ -1,0 +1,13 @@
+[@scale<200000]{
+    label:[PLACE_NAME];
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: bold;
+    font-fill: #7d1b7e;
+    font-size: 16;
+    halo-radius: 1;
+    halo-color: #E7E7E8;
+    -gt-label-auto-wrap:40;
+    -gt-label-max-displacement: 150;
+    -gt-label-fit-godness: 0.2 ;
+}

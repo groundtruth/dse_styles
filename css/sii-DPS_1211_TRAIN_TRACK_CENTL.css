@@ -1,0 +1,8 @@
+/* Showes all the train tracks*/
+* {
+    stroke:#CACACA;
+    stroke-width:1;
+}
+[@scale>800000]{
+    stroke-width:1;
+}

@@ -1,0 +1,10 @@
+*{
+    stroke:red;
+}
+
+/* http://services.land.vic.gov.au/catalogue/metadata?anzlicId=ANZVI0803003978&publicId=guest&extractionProviderId=1
+
+<ServiceExceptionReport version="1.1.1">
+<ServiceException code="LayerNotDefined">Could not find layer sii:CROWNLAND.PK_PARKRES</ServiceException>
+</ServiceExceptionReport>
+*/

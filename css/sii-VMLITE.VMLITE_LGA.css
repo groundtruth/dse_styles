@@ -1,14 +1,13 @@
-/* Einteilung in die verschiedenen Stadtteile */
 * {
-    stroke:#800080;
+    stroke:#CA226B;
 }
 
 [@scale <217000]{
-    label: [LOCALITY_NAME];
+    label: [LGA_NAME];
     font-family: "DejaVu Sans";
     font-style: normal;
     font-weight: bold;
-    font-fill: #7d1b7e;
+    font-fill: #CA226B;
     font-size: 16;
     halo-radius: 1;
     halo-color: #E7E7E8;
@@ -18,10 +17,10 @@
 }
 
 [@scale < 800000] [@scale >217001]{
-    label: [LOCALITY_NAME];
+    label: [LGA_NAME];
     font-family: "DejaVu Sans";
     font-style: normal;
-    font-fill: #7d1b7e;
+    font-fill: #CA226B;
     font-size: 10;
     halo-radius: 1;
     halo-color: #E7E7E8;

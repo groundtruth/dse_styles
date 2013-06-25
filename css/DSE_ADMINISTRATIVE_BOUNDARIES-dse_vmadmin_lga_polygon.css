@@ -10,7 +10,7 @@
     font-fill: #7d1b7e;
     font-size: 16;
     halo-radius: 2;
-    halo-color: #E5E4E2;
+    halo-color: #E7E7E8;
     -gt-label-auto-wrap:60;
     -gt-label-max-displacement: 150;
     -gt-label-fit-godness: 0.2 ;
@@ -18,12 +18,12 @@
 
 [@scale >217000]{
     label: [lga_name];
-    font-family: "SansSerif";
+    font-family: "DejaVu Sans";
     font-style: normal;
     font-fill: #7d1b7e;
     font-size: 10;
     halo-radius: 1.5;
-    halo-color: #E5E4E2;
+    halo-color: #E7E7E8;
     -gt-label-auto-wrap:20;
     -gt-label-max-displacement: 150;
     -gt-label-fit-godness: 0.2 ;

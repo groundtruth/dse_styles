@@ -1,0 +1,21 @@
+*{
+    fill:red;
+    label:[BIOLNAME];
+    font-family: "DejaVu Sans";
+    font-style: normal;
+    font-fill: #000000;
+    font-size: 14;
+    halo-radius: 1;
+    halo-color: #E7E7E8;
+    -gt-label-group: true;
+}
+
+[BIOLINK='1']{
+    fill:green;
+}
+[BIOLINK='2']{
+    fill:blue;
+}
+[BIOLINK='3']{
+    fill:yellow;
+}

@@ -1,0 +1,15 @@
+[@scale<10000]{
+    stroke:red;
+    label:[NAME_LABEL];
+    font-family: "DejaVu Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-fill: #000000;
+    font-size: 16;
+    halo-radius: 1;
+    halo-color: #E7E7E8;
+}
+
+/*
+fid UFI PFI FEATURE_ID  PARENT_FEATURE_ID   FEATURE_TYPE    FEATURE_SUBTYPE FEATURE_STATUS  NAME    NAME_LABEL  PARENT_NAME CHILD_EXISTS    AUTH_ORG_CODE   AUTH_ORG_ID AUTH_ORG_VERIFIED   VMADD_PFI   VICNAMES_ID VICNAMES_STATUS_CODE    THEME1  THEME2  STATE   X_COORD Y_COORD Z_COORD CREATE_DATE_PFI SUPERCEDED_PFI  CREATE_DATE_UF
+*/

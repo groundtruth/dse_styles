@@ -1,0 +1,30 @@
+/* visible at Portsea */
+
+
+*{
+    stroke:#008000;
+    stroke-width:2;
+    label:[ALTITUDE];
+    label-offset:1;
+    font-family:"SansSerif";
+    font-size: 12;
+    font-fill:#A66829;
+    halo-radius:1;
+    halo-color:#E7E7E8;
+    -gt-label-repeat:150;
+    -gt-label-follow-line:true;
+    -gt-label-force-ltr:false;
+}
+
+
+[ALTITUDE='25']{
+    stroke:FF0000;
+}
+
+[ALTITUDE='15']{
+    stroke:FF0000;
+}
+
+[ALTITUDE='35']{
+    stroke:FF0000;
+}

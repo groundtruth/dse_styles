@@ -1,35 +1,32 @@
-/* Einteilung in die verschiedenen Stadtteile */
 * {
-    stroke:#800080;
+    stroke:#A23BEC;
 }
 
 [@scale <217000]{
-    label: [LOCALITY_NAME];
+    label: [WARD_LABEL];
     font-family: "DejaVu Sans";
     font-style: normal;
     font-weight: bold;
-    font-fill: #7d1b7e;
+    font-fill: #A23BEC;
     font-size: 16;
     halo-radius: 1;
     halo-color: #E7E7E8;
-    -gt-label-auto-wrap:60;
+    -gt-label-auto-wrap:120;
     -gt-label-max-displacement: 150;
     -gt-label-fit-godness: 0.2 ;
 }
-
-[@scale < 800000] [@scale >217001]{
-    label: [LOCALITY_NAME];
+[@scale >217001]{
+    label: [WARD_LABEL];
     font-family: "DejaVu Sans";
     font-style: normal;
-    font-fill: #7d1b7e;
-    font-size: 10;
+    font-fill: #A23BEC;
+    font-size: 12;
     halo-radius: 1;
     halo-color: #E7E7E8;
-    -gt-label-auto-wrap:20;
+    -gt-label-auto-wrap:140;
     -gt-label-max-displacement: 150;
     -gt-label-fit-godness: 0.2 ;
     -gt-label-group: true;
-    -gt-label-padding:10;
     -gt-label-max-displacement:10;
 }
 
@@ -49,3 +46,7 @@
 [@scale <108000]{
     stroke-width:6.1;
 }
+
+/* 
+LGA_CODE    LGA_NAME    WARD_NUM    WARD_NAME   WARD_LABEL  WARD_TYPE   MEMBERS
+*/

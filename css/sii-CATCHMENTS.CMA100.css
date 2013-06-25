@@ -1,0 +1,53 @@
+/* Catchment Management Authority boundaries */
+
+*{
+    label:[CMANAME];
+    font-family: "DejaVu Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-fill: #000000;
+    font-size: 10;
+    -gt-label-auto-wrap:100;
+    -gt-label-max-displacement: 150;
+    -gt-label-fit-godness: 0.2 ;
+}
+
+[CMA_NO='1']{
+    fill:blue;
+}
+
+[CMA_NO='2']{
+    fill:green;
+}
+
+[CMA_NO='3']{
+    fill:yellow;
+}
+
+[CMA_NO='4']{
+    fill:purple;
+}
+
+[CMA_NO='5']{
+    fill:orange;
+}
+
+[CMA_NO='6']{
+    fill:cyan;
+}
+
+[CMA_NO='7']{
+    fill:silver;
+}
+
+[CMA_NO='8']{
+    fill:olive;
+}
+
+[CMA_NO='9']{
+    fill:magenta;
+}
+
+[CMA_NO='10']{
+    fill:brown;
+}

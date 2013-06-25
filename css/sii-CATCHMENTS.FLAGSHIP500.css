@@ -1,0 +1,53 @@
+/* Land and Biodiversity White Paper Flagship Areas */
+
+[WP_ID='A']{
+    fill:red;
+}
+
+[WP_ID='B']{
+    fill:blue;
+}
+
+[WP_ID='C']{
+    fill:green;
+}
+
+[WP_ID='D']{
+    fill:yellow;
+}
+
+[WP_ID='E']{
+    fill:purple;
+}
+
+[WP_ID='F']{
+    fill:orange;
+}
+
+[WP_ID='G']{
+    fill:cyan;
+}
+
+[WP_ID='H']{
+    fill:silver;
+}
+
+[WP_ID='I']{
+    fill:olive;
+}
+
+[WP_ID='J']{
+    fill:magenta;
+}
+
+[WP_ID='K']{
+    fill:brown;
+}
+
+[WP_ID='L']{
+    fill:Teal;
+}
+
+[WP_ID='M']{
+    fill:darkblue;
+}

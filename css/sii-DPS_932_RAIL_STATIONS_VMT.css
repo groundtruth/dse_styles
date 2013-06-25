@@ -1,0 +1,58 @@
+/* metroline train stops*/
+
+/* *{
+    stroke:#008000;
+    mark:url('http://s1.pozi.com/vic_styles/sld/capture.png');http://www.city-walks.info/graph/train.png
+    size: 16px;
+} 
+
+*/
+* {
+    mark: url('http://s1.pozi.com/vic_styles/sld/metro_2.png');
+}
+
+:mark{
+    size:15;
+}
+
+[@scale <90000]{
+    label: [STATIONNAME];
+    label-anchor:1 1;
+    label-displace:20 0;
+    label-offset:10;
+    font-family: "DejaVu Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-fill: #018DD0;
+    font-size: 16;
+    halo-radius: 1;
+    halo-color: #E7E7E8;
+}
+
+/*
+[@scale >50000]{
+    label:[STATIONNAME];
+    label-anchor:1,1;
+    font-family: "DejaVu Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-fill: #7d1b7e;
+    font-size: 10;
+    halo-radius: 2;
+    halo-color: #E5E4E2;
+}
+
+
+[ZONES='1']{
+    fill:#FF0000;
+    stroke:#008000;
+    mark: symbol(circle);
+
+}
+
+[ZONES='2']{
+    mark: symbol(circle);
+    fill:#0000FF;
+    stroke:#008000;
+}
+*/
