@@ -1,0 +1,10 @@
+[@scale<27000][ftype_code='railway']{
+    stroke:#999999, #FFFFFF;
+    stroke-width:4, 2;
+    stroke-dasharray: , 5 5;
+}
+
+[@scale<27000][ftype_code='bridge_rail_o']{
+    stroke:#999999;
+    stroke-width:4;
+}

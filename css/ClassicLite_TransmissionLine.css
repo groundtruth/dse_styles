@@ -1,0 +1,16 @@
+[@scale<34200]{
+    stroke:#CCCCCC;
+    stroke-width:3;
+    stroke-dasharray:5 2;
+    label:[featsubtype];
+    font-family: 'Tahoma';
+    font-size:13;
+    font-style:normal;
+    font-weight:normal;
+    fill:#CCCCCC;
+    label-offset:15;
+    -gt-label-follow-line:true;
+    -gt-label-max-angle-delta:90;
+    -gt-label-max-displacement:400;
+    -gt-label-group:true;
+}

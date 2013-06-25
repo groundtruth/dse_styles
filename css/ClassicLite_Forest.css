@@ -1,0 +1,8 @@
+/*Default polygon style
+A sample style that just draws out a solid gray interior with a black 1px outline
+*/
+
+*{
+    fill:#1B7A12;
+    fill-opacity:0.10;
+}
