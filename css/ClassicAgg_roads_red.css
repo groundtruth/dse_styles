@@ -13,7 +13,7 @@
     stroke-width:3;
 }
 [class_code='3'],[@scale<270000],[@scale>20000]{
-    stroke:#FF0000
+    stroke:#FF0000;
     stroke-width:2;
 }
 [class_code='4'],[@scale<270000],[@scale>20000]{
