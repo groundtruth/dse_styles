@@ -11,7 +11,7 @@
     label-anchor: 0.5, 0.5;
     label-rotation:0;
     halo-color:#FFFFFF;
-    fill:#999999;
+    font-fill:#999999;
     halo-radius:0;
     -gt-label-padding:10;
 }

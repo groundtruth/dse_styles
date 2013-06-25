@@ -11,11 +11,6 @@
         <sld:Name>name</sld:Name>
         <sld:Rule>
             <sld:MaxScaleDenominator>2500.0</sld:MaxScaleDenominator>
-            <sld:PolygonSymbolizer>
-                <sld:Fill>
-                    <sld:CssParameter name="fill">#999999</sld:CssParameter>
-                </sld:Fill>
-            </sld:PolygonSymbolizer>
             <sld:LineSymbolizer>
                 <sld:Stroke>
                     <sld:CssParameter name="stroke">#999999</sld:CssParameter>
@@ -39,7 +34,10 @@
                         <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
                     </sld:Fill>
                 </sld:Halo>
-                <sld:Fill/>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#999999</sld:CssParameter>
+                </sld:Fill>
                 <sld:VendorOption name="autoWrap">75</sld:VendorOption>
                 <sld:VendorOption name="group">true</sld:VendorOption>
             </sld:TextSymbolizer>

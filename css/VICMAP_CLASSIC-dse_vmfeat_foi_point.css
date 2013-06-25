@@ -9,8 +9,8 @@
     label-rotation: 0;
     halo-radius:1;
     halo-color:#FFFFFF;
-    fill:#999999;
-    -gt-label-group:true;
+    font-fill:#999999;
+    -gt-label-group: true;
     -gt-label-auto-wrap:75;
 }
 

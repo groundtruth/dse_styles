@@ -13,21 +13,6 @@
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>ftype_code</ogc:PropertyName>
-                    <ogc:Literal>bridge_rail_o</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>27000.0</sld:MinScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#999999</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ftype_code</ogc:PropertyName>
                     <ogc:Literal>railway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
@@ -36,7 +21,28 @@
                 <sld:Stroke>
                     <sld:CssParameter name="stroke">#999999</sld:CssParameter>
                     <sld:CssParameter name="stroke-width">3</sld:CssParameter>
+                    <sld:CssParameter name="stroke-dasharray"/>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#FFFFFF</sld:CssParameter>
                     <sld:CssParameter name="stroke-dasharray">5.0 5.0</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ftype_code</ogc:PropertyName>
+                    <ogc:Literal>bridge_rail_o</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>27000.0</sld:MinScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#999999</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">3</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
         </sld:Rule>

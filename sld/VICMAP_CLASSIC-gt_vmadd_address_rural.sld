@@ -12,11 +12,6 @@
         <sld:Rule>
             <sld:MinScaleDenominator>4200.0</sld:MinScaleDenominator>
             <sld:MaxScaleDenominator>17100.0</sld:MaxScaleDenominator>
-            <sld:PolygonSymbolizer>
-                <sld:Fill>
-                    <sld:CssParameter name="fill">#999999</sld:CssParameter>
-                </sld:Fill>
-            </sld:PolygonSymbolizer>
             <sld:PointSymbolizer>
                 <sld:Graphic>
                     <sld:Mark>
@@ -43,7 +38,10 @@
                         <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
                     </sld:Fill>
                 </sld:Halo>
-                <sld:Fill/>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#999999</sld:CssParameter>
+                </sld:Fill>
             </sld:TextSymbolizer>
         </sld:Rule>
     </sld:FeatureTypeStyle>

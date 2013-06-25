@@ -19,11 +19,6 @@
                 </ogc:Not>
             </ogc:Filter>
             <sld:MaxScaleDenominator>34200.0</sld:MaxScaleDenominator>
-            <sld:PolygonSymbolizer>
-                <sld:Fill>
-                    <sld:CssParameter name="fill">#CCCCCC</sld:CssParameter>
-                </sld:Fill>
-            </sld:PolygonSymbolizer>
             <sld:LineSymbolizer>
                 <sld:Stroke>
                     <sld:CssParameter name="stroke">#CCCCCC</sld:CssParameter>
@@ -46,7 +41,10 @@
                         <sld:PerpendicularOffset>15</sld:PerpendicularOffset>
                     </sld:LinePlacement>
                 </sld:LabelPlacement>
-                <sld:Fill/>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#CCCCCC</sld:CssParameter>
+                </sld:Fill>
                 <sld:VendorOption name="maxAngleDelta">90</sld:VendorOption>
                 <sld:VendorOption name="followLine">true</sld:VendorOption>
                 <sld:VendorOption name="group">true</sld:VendorOption>

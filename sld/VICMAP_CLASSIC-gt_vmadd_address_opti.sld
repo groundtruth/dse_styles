@@ -11,11 +11,6 @@
         <sld:Name>name</sld:Name>
         <sld:Rule>
             <sld:MaxScaleDenominator>4200.0</sld:MaxScaleDenominator>
-            <sld:PolygonSymbolizer>
-                <sld:Fill>
-                    <sld:CssParameter name="fill">#999999</sld:CssParameter>
-                </sld:Fill>
-            </sld:PolygonSymbolizer>
             <sld:TextSymbolizer>
                 <sld:Label>
                     <ogc:PropertyName>num_add</ogc:PropertyName>
@@ -32,7 +27,10 @@
                         <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
                     </sld:Fill>
                 </sld:Halo>
-                <sld:Fill/>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#999999</sld:CssParameter>
+                </sld:Fill>
                 <sld:VendorOption name="spaceAround">10</sld:VendorOption>
             </sld:TextSymbolizer>
         </sld:Rule>
