@@ -1,8 +1,8 @@
-[@scale<34200]{
+[@scale<34200][featsubtyp<>'lava flow']{
     stroke:#CCCCCC;
     stroke-width:3;
     stroke-dasharray:5 2;
-    label:[featsubtype];
+    label:[featsubtyp];
     font-family: 'Tahoma';
     font-size:13;
     font-style:normal;

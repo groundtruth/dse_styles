@@ -10,6 +10,14 @@
     <sld:FeatureTypeStyle>
         <sld:Name>name</sld:Name>
         <sld:Rule>
+            <ogc:Filter>
+                <ogc:Not>
+                    <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>featsubtyp</ogc:PropertyName>
+                        <ogc:Literal>lava flow</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                </ogc:Not>
+            </ogc:Filter>
             <sld:MaxScaleDenominator>34200.0</sld:MaxScaleDenominator>
             <sld:PolygonSymbolizer>
                 <sld:Fill>
@@ -25,7 +33,7 @@
             </sld:LineSymbolizer>
             <sld:TextSymbolizer>
                 <sld:Label>
-                    <ogc:PropertyName>featsubtype</ogc:PropertyName>
+                    <ogc:PropertyName>featsubtyp</ogc:PropertyName>
                 </sld:Label>
                 <sld:Font>
                     <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
