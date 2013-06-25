@@ -18,7 +18,7 @@ ARGV.each do |filename|
                     gsub(/<sld:GraphicFill>\s*<sld:Graphic\/>\s*<\/sld:GraphicFill>/m,'')
 
     workspace_name = filename.split("/").last.split("-").first
-    layer_name = filename.split("/").last.split("-").last.sub(/\.sld$/,"")
+    layer_name = filename.split("/").last.split("-")[1].sub(/\.sld$/,"")
     
     rewrapped_text = <<-EOS
 <?xml version="1.0" encoding="UTF-8"?>
@@ -34,6 +34,6 @@ ARGV.each do |filename|
     FileUtils.cp(filename, "#{filename}.backup")
     File.open(filename, 'w') { |f| f.write(rewrapped_text) }
 
-    puts "Rewrapped #{filename}"
+    # puts "Rewrapped #{filename}"
 
 end
