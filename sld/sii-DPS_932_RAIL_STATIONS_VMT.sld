@@ -10,23 +10,11 @@
     <sld:FeatureTypeStyle>
         <sld:Name>name</sld:Name>
         <sld:Rule>
-            <sld:MinScaleDenominator>90000.0</sld:MinScaleDenominator>
-            <sld:PointSymbolizer>
-                <sld:Graphic>
-                    <sld:ExternalGraphic>
-                        <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://s1.pozi.com/vic_styles/sld/metro_2.png"/>
-                        <sld:Format>image/jpeg</sld:Format>
-                    </sld:ExternalGraphic>
-                    <sld:Size>15</sld:Size>
-                </sld:Graphic>
-            </sld:PointSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
             <sld:MaxScaleDenominator>90000.0</sld:MaxScaleDenominator>
             <sld:PointSymbolizer>
                 <sld:Graphic>
                     <sld:ExternalGraphic>
-                        <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://s1.pozi.com/vic_styles/sld/metro_2.png"/>
+                        <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://basemap.pozi.com/vic_styles/sld/metro_2.png"/>
                         <sld:Format>image/jpeg</sld:Format>
                     </sld:ExternalGraphic>
                     <sld:Size>15</sld:Size>
@@ -58,6 +46,18 @@
                     <sld:CssParameter name="fill">#018DD0</sld:CssParameter>
                 </sld:Fill>
             </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <sld:MinScaleDenominator>90000.0</sld:MinScaleDenominator>
+            <sld:PointSymbolizer>
+                <sld:Graphic>
+                    <sld:ExternalGraphic>
+                        <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://basemap.pozi.com/vic_styles/sld/metro_2.png"/>
+                        <sld:Format>image/jpeg</sld:Format>
+                    </sld:ExternalGraphic>
+                    <sld:Size>15</sld:Size>
+                </sld:Graphic>
+            </sld:PointSymbolizer>
         </sld:Rule>
     </sld:FeatureTypeStyle>
 </sld:UserStyle>

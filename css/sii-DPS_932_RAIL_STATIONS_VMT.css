@@ -2,13 +2,13 @@
 
 /* *{
     stroke:#008000;
-    mark:url('http://s1.pozi.com/vic_styles/sld/capture.png');http://www.city-walks.info/graph/train.png
+    mark:url('http://basemap.pozi.com/vic_styles/sld/capture.png');http://www.city-walks.info/graph/train.png
     size: 16px;
 } 
 
 */
 * {
-    mark: url('http://s1.pozi.com/vic_styles/sld/metro_2.png');
+    mark: url('http://basemap.pozi.com/vic_styles/sld/metro_2.png');
 }
 
 :mark{
