@@ -4,7 +4,7 @@
 
 [@scale < 217001] {
     label: [REGION_LABEL];
-    font-family: "DejaVu Sans";
+    font-family: "Tahoma";
     font-style: normal;
     font-weight: bold;
     font-fill: #7F525D;
@@ -18,7 +18,7 @@
 
 [@scale >217000]{
     label: [REGION_LABEL];
-    font-family: "DejaVu Sans";
+    font-family: "Tahoma";
     font-style: normal;
     font-fill: #7F525D;
     font-size: 10;

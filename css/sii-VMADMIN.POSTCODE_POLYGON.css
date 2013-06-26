@@ -4,7 +4,7 @@
 
 [@scale < 217001] {
     label: [POSTCODE];
-    font-family: "DejaVu Sans";
+    font-family: "Tahoma";
     font-style: normal;
     font-weight: bold;
     font-fill: #F6358A;
@@ -18,7 +18,7 @@
 
 [@scale >217000]{
     label: [POSTCODE];
-    font-family: "DejaVu Sans";
+    font-family: "Tahoma";
     font-style: normal;
     font-fill: #F6358A;
     font-size: 10;

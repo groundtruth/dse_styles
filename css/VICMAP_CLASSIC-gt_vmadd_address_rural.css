@@ -1,7 +1,6 @@
-/* orange square point style */
+
 
 [@scale>4200][@scale<17100]{
-    mark:symbol(circle);
     label:[num_add];
     font-family: 'Tahoma';
     font-size: 10;
@@ -14,7 +13,3 @@
     font-fill:#999999;
     label-padding:10;
 }
-
-:mark{
-    size:6;
-    }

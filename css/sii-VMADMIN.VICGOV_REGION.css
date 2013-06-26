@@ -4,7 +4,7 @@
 
 [@scale <217000]{
     label: [VICGOV_REGION_SNAME];
-    font-family: "DejaVu Sans";
+    font-family: "Tahoma";
     font-style: normal;
     font-weight: bold;
     font-fill: #C12283;
@@ -18,7 +18,7 @@
 
 [@scale >217001]{
     label: [VICGOV_REGION_SNAME];
-    font-family: "DejaVu Sans";
+    font-family: "Tahoma";
     font-style: normal;
     font-fill: #C12283;
     font-size: 14;

@@ -4,7 +4,7 @@
 
 [@scale <217000]{
     label: [LGA_NAME];
-    font-family: "DejaVu Sans";
+    font-family: "Tahoma";
     font-style: normal;
     font-weight: bold;
     font-fill: #CA226B;
@@ -18,7 +18,7 @@
 
 [@scale < 800000] [@scale >217001]{
     label: [LGA_NAME];
-    font-family: "DejaVu Sans";
+    font-family: "Tahoma";
     font-style: normal;
     font-fill: #CA226B;
     font-size: 10;

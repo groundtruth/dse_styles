@@ -20,7 +20,7 @@
     label-anchor:1 1;
     label-displace:20 0;
     label-offset:10;
-    font-family: "DejaVu Sans";
+    font-family: "Tahoma";
     font-style: normal;
     font-weight: bold;
     font-fill: #018DD0;
@@ -33,7 +33,7 @@
 [@scale >50000]{
     label:[STATIONNAME];
     label-anchor:1,1;
-    font-family: "DejaVu Sans";
+    font-family: "Tahoma";
     font-style: normal;
     font-weight: bold;
     font-fill: #7d1b7e;

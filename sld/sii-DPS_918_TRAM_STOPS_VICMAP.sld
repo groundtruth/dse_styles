@@ -10,6 +10,27 @@
     <sld:FeatureTypeStyle>
         <sld:Name>name</sld:Name>
         <sld:Rule>
+            <sld:MinScaleDenominator>200000.0</sld:MinScaleDenominator>
+            <sld:TextSymbolizer>
+                <sld:Label>.</sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
+                    <sld:CssParameter name="font-size">10</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:Fill/>
+                <sld:Graphic>
+                    <sld:ExternalGraphic>
+                        <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://basemap.pozi.com/vic_styles/sld/trams.png"/>
+                        <sld:Format>image/png</sld:Format>
+                    </sld:ExternalGraphic>
+                    <sld:Size>15</sld:Size>
+                </sld:Graphic>
+                <sld:VendorOption name="spaceAround">5</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
             <sld:MinScaleDenominator>1500.0</sld:MinScaleDenominator>
             <sld:MaxScaleDenominator>3000.0</sld:MaxScaleDenominator>
             <sld:PointSymbolizer>
@@ -26,7 +47,7 @@
                     <ogc:PropertyName>STOPSPECNAME</ogc:PropertyName>
                 </sld:Label>
                 <sld:Font>
-                    <sld:CssParameter name="font-family">DejaVu Sans</sld:CssParameter>
+                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
                     <sld:CssParameter name="font-size">16</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">bold</sld:CssParameter>
@@ -51,7 +72,7 @@
             <sld:TextSymbolizer>
                 <sld:Label>.</sld:Label>
                 <sld:Font>
-                    <sld:CssParameter name="font-family">DejaVu Sans</sld:CssParameter>
+                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
                     <sld:CssParameter name="font-size">10</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
@@ -83,7 +104,7 @@
                     <ogc:PropertyName>STOPSPECNAME</ogc:PropertyName>
                 </sld:Label>
                 <sld:Font>
-                    <sld:CssParameter name="font-family">DejaVu Sans</sld:CssParameter>
+                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
                     <sld:CssParameter name="font-size">16</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">bold</sld:CssParameter>
@@ -99,27 +120,6 @@
                     <sld:CssParameter name="fill">#70BF44</sld:CssParameter>
                 </sld:Fill>
                 <sld:VendorOption name="autoWrap">150</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <sld:MinScaleDenominator>200000.0</sld:MinScaleDenominator>
-            <sld:TextSymbolizer>
-                <sld:Label>.</sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">DejaVu Sans</sld:CssParameter>
-                    <sld:CssParameter name="font-size">10</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:Fill/>
-                <sld:Graphic>
-                    <sld:ExternalGraphic>
-                        <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://basemap.pozi.com/vic_styles/sld/trams.png"/>
-                        <sld:Format>image/png</sld:Format>
-                    </sld:ExternalGraphic>
-                    <sld:Size>15</sld:Size>
-                </sld:Graphic>
-                <sld:VendorOption name="spaceAround">5</sld:VendorOption>
             </sld:TextSymbolizer>
         </sld:Rule>
     </sld:FeatureTypeStyle>

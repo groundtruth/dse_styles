@@ -12,16 +12,6 @@
         <sld:Rule>
             <sld:MinScaleDenominator>4200.0</sld:MinScaleDenominator>
             <sld:MaxScaleDenominator>17100.0</sld:MaxScaleDenominator>
-            <sld:PointSymbolizer>
-                <sld:Graphic>
-                    <sld:Mark>
-                        <sld:WellKnownName>circle</sld:WellKnownName>
-                        <sld:Fill/>
-                        <sld:Stroke/>
-                    </sld:Mark>
-                    <sld:Size>6</sld:Size>
-                </sld:Graphic>
-            </sld:PointSymbolizer>
             <sld:TextSymbolizer>
                 <sld:Label>
                     <ogc:PropertyName>num_add</ogc:PropertyName>

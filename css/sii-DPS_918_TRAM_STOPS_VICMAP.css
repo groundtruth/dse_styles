@@ -11,7 +11,7 @@
 
 [@scale <3000][@scale>1500]{
     label: [STOPSPECNAME];
-    font-family: "DejaVu Sans";
+    font-family: "Tahoma";
     font-style: normal;
     font-weight: bold;
     font-fill: #70BF44;
@@ -23,7 +23,7 @@
 }
 [@scale<1500]{
     label: [STOPSPECNAME];
-    font-family: "DejaVu Sans";
+    font-family: "Tahoma";
     font-style: normal;
     font-weight: bold;
     font-fill: #70BF44;
@@ -35,7 +35,7 @@
 
 [@scale<200000][@scale >3000]{
     label:['.'];
-    font-family:"DejaVu Sans";
+    font-family:"Tahoma";
     font-size: 10;
     -gt-label-padding:25;
 
@@ -46,7 +46,7 @@
 
 [@scale>200000]{
     label:['.'];
-    font-family:"DejaVu Sans";
+    font-family:"Tahoma";
     font-size: 10;
     -gt-label-padding:5;
 
@@ -58,7 +58,7 @@
 /*
 [@scale>5000]{
     label:[STOPNUMBER];
-    font-family: "DejaVu Sans";
+    font-family: "Tahoma";
     font-style: normal;
     font-weight: bold;
     font-fill: #70BF44;
@@ -71,7 +71,7 @@
 
 
 *{
-    font-family:"DejaVu Sans";
+    font-family:"Tahoma";
     font-style: normal;
     font-weight: normal;
     font-size: 0;

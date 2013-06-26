@@ -16,7 +16,7 @@
 [@scale<50000]{
     label: [ALTITUDE];
     label-offset:10;
-    font-family: "DejaVu Sans";
+    font-family: "Tahoma";
     font-style: normal;
     font-weight: bold;
     font-fill: #A66829;
@@ -27,7 +27,7 @@
 
 [@scale >200000]{
     label:['.'];
-    font-family:"DejaVu Sans";
+    font-family:"Tahoma";
     font-size: 10;
     -gt-label-padding:25;
 

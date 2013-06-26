@@ -10,11 +10,11 @@
     <sld:FeatureTypeStyle>
         <sld:Name>name</sld:Name>
         <sld:Rule>
-            <sld:MinScaleDenominator>433000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>800000.0</sld:MaxScaleDenominator>
+            <sld:MaxScaleDenominator>108000.0</sld:MaxScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
                     <sld:CssParameter name="stroke">#C12283</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">4.1</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
             <sld:TextSymbolizer>
@@ -22,7 +22,40 @@
                     <ogc:PropertyName>VICGOV_REGION_SNAME</ogc:PropertyName>
                 </sld:Label>
                 <sld:Font>
-                    <sld:CssParameter name="font-family">DejaVu Sans</sld:CssParameter>
+                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
+                    <sld:CssParameter name="font-size">16</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">bold</sld:CssParameter>
+                </sld:Font>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#C12283</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="autoWrap">90</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">150</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <sld:MinScaleDenominator>217001.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>433000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#C12283</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">3.8</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>VICGOV_REGION_SNAME</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
                     <sld:CssParameter name="font-size">14</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
@@ -56,7 +89,7 @@
                     <ogc:PropertyName>VICGOV_REGION_SNAME</ogc:PropertyName>
                 </sld:Label>
                 <sld:Font>
-                    <sld:CssParameter name="font-family">DejaVu Sans</sld:CssParameter>
+                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
                     <sld:CssParameter name="font-size">14</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
@@ -73,73 +106,6 @@
                 </sld:Fill>
                 <sld:VendorOption name="autoWrap">120</sld:VendorOption>
                 <sld:VendorOption name="group">true</sld:VendorOption>
-                <sld:VendorOption name="maxDisplacement">150</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <sld:MinScaleDenominator>217001.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>433000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#C12283</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">3.8</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>VICGOV_REGION_SNAME</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">DejaVu Sans</sld:CssParameter>
-                    <sld:CssParameter name="font-size">14</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#C12283</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="autoWrap">120</sld:VendorOption>
-                <sld:VendorOption name="group">true</sld:VendorOption>
-                <sld:VendorOption name="maxDisplacement">150</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <sld:MinScaleDenominator>108001.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>217000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#C12283</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">3.8</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>VICGOV_REGION_SNAME</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">DejaVu Sans</sld:CssParameter>
-                    <sld:CssParameter name="font-size">16</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">bold</sld:CssParameter>
-                </sld:Font>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#C12283</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="autoWrap">90</sld:VendorOption>
                 <sld:VendorOption name="maxDisplacement">150</sld:VendorOption>
             </sld:TextSymbolizer>
         </sld:Rule>
@@ -156,7 +122,50 @@
                     <ogc:PropertyName>VICGOV_REGION_SNAME</ogc:PropertyName>
                 </sld:Label>
                 <sld:Font>
-                    <sld:CssParameter name="font-family">DejaVu Sans</sld:CssParameter>
+                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
+                    <sld:CssParameter name="font-size">14</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#C12283</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="autoWrap">120</sld:VendorOption>
+                <sld:VendorOption name="group">true</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">150</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <sld:MinScaleDenominator>217000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>217001.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#C12283</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">3.8</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <sld:MinScaleDenominator>433000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>800000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#C12283</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>VICGOV_REGION_SNAME</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
                     <sld:CssParameter name="font-size">14</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
@@ -189,7 +198,7 @@
                     <ogc:PropertyName>VICGOV_REGION_SNAME</ogc:PropertyName>
                 </sld:Label>
                 <sld:Font>
-                    <sld:CssParameter name="font-family">DejaVu Sans</sld:CssParameter>
+                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
                     <sld:CssParameter name="font-size">16</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">bold</sld:CssParameter>
@@ -209,11 +218,12 @@
             </sld:TextSymbolizer>
         </sld:Rule>
         <sld:Rule>
-            <sld:MaxScaleDenominator>108000.0</sld:MaxScaleDenominator>
+            <sld:MinScaleDenominator>108001.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>217000.0</sld:MaxScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
                     <sld:CssParameter name="stroke">#C12283</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">4.1</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">3.8</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
             <sld:TextSymbolizer>
@@ -221,7 +231,7 @@
                     <ogc:PropertyName>VICGOV_REGION_SNAME</ogc:PropertyName>
                 </sld:Label>
                 <sld:Font>
-                    <sld:CssParameter name="font-family">DejaVu Sans</sld:CssParameter>
+                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
                     <sld:CssParameter name="font-size">16</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">bold</sld:CssParameter>
@@ -239,16 +249,6 @@
                 <sld:VendorOption name="autoWrap">90</sld:VendorOption>
                 <sld:VendorOption name="maxDisplacement">150</sld:VendorOption>
             </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <sld:MinScaleDenominator>217000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>217001.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#C12283</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">3.8</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
         </sld:Rule>
     </sld:FeatureTypeStyle>
 </sld:UserStyle>

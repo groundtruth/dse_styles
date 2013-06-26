@@ -21,7 +21,7 @@
                     <ogc:PropertyName>NAME</ogc:PropertyName>
                 </sld:Label>
                 <sld:Font>
-                    <sld:CssParameter name="font-family">DejaVu Sans</sld:CssParameter>
+                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
                     <sld:CssParameter name="font-size">14</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">bold</sld:CssParameter>
