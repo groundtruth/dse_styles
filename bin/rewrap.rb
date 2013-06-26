@@ -7,6 +7,8 @@ if ARGV.count < 1
     exit 1
 end
 
+print "Rewrapping"
+
 ARGV.each do |filename|
 
     raw_text = File.readlines(filename).join("")
@@ -34,6 +36,8 @@ ARGV.each do |filename|
     FileUtils.cp(filename, "#{filename}.backup")
     File.open(filename, 'w') { |f| f.write(rewrapped_text) }
 
-    # puts "Rewrapped #{filename}"
+    print "."
 
 end
+
+puts "done!"
