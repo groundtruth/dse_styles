@@ -11,210 +11,22 @@
         <sld:Name>name</sld:Name>
         <sld:Rule>
             <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>class_code</ogc:PropertyName>
-                    <ogc:Literal>6</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>20000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#999999</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
                 <ogc:And>
-                    <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsLessThanOrEqualTo>
                         <ogc:PropertyName>class_code</ogc:PropertyName>
-                        <ogc:Literal>2</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                        <ogc:PropertyName>road_seal</ogc:PropertyName>
-                        <ogc:Literal>1</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                </ogc:And>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>20000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#EEEEEE</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">15</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#999999</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#BBBBBB</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:And>
-                    <ogc:PropertyIsEqualTo>
-                        <ogc:PropertyName>class_code</ogc:PropertyName>
-                        <ogc:Literal>3</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                        <ogc:PropertyName>road_seal</ogc:PropertyName>
-                        <ogc:Literal>1</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                </ogc:And>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>20000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#EEEEEE</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">15</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#999999</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">2</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:And>
-                    <ogc:PropertyIsEqualTo>
-                        <ogc:PropertyName>class_code</ogc:PropertyName>
-                        <ogc:Literal>4</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                        <ogc:PropertyName>road_seal</ogc:PropertyName>
-                        <ogc:Literal>1</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                </ogc:And>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>20000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#EEEEEE</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">15</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#999999</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:And>
-                    <ogc:PropertyIsEqualTo>
-                        <ogc:PropertyName>class_code</ogc:PropertyName>
-                        <ogc:Literal>5</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                        <ogc:PropertyName>road_seal</ogc:PropertyName>
-                        <ogc:Literal>1</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                </ogc:And>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>20000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#EEEEEE</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">15</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#999999</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>class_code</ogc:PropertyName>
-                    <ogc:Literal>7</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>20000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#999999</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>
-                    <sld:CssParameter name="stroke-dasharray">4.0 4.0</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:And>
-                    <ogc:PropertyIsEqualTo>
-                        <ogc:PropertyName>class_code</ogc:PropertyName>
-                        <ogc:Literal>1</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                        <ogc:PropertyName>road_seal</ogc:PropertyName>
-                        <ogc:Literal>1</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                </ogc:And>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>20000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#EEEEEE</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">15</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#999999</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">4</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#BBBBBB</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">2</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:And>
-                    <ogc:PropertyIsEqualTo>
+                        <ogc:Literal>7</ogc:Literal>
+                    </ogc:PropertyIsLessThanOrEqualTo>
+                    <ogc:PropertyIsGreaterThanOrEqualTo>
                         <ogc:PropertyName>class_code</ogc:PropertyName>
                         <ogc:Literal>0</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                        <ogc:PropertyName>road_seal</ogc:PropertyName>
-                        <ogc:Literal>1</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
+                    </ogc:PropertyIsGreaterThanOrEqualTo>
                 </ogc:And>
             </ogc:Filter>
             <sld:MaxScaleDenominator>20000.0</sld:MaxScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
-                    <sld:CssParameter name="stroke">#EEEEEE</sld:CssParameter>
+                    <sld:CssParameter name="stroke">#FFFFFF</sld:CssParameter>
                     <sld:CssParameter name="stroke-width">15</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#999999</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">5</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#BBBBBB</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">3</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
         </sld:Rule>

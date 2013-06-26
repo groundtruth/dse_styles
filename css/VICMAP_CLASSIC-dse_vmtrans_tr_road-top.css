@@ -1,32 +1,31 @@
-
-[@scale<20000][class_code='0'][road_seal='1']{
-    stroke:#EEEEEE,#999999,#BBBBBB;
-    stroke-width:15,5,3;
+[@scale<20000][class_code='0']{
+    stroke:#999999,#BBBBBB;
+    stroke-width:5,3;
 }
 
-[@scale<20000][class_code='1'][road_seal='1']{
-    stroke:#EEEEEE,#999999,#BBBBBB;
-    stroke-width:15,4,2;
+[@scale<20000][class_code='1']{
+    stroke:#999999,#BBBBBB;
+    stroke-width:4,2;
 }
 
-[@scale<20000][class_code='2'][road_seal='1']{
-    stroke:#EEEEEE,#999999,#BBBBBB;
-    stroke-width:15,3,1;
+[@scale<20000][class_code='2']{
+    stroke:#999999,#BBBBBB;
+    stroke-width:3,1;
 }
 
-[@scale<20000][class_code='3'][road_seal='1']{
-    stroke:#EEEEEE,#999999;
-    stroke-width:15,2;
+[@scale<20000][class_code='3']{
+    stroke:#999999;
+    stroke-width:2;
 }
 
-[@scale<20000][class_code='4'][road_seal='1']{
-    stroke:#EEEEEE,#999999;
-    stroke-width:15,1.5;
+[@scale<20000][class_code='4']{
+    stroke:#999999;
+    stroke-width:1.5;
 }
 
-[@scale<20000][class_code='5'][road_seal='1']{
-    stroke:#EEEEEE,#999999;
-    stroke-width:15,1;
+[@scale<20000][class_code='5']{
+    stroke:#999999;
+    stroke-width:1;
 }
 
 [@scale<20000][class_code='6']{

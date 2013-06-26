@@ -1,41 +1,5 @@
 
-[@scale<20000][class_code='0'][road_seal='1']{
-    stroke:#EEEEEE,#999999,#BBBBBB;
-    stroke-width:15,5,3;
-}
-
-[@scale<20000][class_code='1'][road_seal='1']{
-    stroke:#EEEEEE,#999999,#BBBBBB;
-    stroke-width:15,4,2;
-}
-
-[@scale<20000][class_code='2'][road_seal='1']{
-    stroke:#EEEEEE,#999999,#BBBBBB;
-    stroke-width:15,3,1;
-}
-
-[@scale<20000][class_code='3'][road_seal='1']{
-    stroke:#EEEEEE,#999999;
-    stroke-width:15,2;
-}
-
-[@scale<20000][class_code='4'][road_seal='1']{
-    stroke:#EEEEEE,#999999;
-    stroke-width:15,1.5;
-}
-
-[@scale<20000][class_code='5'][road_seal='1']{
-    stroke:#EEEEEE,#999999;
-    stroke-width:15,1;
-}
-
-[@scale<20000][class_code='6']{
-    stroke:#999999;
-    stroke-width:0.5;
-}
-
-[@scale<20000][class_code='7']{
-    stroke:#999999;
-    stroke-width:0.5;
-    stroke-dasharray: 4.0 4.0;
+[@scale<20000][class_code<=7][class_code>=0]{
+    stroke:#FFFFFF;
+    stroke-width:15;
 }
