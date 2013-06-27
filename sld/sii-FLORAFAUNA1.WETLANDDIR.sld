@@ -12,10 +12,27 @@
         <sld:Rule>
             <sld:PolygonSymbolizer>
                 <sld:Fill>
-                    <sld:CssParameter name="fill">#3090C7</sld:CssParameter>
+                    <sld:GraphicFill>
+                        <sld:Graphic>
+                            <sld:Mark>
+                                <sld:WellKnownName>shape://slash</sld:WellKnownName>
+                                <sld:Stroke>
+                                    <sld:CssParameter name="stroke">#3090C7</sld:CssParameter>
+                                </sld:Stroke>
+                            </sld:Mark>
+                            <sld:Opacity>0.10000000149011612</sld:Opacity>
+                            <sld:Size>10</sld:Size>
+                        </sld:Graphic>
+                    </sld:GraphicFill>
                     <sld:CssParameter name="fill-opacity">0.10000000149011612</sld:CssParameter>
                 </sld:Fill>
             </sld:PolygonSymbolizer>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#3090C7</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
         </sld:Rule>
     </sld:FeatureTypeStyle>
 </sld:UserStyle>
