@@ -28,11 +28,11 @@
     stroke-width:0.5;
 }
 /*Local - grey*/
-[@scale <200000][CLASS_CODE='5']{
+[@scale <100000][CLASS_CODE='5']{
     stroke:#505050;
 }
 /*Collector -  grey*/
-[@scale <200000][CLASS_CODE='4']{
+[@scale <100000][CLASS_CODE='4']{
     stroke:#505050;
     stroke-width:1.5,;
 }

@@ -1,13 +1,13 @@
 /* Streetnetwork */
 
 /*Bicycle Path*/
-[@scale <100000][CLASS_CODE='12']{
+[@scale <10000][CLASS_CODE='12']{
     stroke:#004B00;
     stroke-dasharray:6;
     stroke-width:0.5;
 }
 /*Walking Track*/
-[@scale <100000][CLASS_CODE='11']{
+[@scale <10000][CLASS_CODE='11']{
     stroke:#004B00;
     stroke-dasharray:6;
     stroke-width:0.5;
@@ -17,30 +17,31 @@
     stroke:#808000;
 }*/
 /*4wd*/
-[@scale <100000][CLASS_CODE='7']{
+[@scale <50000][CLASS_CODE='7']{
     stroke:#E42217;
     stroke-dasharray:4;
     stroke-width:0.5;
 }
 /*2wd*/
-[@scale <100000][CLASS_CODE='6']{
+[@scale <50000][CLASS_CODE='6']{
     stroke:#E42217;
     stroke-dasharray:4;
     stroke-width:0.5;
 }
 /*Local - grey*/
-[@scale <200000][CLASS_CODE='5']{
+[@scale <100000][CLASS_CODE='5']{
     stroke:#505050;
+    stroke-width:2;
 }
 /*Collector -  grey*/
-[@scale <200000][CLASS_CODE='4']{
+[@scale <100000][CLASS_CODE='4']{
     stroke:#505050;
-    stroke-width:1.5,;
+    stroke-width:2;
 }
-/*Sub-Arterial - */
+/*Sub-Arterial - red*/
 [@scale <7000000][CLASS_CODE='3']{
     stroke:#C0C0C0,#E42217;
-    stroke-width:2,1;
+    stroke-width:3,2;
 }
 /*Arterial - red*/
 [@scale <7000000][CLASS_CODE='2']{
