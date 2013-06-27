@@ -1,5 +1,27 @@
-* {
+/** {
     fill:#FF8000;
     fill-opacity: 0.3;
     stroke-width:1.2;
+}
+*/
+*{
+    fill:symbol('shape://slash');
+    fill-opacity: 0.1;
+}
+[@scale<17061]{
+    stroke:#FF8000;
+    stroke-width:0.5;
+}
+
+[@scale<34123]:fill{
+    stroke:#FF8000;
+    size:28;
+}
+[@scale>34123][@scale<136494]:fill{
+    stroke:#FF8000;
+    size:14;
+}
+[@scale>136494]:fill{
+    stroke:#FF8000;
+    size:7;
 }

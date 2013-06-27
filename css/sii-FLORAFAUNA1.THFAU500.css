@@ -1,6 +1,24 @@
-*{
+[@scale>545978]{
     fill:#B23232;
 }
+
+[@scale<545978]{
+    fill:symbol('shape://slash');
+    fill-opacity: 0.1;
+}
+[@scale<34123]:fill{
+    stroke:#B23232;
+    size:28;
+}
+[@scale>34123][@scale<136494]:fill{
+    stroke:#B23232;
+    size:14;
+}
+[@scale>136494]:fill{
+    stroke:#B23232;
+    size:7;
+}
+
 
 /*
 Threatened Fauna 500 - 1 km grid

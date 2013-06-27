@@ -2,7 +2,7 @@
     stroke:#800080;
 }
 
-[@scale < 217001] {
+[@scale < 272989] {
     label: [lga_name];
     font-family: "Tahoma";
     font-style: normal;
@@ -16,7 +16,7 @@
     -gt-label-fit-godness: 0.2 ;
 }
 
-[@scale >217000]{
+[@scale > 272989]{
     label: [lga_name];
     font-family: "Tahoma";
     font-style: normal;
@@ -31,18 +31,18 @@
 }
 
 
-[@scale >2000001]{
+[@scale >2183915]{
     stroke-width:1.2;
 }
 
-[@scale <2000000][@scale >433001]{
+[@scale <2183915][@scale >545978]{
     stroke-width: 2.2;
 }
 
-[@scale <433000][@scale >108001]{
+[@scale <545978][@scale >136494]{
     stroke-width: 3.8;
 }
 
-[@scale <108000]{
+[@scale <136494]{
     stroke-width:6.1;
 }

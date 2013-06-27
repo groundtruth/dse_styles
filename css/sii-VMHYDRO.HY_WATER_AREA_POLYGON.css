@@ -1,8 +1,8 @@
 *{
-    fill:#342D7E;
+    fill:#2A2374;
 }
 
-[@scale<50000]{
+[@scale<100000]{
     label:[NAME];
     font-family: "Tahoma";
     font-style: normal;
@@ -10,7 +10,7 @@
     font-fill: #C2DFFF;
     font-size: 14;
     halo-radius: 2;
-    halo-color: #342D7E;
+    halo-color: #2A2374;
     -gt-label-auto-wrap:120;
-    -gt-label-max-displacement: 50;
+    -gt-label-max-displacement: 400;
 }

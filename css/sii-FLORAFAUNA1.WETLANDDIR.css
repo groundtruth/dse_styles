@@ -4,11 +4,18 @@
     fill:symbol('shape://slash');
     fill-opacity: 0.1;
 }
-:fill{
+[@scale<34123]:fill{
     stroke:#3090C7;
-    size:10;
+    size:28;
 }
-
+[@scale>34123][@scale<136494]:fill{
+    stroke:#3090C7;
+    size:14;
+}
+[@scale>136494]:fill{
+    stroke:#3090C7;
+    size:7;
+}
 
 /*
 

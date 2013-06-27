@@ -1,6 +1,18 @@
 *{
     fill:#342D7E;
 }
+[@scale<100000]{
+    label:[NAME];
+    font-family: "Tahoma";
+    font-style: normal;
+    font-weight: bold;
+    font-fill: #C2DFFF;
+    font-size: 14;
+    halo-radius: 2;
+    halo-color: #2A2374;
+    -gt-label-auto-wrap:120;
+    -gt-label-max-displacement: 400;
+}
 
 /*
 Statewide watercourse network, line - 1:250,000 to 1 :5 million

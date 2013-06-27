@@ -10,6 +10,38 @@
     <sld:FeatureTypeStyle>
         <sld:Name>name</sld:Name>
         <sld:Rule>
+            <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+            <sld:PolygonSymbolizer>
+                <sld:Fill>
+                    <sld:CssParameter name="fill">#342D7E</sld:CssParameter>
+                </sld:Fill>
+            </sld:PolygonSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>NAME</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
+                    <sld:CssParameter name="font-size">14</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">bold</sld:CssParameter>
+                </sld:Font>
+                <sld:Halo>
+                    <sld:Radius>2</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#2A2374</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#C2DFFF</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="autoWrap">120</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">400</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <sld:MinScaleDenominator>100000.0</sld:MinScaleDenominator>
             <sld:PolygonSymbolizer>
                 <sld:Fill>
                     <sld:CssParameter name="fill">#342D7E</sld:CssParameter>
