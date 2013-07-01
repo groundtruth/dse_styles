@@ -9,7 +9,8 @@
 [FEATURE_TYPE_CODE='bridge_rail_o'],
 [FEATURE_TYPE_CODE='rail_uground_o'],
 [FEATURE_TYPE_CODE='tunnel_rail_o'],
-[FEATURE_TYPE_CODE='rail_tourist']
+[FEATURE_TYPE_CODE='rail_tourist'],
+[FEATURE_TYPE_CODE='rail_uground']
 {
     stroke:black, white;
     stroke-width:2.5, 2;

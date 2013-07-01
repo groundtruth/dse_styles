@@ -32,6 +32,7 @@
                     <sld:CssParameter name="fill">#7d1b7e</sld:CssParameter>
                 </sld:Fill>
                 <sld:VendorOption name="autoWrap">40</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">20</sld:VendorOption>
                 <sld:VendorOption name="maxDisplacement">150</sld:VendorOption>
             </sld:TextSymbolizer>
         </sld:Rule>

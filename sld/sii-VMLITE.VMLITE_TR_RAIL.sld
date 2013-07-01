@@ -32,6 +32,10 @@
                         <ogc:PropertyName>FEATURE_TYPE_CODE</ogc:PropertyName>
                         <ogc:Literal>rail_tourist</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>FEATURE_TYPE_CODE</ogc:PropertyName>
+                        <ogc:Literal>rail_uground</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
                 </ogc:Or>
             </ogc:Filter>
             <sld:LineSymbolizer>
@@ -73,6 +77,10 @@
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>FEATURE_TYPE_CODE</ogc:PropertyName>
                             <ogc:Literal>rail_tourist</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>FEATURE_TYPE_CODE</ogc:PropertyName>
+                            <ogc:Literal>rail_uground</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Or>
                 </ogc:Not>

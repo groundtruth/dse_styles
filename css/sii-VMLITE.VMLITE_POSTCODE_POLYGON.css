@@ -1,0 +1,48 @@
+* {
+    stroke:#F6358A;
+}
+
+[@scale < 217001] {
+    label: [POSTCODE];
+    font-family: "Tahoma";
+    font-style: normal;
+    font-weight: bold;
+    font-fill: #F6358A;
+    font-size: 16;
+    halo-radius: 2;
+    halo-color: #E7E7E8;
+    -gt-label-auto-wrap:60;
+    -gt-label-max-displacement: 150;
+    -gt-label-fit-godness: 0.2 ;
+}
+
+[@scale >217000]{
+    label: [POSTCODE];
+    font-family: "Tahoma";
+    font-style: normal;
+    font-fill: #F6358A;
+    font-size: 10;
+    halo-radius: 1.5;
+    halo-color: #E7E7E8;
+    -gt-label-auto-wrap:20;
+    -gt-label-max-displacement: 150;
+    -gt-label-fit-godness: 0.2 ;
+    -gt-label-group: true;
+}
+
+
+[@scale >2000001]{
+    stroke-width:1.2;
+}
+
+[@scale <2000000][@scale >433001]{
+    stroke-width: 2.2;
+}
+
+[@scale <433000][@scale >108001]{
+    stroke-width: 3.8;
+}
+
+[@scale <108000]{
+    stroke-width:6.1;
+}

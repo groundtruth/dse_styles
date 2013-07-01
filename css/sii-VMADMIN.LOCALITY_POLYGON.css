@@ -9,12 +9,13 @@
     font-style: normal;
     font-weight: bold;
     font-fill: #7d1b7e;
-    font-size: 16;
+    font-size: 10;
     halo-radius: 1;
     halo-color: #E7E7E8;
     -gt-label-auto-wrap:60;
     -gt-label-max-displacement: 150;
     -gt-label-fit-godness: 0.2 ;
+    -gt-label-padding:15;
 }
 
 [@scale < 800000] [@scale >217001]{
@@ -22,14 +23,14 @@
     font-family: "Tahoma";
     font-style: normal;
     font-fill: #7d1b7e;
-    font-size: 10;
+    font-size: 12;
     halo-radius: 1;
     halo-color: #E7E7E8;
     -gt-label-auto-wrap:20;
     -gt-label-max-displacement: 150;
     -gt-label-fit-godness: 0.2 ;
     -gt-label-group: true;
-    -gt-label-padding:10;
+    -gt-label-padding:15;
     -gt-label-max-displacement:10;
 }
 

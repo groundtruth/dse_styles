@@ -9,13 +9,6 @@
     <sld:Title/>
     <sld:FeatureTypeStyle>
         <sld:Name>name</sld:Name>
-        <sld:Rule>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#ff0000</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
     </sld:FeatureTypeStyle>
 </sld:UserStyle>
 

@@ -12,7 +12,14 @@
         <sld:Rule>
             <sld:LineSymbolizer>
                 <sld:Stroke>
+                    <sld:CssParameter name="stroke">#C0C0C0</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">3</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
                     <sld:CssParameter name="stroke">#0000ff</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">2</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
         </sld:Rule>
