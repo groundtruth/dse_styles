@@ -11,6 +11,96 @@
         <sld:Name>name</sld:Name>
         <sld:Rule>
             <ogc:Filter>
+                <ogc:And>
+                    <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
+                        <ogc:Literal>1</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:Not>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>FEATURE_TYPE_CODE</ogc:PropertyName>
+                            <ogc:Literal>tunnel</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Not>
+                </ogc:And>
+            </ogc:Filter>
+            <sld:MaxScaleDenominator>2000000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#C0C0C0</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">4</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#E42217</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">3</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
+                    <ogc:Literal>2</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MaxScaleDenominator>2000000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#C0C0C0</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">3</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#E42217</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
+                    <ogc:Literal>1</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>2000000.0</sld:MinScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#C0C0C0</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#E42217</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
+                    <ogc:Literal>4</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#C0C0C0</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#E42217</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
                     <ogc:Literal>11</ogc:Literal>
@@ -27,21 +117,30 @@
         </sld:Rule>
         <sld:Rule>
             <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
-                    <ogc:Literal>0</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
+                <ogc:And>
+                    <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
+                        <ogc:Literal>0</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:Not>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>FEATURE_TYPE_CODE</ogc:PropertyName>
+                            <ogc:Literal>tunnel</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Not>
+                </ogc:And>
             </ogc:Filter>
-            <sld:MinScaleDenominator>7000000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>2000000.0</sld:MaxScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
                     <sld:CssParameter name="stroke">#C0C0C0</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">5</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
             <sld:LineSymbolizer>
                 <sld:Stroke>
                     <sld:CssParameter name="stroke">#165417</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">4</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
         </sld:Rule>
@@ -49,10 +148,10 @@
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
-                    <ogc:Literal>3</ogc:Literal>
+                    <ogc:Literal>5</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
-            <sld:MaxScaleDenominator>7000000.0</sld:MaxScaleDenominator>
+            <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
                     <sld:CssParameter name="stroke">#C0C0C0</sld:CssParameter>
@@ -62,27 +161,6 @@
             <sld:LineSymbolizer>
                 <sld:Stroke>
                     <sld:CssParameter name="stroke">#E42217</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
-                    <ogc:Literal>2</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>7000000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#C0C0C0</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#E42217</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">2</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
         </sld:Rule>
@@ -106,41 +184,6 @@
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
-                    <ogc:Literal>5</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#505050</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
-                    <ogc:Literal>0</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>7000000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#C0C0C0</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">5</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#165417</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">4</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
                     <ogc:Literal>12</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
@@ -150,6 +193,35 @@
                     <sld:CssParameter name="stroke">#004B00</sld:CssParameter>
                     <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>
                     <sld:CssParameter name="stroke-dasharray">6.0</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:And>
+                    <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>FEATURE_TYPE_CODE</ogc:PropertyName>
+                        <ogc:Literal>tunnel</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
+                        <ogc:Literal>0</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                </ogc:And>
+            </ogc:Filter>
+            <sld:MaxScaleDenominator>2000000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#C0C0C0</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">5</sld:CssParameter>
+                    <sld:CssParameter name="stroke-dasharray"/>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#165417</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">4</sld:CssParameter>
+                    <sld:CssParameter name="stroke-dasharray">5.0</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
         </sld:Rule>
@@ -171,22 +243,30 @@
         </sld:Rule>
         <sld:Rule>
             <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
-                    <ogc:Literal>1</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
+                <ogc:And>
+                    <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>FEATURE_TYPE_CODE</ogc:PropertyName>
+                        <ogc:Literal>tunnel</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
+                        <ogc:Literal>1</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                </ogc:And>
             </ogc:Filter>
-            <sld:MaxScaleDenominator>7000000.0</sld:MaxScaleDenominator>
+            <sld:MaxScaleDenominator>2000000.0</sld:MaxScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
                     <sld:CssParameter name="stroke">#C0C0C0</sld:CssParameter>
                     <sld:CssParameter name="stroke-width">4</sld:CssParameter>
+                    <sld:CssParameter name="stroke-dasharray"/>
                 </sld:Stroke>
             </sld:LineSymbolizer>
             <sld:LineSymbolizer>
                 <sld:Stroke>
                     <sld:CssParameter name="stroke">#E42217</sld:CssParameter>
                     <sld:CssParameter name="stroke-width">3</sld:CssParameter>
+                    <sld:CssParameter name="stroke-dasharray">6.0</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
         </sld:Rule>
@@ -194,34 +274,40 @@
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
-                    <ogc:Literal>4</ogc:Literal>
+                    <ogc:Literal>3</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
-            <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#505050</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
-                    <ogc:Literal>1</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>7000000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>2000000.0</sld:MaxScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
                     <sld:CssParameter name="stroke">#C0C0C0</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">3</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
             <sld:LineSymbolizer>
                 <sld:Stroke>
                     <sld:CssParameter name="stroke">#E42217</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
+                    <ogc:Literal>0</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>2000000.0</sld:MinScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#C0C0C0</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#165417</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
         </sld:Rule>
