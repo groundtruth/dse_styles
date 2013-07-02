@@ -12,7 +12,7 @@
         <sld:Rule>
             <sld:PolygonSymbolizer>
                 <sld:Fill>
-                    <sld:CssParameter name="fill">#ff0000</sld:CssParameter>
+                    <sld:CssParameter name="fill">#008000</sld:CssParameter>
                 </sld:Fill>
             </sld:PolygonSymbolizer>
             <sld:LineSymbolizer>

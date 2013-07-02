@@ -10,6 +10,7 @@
     <sld:FeatureTypeStyle>
         <sld:Name>name</sld:Name>
         <sld:Rule>
+            <sld:MaxScaleDenominator>10000.0</sld:MaxScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
                     <sld:CssParameter name="stroke">#ff0000</sld:CssParameter>

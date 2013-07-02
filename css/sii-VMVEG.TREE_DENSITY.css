@@ -1,15 +1,16 @@
 /* Tree Density - Baumdichte*/
 [TREE_DENSITY='DENSE']{
-    fill:#4ac700;
+    fill:#667C26;
     fill-opacity: 0.5;
 }
 
 [TREE_DENSITY='MEDIUM']{
-    fill:#62be00;
+    fill:#8EA44E;
     fill-opacity: 0.5;
 }
 
 [TREE_DENSITY='SCATTERED']{
-    fill:#95d834;
+    fill:#B6CC76;
     fill-opacity: 0.5;
 }
+
