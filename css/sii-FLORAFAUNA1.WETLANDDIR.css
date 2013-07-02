@@ -1,22 +1,31 @@
+
 *{
-    stroke:#3090C7;
-    stroke-width:0.5;
+    fill:#3090C7;
+    fill-opacity: 0.1;
+}
+
+[@scale>1000000]{
+    fill:#3090C7;
+    fill-opacity:0.3;
+}
+
+[@scale<1000000]{
     fill:symbol('shape://slash');
     fill-opacity: 0.1;
 }
+[@scale<30000]{
+    stroke:#3090C7;
+    stroke-width:0.5;
+}
+
 [@scale<34123]:fill{
     stroke:#3090C7;
     size:28;
 }
-[@scale>34123][@scale<136494]:fill{
+[@scale>34123]:fill{
     stroke:#3090C7;
-    size:14;
+    size:5;
 }
-[@scale>136494]:fill{
-    stroke:#3090C7;
-    size:7;
-}
-
 /*
 
 FLORAFAUNA1.WETLANDDIR

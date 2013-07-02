@@ -3,7 +3,28 @@
     fill-opacity: 0.1;
 }
 
+[@scale>1000000]{
+    fill:#4863A0;
+    fill-opacity:0.3;
+}
 
+[@scale<1000000]{
+    fill:symbol('shape://slash');
+    fill-opacity: 0.1;
+}
+[@scale<30000]{
+    stroke:#4863A0;
+    stroke-width:0.5;
+}
+
+[@scale<34123]:fill{
+    stroke:#4863A0;
+    size:28;
+}
+[@scale>34123]:fill{
+    stroke:#4863A0;
+    size:5;
+}
 /*
 
 FLORAFAUNA1.WETLAND_1994

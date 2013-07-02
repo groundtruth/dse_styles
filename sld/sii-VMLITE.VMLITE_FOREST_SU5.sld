@@ -13,10 +13,25 @@
             <sld:MaxScaleDenominator>1000000.0</sld:MaxScaleDenominator>
             <sld:PolygonSymbolizer>
                 <sld:Fill>
-                    <sld:CssParameter name="fill">#347C17</sld:CssParameter>
-                    <sld:CssParameter name="fill-opacity">0.30000001192092896</sld:CssParameter>
+                    <sld:GraphicFill>
+                        <sld:Graphic>
+                            <sld:Mark>
+                                <sld:WellKnownName>shape://slash</sld:WellKnownName>
+                                <sld:Stroke>
+                                    <sld:CssParameter name="stroke">#347C17</sld:CssParameter>
+                                </sld:Stroke>
+                            </sld:Mark>
+                            <sld:Size>7</sld:Size>
+                        </sld:Graphic>
+                    </sld:GraphicFill>
                 </sld:Fill>
             </sld:PolygonSymbolizer>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#347C17</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
         </sld:Rule>
     </sld:FeatureTypeStyle>
 </sld:UserStyle>

@@ -1,6 +1,12 @@
+
 [@scale<1000000]{
-    fill:#347C17;
-    fill-opacity:0.3;
+    fill:symbol('shape://slash');
+    stroke:#347C17;
+    stroke-width:0.2;
+}
+[@scale<1000000]:fill{
+    stroke:#347C17;
+    size:7;
 }
 
 /* 

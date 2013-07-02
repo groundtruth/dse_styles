@@ -4,7 +4,7 @@
     font-style: normal;
     font-weight: bold;
     font-fill: #000000;
-    font-size: 16;
+    font-size: 14;
 
     -gt-label-group:true;
     -gt-label-max-displacement: 150;
@@ -84,7 +84,7 @@
     fill:#FCD385;
 }
 [BIOREGION_CODE='VVP']{
-    fill:#EAF5E9;
+    fill:#F4FFF3;
 }
 [BIOREGION_CODE='WaP']{
     fill:#DAD8D7;
