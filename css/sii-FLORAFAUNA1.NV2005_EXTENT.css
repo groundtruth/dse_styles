@@ -1,3 +1,18 @@
 *{
     stroke:red;
 }
+
+/*Native Vegetation - Modelled Extent 2005 (25 metre raster)
+Completeness:
+Coverage:
+Complete statewide coverage
+Classification:
+0  no colour     Unlikely to support native vegetation
+1  Olive Green   Possibly native vegetation
+2  Orange        Highly likely native vegetation - grassy
+3  Dark Green    Highly likely native vegetation - woody
+4  Light Green   Highly likely native vegetation - structurally modified
+5  Blue-Green    Wetland habitat
+6  Royal Blue    Artificial impoundment
+7  Purple        Exotic woody vegetation
+*/
