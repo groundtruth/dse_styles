@@ -1,16 +1,21 @@
 
-var map = L.map('map').setView([-37.815933, 144.965785], 15);
+_([1,2]).each(function(i) {
 
-map.attributionControl.setPrefix("");
+  var map = L.map('map'+i.toString()).setView([-37.815933, 144.965785], 15);
 
-var basemap = new L.TileLayer.WMS("http://basemap{s}.pozi.com/geoserver/wms", {
-  subdomains: '1234',
-  layers: 'VICMAP_CLASSIC:VicmapClassic',
-  format: 'image/png',
-  transparent: false
+  map.attributionControl.setPrefix("");
+
+  var basemap = new L.TileLayer.WMS("http://basemap{s}.pozi.com/geoserver/wms", {
+    subdomains: '1234',
+    layers: 'VICMAP_CLASSIC:VicmapClassic',
+    format: 'image/png',
+    transparent: false
+  });
+
+  basemap.addTo(map);
+
 });
 
-basemap.addTo(map);
 
 // map.on('click', function(e) {
 //   alert("You clicked the map at " + e.latlng);
