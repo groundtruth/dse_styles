@@ -1,30 +1,276 @@
-/* visible at Portsea */
-
+/*only showes area around Melbourne -38.0000,144.4000; -37.5000,144.4000; -37.5000,145.5000; -38.0000,145.5000; 
+highest altitude is 1000
+http://services.land.vic.gov.au/catalogue/metadata?anzlicId=ANZVI0803002813&publicId=guest&extractionProviderId=1#tab0
+*/
 
 *{
-    stroke:#008000;
-    stroke-width:2;
-    label:[ALTITUDE];
     label-offset:1;
     font-family:"SansSerif";
     font-size: 12;
     font-fill:#A66829;
     halo-radius:1;
     halo-color:#E7E7E8;
-    -gt-label-repeat:150;
+    -gt-label-repeat:350;
     -gt-label-follow-line:true;
     -gt-label-force-ltr:false;
+    -gt-label-padding:15;
+    -gt-label-max-displacement:20;
 }
 
+[@scale>30000][@scale<100000][ALTITUDE='10']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='20']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='30']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='40']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='50']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='60']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='70']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='80']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='90']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='100']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='125']{ stroke:#A67C29; stroke-width:0.2; stroke-dasharray: 8;}
+[@scale>30000][@scale<100000][ALTITUDE='150']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='175']{ stroke:#A67C29; stroke-width:0.2; stroke-dasharray: 8;}
+[@scale>30000][@scale<100000][ALTITUDE='200']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='225']{ stroke:#A67C29; stroke-width:0.2; stroke-dasharray: 8;}
+[@scale>30000][@scale<100000][ALTITUDE='250']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='275']{ stroke:#A67C29; stroke-width:0.2; stroke-dasharray: 8;}
+[@scale>30000][@scale<100000][ALTITUDE='300']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='325']{ stroke:#A67C29; stroke-width:0.2; stroke-dasharray: 8;}
+[@scale>30000][@scale<100000][ALTITUDE='350']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='375']{ stroke:#A67C29; stroke-width:0.2; stroke-dasharray: 8;}
+[@scale>30000][@scale<100000][ALTITUDE='400']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='425']{ stroke:#A67C29; stroke-width:0.2; stroke-dasharray: 8;}
+[@scale>30000][@scale<100000][ALTITUDE='450']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='475']{ stroke:#A67C29; stroke-width:0.2; stroke-dasharray: 8;}
+[@scale>30000][@scale<100000][ALTITUDE='500']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='525']{ stroke:#A67C29; stroke-width:0.2; stroke-dasharray: 8;}
+[@scale>30000][@scale<100000][ALTITUDE='550']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='575']{ stroke:#A67C29; stroke-width:0.2; stroke-dasharray: 8;}
+[@scale>30000][@scale<100000][ALTITUDE='600']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='625']{ stroke:#A67C29; stroke-width:0.2; stroke-dasharray: 8;}
+[@scale>30000][@scale<100000][ALTITUDE='650']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='675']{ stroke:#A67C29; stroke-width:0.2; stroke-dasharray: 8;}
+[@scale>30000][@scale<100000][ALTITUDE='700']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='725']{ stroke:#A67C29; stroke-width:0.2; stroke-dasharray: 8;}
+[@scale>30000][@scale<100000][ALTITUDE='750']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='775']{ stroke:#A67C29; stroke-width:0.2; stroke-dasharray: 8;}
+[@scale>30000][@scale<100000][ALTITUDE='800']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='825']{ stroke:#A67C29; stroke-width:0.2; stroke-dasharray: 8;}
+[@scale>30000][@scale<100000][ALTITUDE='850']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='875']{ stroke:#A67C29; stroke-width:0.2; stroke-dasharray: 8;}
+[@scale>30000][@scale<100000][ALTITUDE='900']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='925']{ stroke:#A67C29; stroke-width:0.2; stroke-dasharray: 8;}
+[@scale>30000][@scale<100000][ALTITUDE='950']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>30000][@scale<100000][ALTITUDE='975']{ stroke:#A67C29; stroke-width:0.2; stroke-dasharray: 8;}
+[@scale>30000][@scale<100000][ALTITUDE='1000']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
 
-[ALTITUDE='25']{
-    stroke:FF0000;
+[@scale<2000][@scale<30000]{
+    label:[ALTITUDE];
+    -gt-label-repeat:500;
+    stroke:#A67C29;
+    stroke-width:0.2;
 }
 
-[ALTITUDE='15']{
-    stroke:FF0000;
-}
+[@scale>2000][@scale<30000][ALTITUDE='5']  { label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='10'] { label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='15'] { label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='20'] { label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='25'] { label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='30'] { label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='35'] { label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='40'] { label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='45'] { label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='50'] { label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='55'] { label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='60'] { label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='65'] { label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='70'] { label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='75'] { label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='80'] { label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='85'] { label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='90'] { label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='95'] { label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='100']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='105']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='110']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='115']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='120']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='125']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='130']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='135']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='140']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='145']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='150']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='155']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='160']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='165']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='170']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='175']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='180']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='185']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='190']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='195']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='200']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='205']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='210']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='215']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='220']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='225']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='230']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='235']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='240']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='245']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='250']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='255']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='260']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='265']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='270']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='275']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='280']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='285']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='290']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='295']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='300']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='305']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='310']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='315']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='320']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='325']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='330']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='335']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='340']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='345']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='350']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='355']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='360']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='365']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='370']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='375']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='380']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='385']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='390']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='395']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='400']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='405']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='410']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='415']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='420']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='425']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='430']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='435']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='440']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='445']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='450']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='455']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='460']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='465']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='470']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='475']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='480']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='485']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='490']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='495']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='500']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='505']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='510']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='515']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='520']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='525']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='530']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='535']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='540']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='545']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='550']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='555']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='560']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='565']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='570']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='575']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='580']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='585']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='590']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='595']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='600']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='605']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='610']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='615']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='620']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='625']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='630']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='635']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='640']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='645']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='650']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='655']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='660']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='665']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='670']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='675']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='680']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='685']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='690']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='695']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='700']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='705']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='710']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='715']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='720']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='725']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='730']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='735']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='740']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='745']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='750']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='755']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='760']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='765']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='770']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='775']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='780']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='785']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='790']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='795']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='800']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='805']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='810']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='815']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='820']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='825']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='830']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='835']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='840']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='845']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='850']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='855']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='860']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='865']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='870']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='875']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='880']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='885']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='890']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='895']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='900']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='905']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='910']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='915']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='920']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='925']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='930']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='935']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='940']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='945']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='950']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='955']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='960']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='965']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='970']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='975']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='980']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='985']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='990']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='995']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='1000']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
+[@scale>2000][@scale<30000][ALTITUDE='1005']{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2;}
 
-[ALTITUDE='35']{
-    stroke:FF0000;
-}
+[@scale <2000]{ label:[ALTITUDE]; stroke:#A67C29; stroke-width:0.2; -gt-label-repeat:500;}
