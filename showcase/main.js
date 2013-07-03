@@ -1,3 +1,5 @@
+var sldPrefix = "https://raw.github.com/groundtruth/vic_styles/master/sld/";
+
 var servers = {
   gt: {
     url: "http://basemap{s}.pozi.com/geoserver/wms",
@@ -8,8 +10,6 @@ var servers = {
     options: {}
   }
 };
-
-var sldPrefix = "http://basemap.pozi.com/vic_styles/sld/";
 
 var layers = {
   poziBase: { server: servers.gt, options: { layers: "VICMAP_CLASSIC:VicmapClassic" } }
@@ -22,7 +22,7 @@ var centers = {
 var examples = [
   {
     title: "Bushfire prone areas",
-    description: "A sentence or so explaining this example. An additional sentence or so explaining this example",
+    description: "A sentence or so describing this example. An additional sentence or so describing this example.",
     before: [layers.poziBase, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA" } }],
     after:  [layers.poziBase, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA.sld" } }],
     center: centers.gtHQ,
@@ -30,15 +30,13 @@ var examples = [
   },
   {
     title: "Bushfire prone areas",
-    description: "A sentence or so explaining this example. An additional sentence or so explaining this example",
-    before: [layers.poziBase, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA" } }],
+    description: "This time we're not going to show the before part, because there is no default style.",
     after:  [layers.poziBase, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA.sld" } }],
     center: centers.gtHQ,
     zoom:   10
   },
   {
-    title: "Bushfire prone areas",
-    description: "A sentence or so explaining this example. An additional sentence or so explaining this example",
+    title: "Bushfire prone areas, without a description",
     before: [layers.poziBase, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA" } }],
     after:  [layers.poziBase, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA.sld" } }],
     center: centers.gtHQ,
@@ -51,10 +49,17 @@ var egTemplate = ' \
   <div class="row example"> \
     <div class="span12"> \
       <h2>{{title}}</h2> \
-      <p>{{description}}</p> \
+      {{#description}} \
+        <p>{{description}}</p> \
+      {{/description}} \
       <div class="row"> \
-        <div id="{{id}}before" class="span4 map before"></div> \
-        <div id="{{id}}after"  class="span8 map after"></div> \
+        {{#hasBefore}} \
+          <div id="{{id}}before" class="span4 map before"></div> \
+          <div id="{{id}}after"  class="span8 map after"></div> \
+        {{/hasBefore}} \
+        {{^hasBefore}} \
+          <div id="{{id}}after"  class="span12 map after"></div> \
+        {{/hasBefore}} \
       </div> \
     </div> \
   </div> \
@@ -66,11 +71,15 @@ var defaultLayerOptions = {
 };
 
 _(examples).each(function(eg, index) {
-  $.extend(eg, { id: "map" + index.toString() });
+  eg.id = "map" + index.toString();
+  eg.hasBefore = "before" in eg;
 
   $(".examples").append(Mustache.render(egTemplate, eg));
- 
-  _({ before: eg.before, after: eg.after }).each(function(layers, kind) {
+
+  var views = { after: eg.after };
+  if (eg.hasBefore) { views.before = eg.before; }
+
+  _(views).each(function(layers, kind) {
 
     var map = L.map(eg.id + kind).setView(eg.center, eg.zoom);
     map.attributionControl.setPrefix("");
