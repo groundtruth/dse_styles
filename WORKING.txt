@@ -1,0 +1,122 @@
+WORKING
+
+sii:DPS_895_BUS_STOPS_VICMAP                done
+sii:DPS_918_TRAM_STOPS_VICMAP               done
+sii:DPS_932_RAIL_STATIONS_VMT               done
+
+sii:VMELEV.EL_GRND_SURFACE_POINT            done
+    
+sii:VMELEV.EL_CONTOUR                       bei welchem MS welche HL
+sii:VMELEV.EL_CONTOUR_1TO5M                 
+
+sii:DPS_1229_RAIL_STAT_PLATF                done
+sii:DPS_1220_TRAM_TRACK_CENTL               done
+sii:DPS_969_TRAM_ROUTES_VMT                 done
+
+sii:DPS_1211_TRAIN_TRACK_CENTL              done
+sii:DPS_1202_TRAIN_CORR_CENTL               done
+
+sii:DPS_946_SCHOOL_BUS_ROUTES               done
+
+sii:DPS_955_METRO_BUS_ROUTES                done 
+
+sii:DPS_909_REG_BUS_ROUTES_VM               done
+
+sii:VMADMIN.LOCALITY_POLYGON                done
+sii:VMVEG.TREE_DENSITY                      done
+sii:FORESTS.TREE100                         done
+
+sii:BUILDINGREG.BUSHFIRE_PRONE_AREA_GEN     done
+sii:BUILDINGREG.BUSHFIRE_PRONE_AREA         done
+
+sii:FLORAFAUNA1.NV2005_EVCBCS               ?
+sii:FLORAFAUNA1.NV2005_EXTENT               ?
+sii:FLORAFAUNA1.RAMSAR100                   done
+sii:FLORAFAUNA1.THFAU500                    done
+sii:FLORAFAUNA1.THFLOR500                   done
+sii:FLORAFAUNA1.VBIOREG100                  done
+sii:FLORAFAUNA1.WETLAND_1994                done
+sii:FLORAFAUNA1.WETLANDDIR                  done
+sii:VMCLTENURE.CL_TENURE_VIEW               error
+
+sii:VMSHARED.FR_FRAMEWORK_AREA_LINE         done
+
+sii:CATCHMENTS.BIOLINK500                   done
+sii:CATCHMENTS.CMA100                       done
+sii:CATCHMENTS.FLAGSHIP500                  done
+sii:CATCHMENTS.VIF_BIODIVERSITY500          done
+
+sii:CROWNLAND.PK_PARKRES                    error
+sii:CROWNLAND.PLM100_POLYGON                see note
+
+sii:COASTS.SLR00CM_2009                     done
+sii:COASTS.SLR00CM_ST_2009                  done
+sii:COASTS.SLR20CM_2040                     done
+sii:COASTS.SLR20CM_ST_2040                  done
+sii:COASTS.SLR47CM_2070                     done
+sii:COASTS.SLR47CM_ST_2070                  done
+sii:COASTS.SLR82CM_2100                     done
+sii:COASTS.SLR82CM_ST_2100                  done
+
+sii:SURVEY_MARKS_POINT_OLD                  ?
+sii:SURVEY_MARKS_POINT                      ?
+
+
+sii:VMTRANS.TR_FERRY_ROUTE                  done
+sii:VMTRANS.TR_RAIL                         done
+sii:VMTRANS.TR_ROAD                         done
+
+sii:VMADMIN.DSE_REGION                      done
+sii:VMADMIN.LGA_POLYGON                     done
+sii:VMADMIN.LOCALITY_POLYGON                done
+sii:VMADMIN.PARISH_POLYGON                  done
+sii:VMADMIN.POSTCODE_POLYGON                done
+sii:VMADMIN.STATE_ASSEMBLY_2001             done
+sii:VMADMIN.STATE_COUNCIL_2005              done
+sii:VMADMIN.TOWNSHIP_POLYGON                done
+sii:VMADMIN.VICGOV_REGION                   done
+sii:VMADMIN.WARD_2008                       done
+
+sii:VMPLAN.PLAN_CODELIST                    no spatial data! 
+sii:VMPLAN.PLAN_OVERLAY                     -> default style
+sii:VMPLAN.PLAN_UGA                         done
+sii:VMPLAN.PLAN_UGB                         done
+sii:VMPLAN.PLAN_ZONE                        -> default style                   
+sii:VMPROP.CAD_LINE                         ?
+sii:VMPROP.PARCEL_VIEW                      done
+sii:VMPROP.PROPERTY_VIEW                    done
+sii:VMPROP.V_PARCEL_MP                      done
+sii:VMPROP.V_PROPERTY_MP                    done
+
+sii:VMADD.ADDRESS                           error
+
+sii:VMFEAT.FOI_INDEX_CENTROID               done
+sii:VMFEAT.FOI_POLYGON                      done
+sii:VMFEAT.LOCALITY_POINT                   done
+
+sii:VMHYDRO.HY_WATER_AREA_POLYGON           done
+sii:VMHYDRO.HY_WATER_POINT                  ?
+sii:VMHYDRO.HY_WATER_STRUCT_POINT           ?
+sii:VMHYDRO.HY_WATERCOURSE                  done
+
+sii:VMLITE.VMLITE_BUILT_UP_AREA             ?
+sii:VMLITE.VMLITE_FOREST_SU2                done
+sii:VMLITE.VMLITE_FOREST_SU3                done
+sii:VMLITE.VMLITE_FOREST_SU5                done
+sii:VMLITE.VMLITE_HY_WATER_AREA             done
+sii:VMLITE.VMLITE_HY_WATERCOURSE            done
+sii:VMLITE.VMLITE_LGA                       done
+sii:VMLITE.VMLITE_LOCALITY_POLYGON          done
+sii:VMLITE.VMLITE_LOCALITY                  done
+sii:VMLITE.VMLITE_POSTCODE_POLYGON          done
+sii:VMLITE.VMLITE_TR_AIRPORT                done
+sii:VMLITE.VMLITE_TR_RAIL_STATION           done
+sii:VMLITE.VMLITE_TR_RAIL                   done
+sii:VMLITE.VMLITE_TR_ROAD                   done
+sii:VMLITE.VMLITE_VICTORIA_POLYGON_SU5      done
+
+
+
+
+ [@scale >3000] <sld:MinScaleDenominator>3000.0
+[@scale<200000] <sld:MaxScaleDenominator>200000.0
