@@ -13,194 +13,11 @@
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>200</ogc:Literal>
+                    <ogc:Literal>650</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
-            <sld:MinScaleDenominator>50000.0</sld:MinScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1800</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>12000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:And>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>50</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>100</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>150</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>200</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>300</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>400</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>500</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>600</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>700</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>800</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>900</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1000</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1100</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1200</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1300</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1400</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1500</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1600</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1700</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1800</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1900</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                </ogc:And>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>12000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
                     <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
@@ -233,423 +50,10 @@
                     <sld:CssParameter name="fill">#A66829</sld:CssParameter>
                 </sld:Fill>
                 <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
                 <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>100</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>12000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1200</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>50000.0</sld:MinScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1500</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>12000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1900</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>50000.0</sld:MinScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>400</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>50000.0</sld:MinScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>50</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>12000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>50</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>12000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>800</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>12000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1800</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>12000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1000</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>50000.0</sld:MinScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>200</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>12000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1000</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>12000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
             </sld:TextSymbolizer>
         </sld:Rule>
         <sld:Rule>
@@ -659,458 +63,8 @@
                     <ogc:Literal>300</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
-            <sld:MaxScaleDenominator>12000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>500</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>12000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1300</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>12000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>600</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>50000.0</sld:MinScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>150</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>12000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>400</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>12000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>500</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>12000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1700</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>12000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:And>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>50</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>100</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>150</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>200</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>300</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>400</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>500</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>600</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>700</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>800</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>900</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1000</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1100</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1200</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1300</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1400</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1500</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1600</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1700</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1800</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1900</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                </ogc:And>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>12000.0</sld:MaxScaleDenominator>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
                     <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
@@ -1143,97 +97,10 @@
                     <sld:CssParameter name="fill">#A66829</sld:CssParameter>
                 </sld:Fill>
                 <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
                 <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>600</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>12000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1100</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>12000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
             </sld:TextSymbolizer>
         </sld:Rule>
         <sld:Rule>
@@ -1243,797 +110,7 @@
                     <ogc:Literal>1400</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
-            <sld:MinScaleDenominator>12000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>900</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>12000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1900</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>12000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>400</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>12000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1600</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>12000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>700</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>12000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1100</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>12000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>150</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>50000.0</sld:MinScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>50</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>50000.0</sld:MinScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>700</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>50000.0</sld:MinScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1700</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>50000.0</sld:MinScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1400</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>50000.0</sld:MinScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1500</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>12000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1700</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>12000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1600</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>50000.0</sld:MinScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>100</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>12000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>700</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>12000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>900</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>12000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1200</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>12000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:And>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>50</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>100</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>150</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>200</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>300</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>400</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>500</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>600</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>700</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>800</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>900</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1000</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1100</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1200</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1300</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1400</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1500</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1600</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1700</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1800</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                    <ogc:Not>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                            <ogc:Literal>1900</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Not>
-                </ogc:And>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>50000.0</sld:MinScaleDenominator>
+            <sld:MinScaleDenominator>120000.0</sld:MinScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
                     <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
@@ -2045,15 +122,15 @@
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1000</ogc:Literal>
+                    <ogc:Literal>150</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
-            <sld:MinScaleDenominator>12000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
             <sld:TextSymbolizer>
@@ -2082,22 +159,55 @@
                     <sld:CssParameter name="fill">#A66829</sld:CssParameter>
                 </sld:Fill>
                 <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
                 <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
             </sld:TextSymbolizer>
         </sld:Rule>
         <sld:Rule>
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1400</ogc:Literal>
+                    <ogc:Literal>1000</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
-            <sld:MaxScaleDenominator>12000.0</sld:MaxScaleDenominator>
+            <sld:MinScaleDenominator>120000.0</sld:MinScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>300</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>120000.0</sld:MinScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>400</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
             <sld:TextSymbolizer>
@@ -2126,8 +236,181 @@
                     <sld:CssParameter name="fill">#A66829</sld:CssParameter>
                 </sld:Fill>
                 <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
                 <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>500</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>120000.0</sld:MinScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>1150</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
+                    <sld:CssParameter name="font-size">12</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:LabelPlacement>
+                    <sld:LinePlacement>
+                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
+                    </sld:LinePlacement>
+                </sld:LabelPlacement>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="followLine">true</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
+                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>30</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
+                    <sld:CssParameter name="font-size">12</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:LabelPlacement>
+                    <sld:LinePlacement>
+                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
+                    </sld:LinePlacement>
+                </sld:LabelPlacement>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="followLine">true</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
+                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>100</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>120000.0</sld:MinScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>750</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
+                    <sld:CssParameter name="font-size">12</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:LabelPlacement>
+                    <sld:LinePlacement>
+                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
+                    </sld:LinePlacement>
+                </sld:LabelPlacement>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="followLine">true</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
+                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
             </sld:TextSymbolizer>
         </sld:Rule>
         <sld:Rule>
@@ -2137,12 +420,27 @@
                     <ogc:Literal>800</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
-            <sld:MinScaleDenominator>12000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
+            <sld:MinScaleDenominator>120000.0</sld:MinScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>20</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
             <sld:TextSymbolizer>
@@ -2171,188 +469,10 @@
                     <sld:CssParameter name="fill">#A66829</sld:CssParameter>
                 </sld:Fill>
                 <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
                 <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>300</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>12000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1800</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>50000.0</sld:MinScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1300</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>50000.0</sld:MinScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>500</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>50000.0</sld:MinScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1200</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>12000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1300</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>12000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
-                    <sld:CssParameter name="font-size">12</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:LabelPlacement>
-                    <sld:LinePlacement>
-                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
-                    </sld:LinePlacement>
-                </sld:LabelPlacement>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
-                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
             </sld:TextSymbolizer>
         </sld:Rule>
         <sld:Rule>
@@ -2362,11 +482,11 @@
                     <ogc:Literal>900</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
-            <sld:MinScaleDenominator>50000.0</sld:MinScaleDenominator>
+            <sld:MinScaleDenominator>120000.0</sld:MinScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
         </sld:Rule>
@@ -2374,60 +494,15 @@
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>300</ogc:Literal>
+                    <ogc:Literal>250</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
-            <sld:MinScaleDenominator>50000.0</sld:MinScaleDenominator>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1500</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>50000.0</sld:MinScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>100</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>50000.0</sld:MinScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1600</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>12000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
             <sld:TextSymbolizer>
@@ -2456,8 +531,10 @@
                     <sld:CssParameter name="fill">#A66829</sld:CssParameter>
                 </sld:Fill>
                 <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
                 <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
             </sld:TextSymbolizer>
         </sld:Rule>
         <sld:Rule>
@@ -2467,12 +544,12 @@
                     <ogc:Literal>600</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
-            <sld:MinScaleDenominator>12000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
             <sld:TextSymbolizer>
@@ -2501,8 +578,362 @@
                     <sld:CssParameter name="fill">#A66829</sld:CssParameter>
                 </sld:Fill>
                 <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
                 <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>1000</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
+                    <sld:CssParameter name="font-size">12</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:LabelPlacement>
+                    <sld:LinePlacement>
+                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
+                    </sld:LinePlacement>
+                </sld:LabelPlacement>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="followLine">true</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
+                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>10</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
+                    <sld:CssParameter name="font-size">12</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:LabelPlacement>
+                    <sld:LinePlacement>
+                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
+                    </sld:LinePlacement>
+                </sld:LabelPlacement>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="followLine">true</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
+                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>50</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>120000.0</sld:MinScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>1050</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
+                    <sld:CssParameter name="font-size">12</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:LabelPlacement>
+                    <sld:LinePlacement>
+                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
+                    </sld:LinePlacement>
+                </sld:LabelPlacement>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="followLine">true</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
+                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>500</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
+                    <sld:CssParameter name="font-size">12</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:LabelPlacement>
+                    <sld:LinePlacement>
+                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
+                    </sld:LinePlacement>
+                </sld:LabelPlacement>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="followLine">true</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
+                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>950</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
+                    <sld:CssParameter name="font-size">12</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:LabelPlacement>
+                    <sld:LinePlacement>
+                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
+                    </sld:LinePlacement>
+                </sld:LabelPlacement>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="followLine">true</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
+                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>2000</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>120000.0</sld:MinScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <sld:MaxScaleDenominator>60000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
+                    <sld:CssParameter name="font-size">12</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:LabelPlacement>
+                    <sld:LinePlacement>
+                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
+                    </sld:LinePlacement>
+                </sld:LabelPlacement>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="followLine">true</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">500</sld:VendorOption>
+                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>800</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
+                    <sld:CssParameter name="font-size">12</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:LabelPlacement>
+                    <sld:LinePlacement>
+                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
+                    </sld:LinePlacement>
+                </sld:LabelPlacement>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="followLine">true</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
+                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
             </sld:TextSymbolizer>
         </sld:Rule>
         <sld:Rule>
@@ -2512,11 +943,167 @@
                     <ogc:Literal>1100</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
-            <sld:MinScaleDenominator>50000.0</sld:MinScaleDenominator>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
+                    <sld:CssParameter name="font-size">12</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:LabelPlacement>
+                    <sld:LinePlacement>
+                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
+                    </sld:LinePlacement>
+                </sld:LabelPlacement>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="followLine">true</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
+                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>450</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
+                    <sld:CssParameter name="font-size">12</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:LabelPlacement>
+                    <sld:LinePlacement>
+                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
+                    </sld:LinePlacement>
+                </sld:LabelPlacement>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="followLine">true</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
+                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>700</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
+                    <sld:CssParameter name="font-size">12</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:LabelPlacement>
+                    <sld:LinePlacement>
+                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
+                    </sld:LinePlacement>
+                </sld:LabelPlacement>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="followLine">true</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
+                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>1200</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>120000.0</sld:MinScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>1</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>120000.0</sld:MinScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
         </sld:Rule>
@@ -2527,12 +1114,12 @@
                     <ogc:Literal>200</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
-            <sld:MinScaleDenominator>12000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
             <sld:TextSymbolizer>
@@ -2561,37 +1148,25 @@
                     <sld:CssParameter name="fill">#A66829</sld:CssParameter>
                 </sld:Fill>
                 <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
                 <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
             </sld:TextSymbolizer>
         </sld:Rule>
         <sld:Rule>
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>800</ogc:Literal>
+                    <ogc:Literal>1200</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
-            <sld:MinScaleDenominator>50000.0</sld:MinScaleDenominator>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>150</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>12000.0</sld:MaxScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
             <sld:TextSymbolizer>
@@ -2620,23 +1195,55 @@
                     <sld:CssParameter name="fill">#A66829</sld:CssParameter>
                 </sld:Fill>
                 <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
                 <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
             </sld:TextSymbolizer>
         </sld:Rule>
         <sld:Rule>
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1900</ogc:Literal>
+                    <ogc:Literal>700</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
-            <sld:MinScaleDenominator>12000.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
+            <sld:MinScaleDenominator>120000.0</sld:MinScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A65329</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>1600</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>120000.0</sld:MinScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>550</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
             <sld:TextSymbolizer>
@@ -2665,8 +1272,352 @@
                     <sld:CssParameter name="fill">#A66829</sld:CssParameter>
                 </sld:Fill>
                 <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="repeat">150</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
                 <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>50</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
+                    <sld:CssParameter name="font-size">12</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:LabelPlacement>
+                    <sld:LinePlacement>
+                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
+                    </sld:LinePlacement>
+                </sld:LabelPlacement>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="followLine">true</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
+                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>100</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
+                    <sld:CssParameter name="font-size">12</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:LabelPlacement>
+                    <sld:LinePlacement>
+                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
+                    </sld:LinePlacement>
+                </sld:LabelPlacement>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="followLine">true</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
+                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>900</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
+                    <sld:CssParameter name="font-size">12</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:LabelPlacement>
+                    <sld:LinePlacement>
+                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
+                    </sld:LinePlacement>
+                </sld:LabelPlacement>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="followLine">true</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
+                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>600</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>120000.0</sld:MinScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>400</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>120000.0</sld:MinScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>40</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
+                    <sld:CssParameter name="font-size">12</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:LabelPlacement>
+                    <sld:LinePlacement>
+                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
+                    </sld:LinePlacement>
+                </sld:LabelPlacement>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="followLine">true</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
+                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>1800</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>120000.0</sld:MinScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>850</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
+                    <sld:CssParameter name="font-size">12</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:LabelPlacement>
+                    <sld:LinePlacement>
+                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
+                    </sld:LinePlacement>
+                </sld:LabelPlacement>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="followLine">true</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
+                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>200</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>120000.0</sld:MinScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>350</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>60000.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>120000.0</sld:MaxScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">SansSerif</sld:CssParameter>
+                    <sld:CssParameter name="font-size">12</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:LabelPlacement>
+                    <sld:LinePlacement>
+                        <sld:PerpendicularOffset>1</sld:PerpendicularOffset>
+                    </sld:LinePlacement>
+                </sld:LabelPlacement>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#A66829</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="followLine">true</sld:VendorOption>
+                <sld:VendorOption name="spaceAround">15</sld:VendorOption>
+                <sld:VendorOption name="repeat">350</sld:VendorOption>
+                <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
             </sld:TextSymbolizer>
         </sld:Rule>
     </sld:FeatureTypeStyle>
