@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Bootstrap 101 Template</title>
+    <title>Groundtruth Public Styles</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.css" />
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.ie.css" />
+    <![endif]-->
+    <link href="main.css" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -13,17 +17,21 @@
       <div class="jumbotron">
         <h1>Groundtruth Public&nbsp;Styles</h1>
         <p class="lead">
-          We've been working with Victoria's public geographical data and found
-          ways to make it more usable and beautiful for our clients.
+          We have been working with Victoria's public geospatial data and found
+          ways to make it more expressive and attractive for our clients.
           These styles are free for everyone to use.
         </p>
       </div>
 
       <hr>
 
+       <div id="map"></div>
+
     </div> <!-- /container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
 
