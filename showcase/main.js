@@ -83,8 +83,11 @@ _(examples).each(function(eg, index) {
 
     var map = L.map(eg.id + kind).setView(eg.center, eg.zoom);
     map.attributionControl.setPrefix("");
+    // map.attributionControl.setPosition("bottomleft");
+    if (kind === "before") { map.attributionControl.addAttribution("Before"); }
 
     _(layers).each(function(config) {
+
       var layer = new L.TileLayer.WMS(config.server.url, $.extend({},
         defaultLayerOptions,
         config.server.options,
