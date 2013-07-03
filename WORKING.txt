@@ -6,8 +6,8 @@ sii:DPS_932_RAIL_STATIONS_VMT               done
 
 sii:VMELEV.EL_GRND_SURFACE_POINT            done
     
-sii:VMELEV.EL_CONTOUR                       bei welchem MS welche HL
-sii:VMELEV.EL_CONTOUR_1TO5M                 
+sii:VMELEV.EL_CONTOUR                       done
+sii:VMELEV.EL_CONTOUR_1TO5M                 done
 
 sii:DPS_1229_RAIL_STAT_PLATF                done
 sii:DPS_1220_TRAM_TRACK_CENTL               done
