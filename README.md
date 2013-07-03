@@ -37,3 +37,9 @@ and run that from the project root:
 
     ./bin/process.sh
  
+### Issues
+
+We discovered issues that were fixed, but not necessarily in the public release builds yet:
+
+* [Long comments causing stack overflow](https://github.com/dwins/geoscript.scala/issues/27)
+* [CSS with solid font-fill generating SLD with empty GraphicFill](https://github.com/dwins/geoscript.scala/issues/25)

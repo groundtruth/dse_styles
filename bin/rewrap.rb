@@ -14,6 +14,8 @@ ARGV.each do |filename|
     raw_text = File.readlines(filename).join("")
     raise "Already rewrapped '#{filename}'!" if raw_text.match(/<NamedLayer>/)
 
+    # GraphicFill substitution is related to (fixed, not necessarily released)
+    #   https://github.com/dwins/geoscript.scala/issues/25
     inner_text = raw_text.
                     sub(/<\?xml[^\?]*\?>/, '').
                     sub(/<sld:UserStyle[^>]*>/, '<sld:UserStyle>').
