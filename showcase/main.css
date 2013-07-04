@@ -15,7 +15,7 @@ body {
 
 
 .jumbotron {
-  margin: 80px 0;
+  margin: 40px 0;
   text-align: center;
 }
 .jumbotron h1 {
@@ -29,9 +29,11 @@ body {
 }
 
 
-#map {
-  height: 180px;
-  /* width: 180px; */
+.example {
+  margin-bottom: 40px
+}
+.map {
+  height: 300px;
 }
 
 
