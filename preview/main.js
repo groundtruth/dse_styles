@@ -105,7 +105,12 @@ var examples = [
   {
     description: "here we use a different layer for a closer zoom view",
     views: [ { center: centers.gtHQ, zoom: 16, span: 12 } ],
-    layers: [ [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMTRANS.TR_ROAD", sld: sldPrefix + "sii-VMTRANS.TR_ROAD.sld" } } ] ]
+    layers: [
+      [layers.poziBase, 
+        { server: servers.depi, options: { layers: "sii:VMTRANS.TR_ROAD", sld: sldPrefix + "sii-VMTRANS.TR_ROAD.sld" } } ,
+        { server: servers.depi, options: { layers: "sii:VMTRANS.TR_ROAD", sld: sldPrefix + "sii-VMTRANS.TR_ROAD-labels.sld" } }
+      ]
+    ]
   },
   {
     title: "Water Layers",
