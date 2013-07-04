@@ -10,13 +10,16 @@ unprocessed_css=()
 for css in `find ./css -name '*.css'`
 do
   sld=$(echo $css | sed 's/css/sld/g')
-  unprocessed_css+=(`find ${css} -newer ${sld}`)
-  echo -n "."
+  if [[ $css -nt $sld ]]; then
+    unprocessed_css+=($css)
+    echo -n "o"
+  else
+    echo -n "."
+  fi
 done
 echo
 
-if [[ ${unprocessed_css[@]} =~ ^\s*$ ]]
-then
+if [[ ${unprocessed_css[@]} =~ ^\s*$ ]]; then
   echo "Nothing to do."  
 else
   echo "Processing: ${unprocessed_css[@]}"
