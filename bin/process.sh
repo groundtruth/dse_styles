@@ -5,16 +5,24 @@ set -e
 
 GEOSERVER_LIB='C:\Program Files (x86)\OpenGeo\OpenGeo Suite\webapps\geoserver\WEB-INF\lib'
 
-java -Djava.awt.headless=true \
-    -cp "$GEOSERVER_LIB/*" \
-    org.geoscript.geocss.Converter \
-    css/*.css
+unprocessed_css=()
+for css in `find ./css -name '*.css'`
+do
+  sld=$(echo $css | sed 's/css/sld/g')
+  unprocessed_css+=(`find ${css} -newer ${sld}`)
+done
 
-mv ./css/*.sld ./sld/
+java -Djava.awt.headless=true \
+  -cp "$GEOSERVER_LIB/*" \
+  org.geoscript.geocss.Converter \
+  ${unprocessed_css[@]}
 
 echo "Generated raw SLD files"
 
-ls ./sld/*.sld | xargs ./bin/rewrap.rb
-ls ./sld/*.backup | xargs rm
+ls ./css/*.sld | xargs ./bin/rewrap.rb
+ls ./css/*.backup | xargs rm
+
+mv ./css/*.sld ./sld/
 
 ./bin/sync.sh
+
