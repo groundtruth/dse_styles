@@ -23,27 +23,28 @@ var examples = [
   {
     title: "Bushfire prone areas",
     description: "A sentence or so describing this example. An additional sentence or so describing this example.",
-    before: [layers.poziBase, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA" } }],
-    after:  [layers.poziBase, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA.sld" } }],
-    center: centers.gtHQ,
-    zoom:   10
-  },
-  {
-    title: "Bushfire prone areas",
-    description: "This time we're not going to show the before part, because there is no default style.",
-    after:  [layers.poziBase, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA.sld" } }],
-    center: centers.gtHQ,
-    zoom:   10
-  },
-  {
-    title: "Bushfire prone areas, without a description",
-    before: [layers.poziBase, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA" } }],
-    after:  [
-      layers.poziBase,
-      { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA.sld" } }
+    views: [
+      { center: centers.gtHQ, zoom: 10, span: 4, attribution: "Before" },
+      { center: centers.gtHQ, zoom: 10, span: 4 },
+      { center: centers.gtHQ, zoom: 10, span: 4 }
     ],
-    center: centers.gtHQ,
-    zoom:   10
+    layers: [
+      [layers.poziBase, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA" } }],
+      [layers.poziBase, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA.sld" } }],
+      [layers.poziBase, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA.sld" } }],
+    ]
+  },
+  {
+    title: "Other option",
+    description: "A sentence or so describing this example. An additional sentence or so describing this example.",
+    views: [
+      { center: centers.gtHQ, zoom: 10, span: 8, attribution: "Before" },
+      { center: centers.gtHQ, zoom: 10, span: 4 }
+    ],
+    layers: [
+      [layers.poziBase, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA" } }],
+      [layers.poziBase, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA.sld" } }],
+    ]
   }
 ];
 
@@ -56,13 +57,9 @@ var egTemplate = ' \
         <p>{{description}}</p> \
       {{/description}} \
       <div class="row"> \
-        {{#hasBefore}} \
-          <div id="{{id}}before" class="span4 map before"></div> \
-          <div id="{{id}}after"  class="span8 map after"></div> \
-        {{/hasBefore}} \
-        {{^hasBefore}} \
-          <div id="{{id}}after"  class="span12 map after"></div> \
-        {{/hasBefore}} \
+        {{#views}} \
+          <div id="eg{{egIndex}}view{{viewIndex}}" class="span{{span}} map"></div> \
+        {{/views}} \
       </div> \
     </div> \
   </div> \
@@ -73,32 +70,36 @@ var defaultLayerOptions = {
   transparent: true
 };
 
-_(examples).each(function(eg, index) {
-  eg.id = "map" + index.toString();
-  eg.hasBefore = "before" in eg;
+_(examples).each(function(eg, egIndex) {
 
-  $(".examples").append(Mustache.render(egTemplate, eg));
+  var viewData = {
+    title: eg.title,
+    description: eg.description,
+    views: _(eg.views).map(function(view, viewIndex) {
+      return $.extend({}, view, { egIndex: egIndex, viewIndex: viewIndex });
+    })
+  };
 
-  var views = { after: eg.after };
-  if (eg.hasBefore) { views.before = eg.before; }
+  $(".examples").append(Mustache.render(egTemplate, viewData));
 
-  _(views).each(function(layers, kind) {
+  _(_.range(eg.views.length)).each(function(viewIndex) {
+    var view = eg.views[viewIndex];
+    var layers = eg.layers[viewIndex];
 
-    var map = L.map(eg.id + kind).setView(eg.center, eg.zoom);
+    var map = L.map(["eg", egIndex, "view", viewIndex].join('')).setView(view.center, view.zoom);
     map.attributionControl.setPrefix("");
     // map.attributionControl.setPosition("bottomleft");
-    if (kind === "before") { map.attributionControl.addAttribution("Before"); }
+    map.attributionControl.addAttribution(view.attribution);
 
     _(layers).each(function(config) {
-
       var layer = new L.TileLayer.WMS(config.server.url, $.extend({},
         defaultLayerOptions,
         config.server.options,
         config.options
       ));
       layer.addTo(map);
-
     });
+
   });
 
 });
