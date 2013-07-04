@@ -1,4 +1,4 @@
-var sldPrefix = "https://raw.github.com/groundtruth/vic_styles/master/sld/";
+var sldPrefix = "http://basemap.pozi.com/vic_styles/sld/";
 
 var servers = {
   gt: {
@@ -98,7 +98,7 @@ var examples = [
       [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMLITE.VMLITE_TR_ROAD" } } ],
       [layers.poziBase,
         { server: servers.depi, options: { layers: "sii:VMLITE.VMLITE_TR_ROAD", sld: sldPrefix + "sii-VMLITE.VMLITE_TR_ROAD.sld"} } ,
-        { server: servers.depi, options: { layers: "sii:VMLITE.VMLITE_TR_ROAD", sld: sldPrefix + "sii-VMLITE.VMLITE_TR_ROAD_labels.sld"} }
+        { server: servers.depi, options: { layers: "sii:VMLITE.VMLITE_TR_ROAD", sld: sldPrefix + "sii-VMLITE.VMLITE_TR_ROAD-labels.sld"} }
       ]
     ]
   },
