@@ -1,15 +1,36 @@
 
 
 [EVC_BCS='X']{fill:#D73027;}
-[EVC_BCS='E1']{fill:#F46D43;}
+[EVC_BCS='E']{fill:#F46D43;}
 [EVC_BCS='E2']{fill:#FDAE61;}
-[EVC_BCS='V1']{fill:#FEE08B;}
+[EVC_BCS='V']{fill:#FEE08B;}
 [EVC_BCS='V2']{fill:#FFFFBF;}
-[EVC_BCS='D1']{fill:#D9EF8B;}
+[EVC_BCS='D']{fill:#D9EF8B;}
 [EVC_BCS='D2']{fill:#A6D96A;}
 [EVC_BCS='R']{fill:#66BD63;}
 [EVC_BCS='LC']{fill:#1A9850;}
 
 
 /*Native Vegetation - Modelled 2005 Ecological Vegetation Classes 
-(with Bioregional Conservation Status)*/
+(with Bioregional Conservation Status)
+
+http://www.dse.vic.gov.au/__data/assets/pdf_file/0013/100408/conservation-status.pdf
+
+Flora: 
+• Presumed Extinct (x) 
+• Endangered (e) 
+• Vulnerable (v) 
+• Rare (r) 
+• Poorly Known (k) 
+
+Fauna:
+• Extinct (EX) 
+• Regionally Extinct (RX) 
+• Extinct in the Wild (WX) 
+• Critically Endangered (CR) 
+• Endangered (EN) 
+• Vulnerable (VU) 
+• Near Threatened (NT) 
+• Data Deficient (DD) 
+• Delisted (D)
+*/

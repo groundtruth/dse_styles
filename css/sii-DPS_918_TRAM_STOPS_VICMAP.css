@@ -54,29 +54,3 @@
     shield-mime:"image/png";
     shield-size:15;
 }
-
-/*
-[@scale>5000]{
-    label:[STOPNUMBER];
-    font-family: "Tahoma";
-    font-style: normal;
-    font-weight: bold;
-    font-fill: #70BF44;
-    font-size: 16;
-    halo-radius: 1;
-    halo-color: #E7E7E8;
-    -gt-label-group:true;
-    -gt-label-conflict-resolution:false;
-}
-
-
-*{
-    font-family:"Tahoma";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0;
-    -gt-label-follow-line: true;
-
-}
-
-*/

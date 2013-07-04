@@ -19,7 +19,7 @@
             <sld:PolygonSymbolizer>
                 <sld:Fill>
                     <sld:CssParameter name="fill">#31A354</sld:CssParameter>
-                    <sld:CssParameter name="fill-opacity">0.5</sld:CssParameter>
+                    <sld:CssParameter name="fill-opacity">0.30000001192092896</sld:CssParameter>
                 </sld:Fill>
             </sld:PolygonSymbolizer>
         </sld:Rule>
@@ -33,7 +33,7 @@
             <sld:PolygonSymbolizer>
                 <sld:Fill>
                     <sld:CssParameter name="fill">#A1D99B</sld:CssParameter>
-                    <sld:CssParameter name="fill-opacity">0.5</sld:CssParameter>
+                    <sld:CssParameter name="fill-opacity">0.30000001192092896</sld:CssParameter>
                 </sld:Fill>
             </sld:PolygonSymbolizer>
         </sld:Rule>
@@ -47,7 +47,7 @@
             <sld:PolygonSymbolizer>
                 <sld:Fill>
                     <sld:CssParameter name="fill">#E5F5E0</sld:CssParameter>
-                    <sld:CssParameter name="fill-opacity">0.5</sld:CssParameter>
+                    <sld:CssParameter name="fill-opacity">0.30000001192092896</sld:CssParameter>
                 </sld:Fill>
             </sld:PolygonSymbolizer>
         </sld:Rule>

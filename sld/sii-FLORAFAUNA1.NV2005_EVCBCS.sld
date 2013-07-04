@@ -39,7 +39,20 @@
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>EVC_BCS</ogc:PropertyName>
-                    <ogc:Literal>D1</ogc:Literal>
+                    <ogc:Literal>E</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:PolygonSymbolizer>
+                <sld:Fill>
+                    <sld:CssParameter name="fill">#F46D43</sld:CssParameter>
+                </sld:Fill>
+            </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>EVC_BCS</ogc:PropertyName>
+                    <ogc:Literal>D</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
             <sld:PolygonSymbolizer>
@@ -65,6 +78,19 @@
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>EVC_BCS</ogc:PropertyName>
+                    <ogc:Literal>V</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:PolygonSymbolizer>
+                <sld:Fill>
+                    <sld:CssParameter name="fill">#FEE08B</sld:CssParameter>
+                </sld:Fill>
+            </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>EVC_BCS</ogc:PropertyName>
                     <ogc:Literal>V2</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
@@ -78,38 +104,12 @@
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>EVC_BCS</ogc:PropertyName>
-                    <ogc:Literal>E1</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:PolygonSymbolizer>
-                <sld:Fill>
-                    <sld:CssParameter name="fill">#F46D43</sld:CssParameter>
-                </sld:Fill>
-            </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>EVC_BCS</ogc:PropertyName>
                     <ogc:Literal>LC</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
             <sld:PolygonSymbolizer>
                 <sld:Fill>
                     <sld:CssParameter name="fill">#1A9850</sld:CssParameter>
-                </sld:Fill>
-            </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>EVC_BCS</ogc:PropertyName>
-                    <ogc:Literal>V1</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:PolygonSymbolizer>
-                <sld:Fill>
-                    <sld:CssParameter name="fill">#FEE08B</sld:CssParameter>
                 </sld:Fill>
             </sld:PolygonSymbolizer>
         </sld:Rule>

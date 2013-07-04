@@ -12,12 +12,12 @@
         <sld:Rule>
             <sld:PolygonSymbolizer>
                 <sld:Fill>
-                    <sld:CssParameter name="fill">#151B54</sld:CssParameter>
+                    <sld:CssParameter name="fill">#1D91C0</sld:CssParameter>
                 </sld:Fill>
             </sld:PolygonSymbolizer>
             <sld:LineSymbolizer>
                 <sld:Stroke>
-                    <sld:CssParameter name="stroke">#151B54</sld:CssParameter>
+                    <sld:CssParameter name="stroke">#FFFFFF</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
         </sld:Rule>

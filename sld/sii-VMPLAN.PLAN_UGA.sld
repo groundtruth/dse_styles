@@ -13,7 +13,7 @@
             <sld:PolygonSymbolizer>
                 <sld:Fill>
                     <sld:CssParameter name="fill">#7F4E52</sld:CssParameter>
-                    <sld:CssParameter name="fill-opacity">0.20000000298023224</sld:CssParameter>
+                    <sld:CssParameter name="fill-opacity">0.30000001192092896</sld:CssParameter>
                 </sld:Fill>
             </sld:PolygonSymbolizer>
         </sld:Rule>

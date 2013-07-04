@@ -82,7 +82,7 @@ sii:VMPLAN.PLAN_OVERLAY                     -> default style
 sii:VMPLAN.PLAN_UGA                         done
 sii:VMPLAN.PLAN_UGB                         done
 sii:VMPLAN.PLAN_ZONE                        -> default style                   
-sii:VMPROP.CAD_LINE                         ?
+sii:VMPROP.CAD_LINE                         done
 sii:VMPROP.PARCEL_VIEW                      done
 sii:VMPROP.PROPERTY_VIEW                    done
 sii:VMPROP.V_PARCEL_MP                      done

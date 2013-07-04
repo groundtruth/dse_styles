@@ -1,5 +1,6 @@
 *{
     fill:#342D7E;
+    fill-opacity:0.3;
 }
 [@scale<100000]{
     label:[NAME];

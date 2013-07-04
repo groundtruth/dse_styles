@@ -14,6 +14,7 @@
             <sld:PolygonSymbolizer>
                 <sld:Fill>
                     <sld:CssParameter name="fill">#342D7E</sld:CssParameter>
+                    <sld:CssParameter name="fill-opacity">0.30000001192092896</sld:CssParameter>
                 </sld:Fill>
             </sld:PolygonSymbolizer>
             <sld:TextSymbolizer>
@@ -45,6 +46,7 @@
             <sld:PolygonSymbolizer>
                 <sld:Fill>
                     <sld:CssParameter name="fill">#342D7E</sld:CssParameter>
+                    <sld:CssParameter name="fill-opacity">0.30000001192092896</sld:CssParameter>
                 </sld:Fill>
             </sld:PolygonSymbolizer>
         </sld:Rule>

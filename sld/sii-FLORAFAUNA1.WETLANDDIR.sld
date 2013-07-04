@@ -10,6 +10,34 @@
     <sld:FeatureTypeStyle>
         <sld:Name>name</sld:Name>
         <sld:Rule>
+            <sld:MinScaleDenominator>34123.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>1000000.0</sld:MaxScaleDenominator>
+            <sld:PolygonSymbolizer>
+                <sld:Fill>
+                    <sld:GraphicFill>
+                        <sld:Graphic>
+                            <sld:Mark>
+                                <sld:WellKnownName>shape://slash</sld:WellKnownName>
+                                <sld:Stroke>
+                                    <sld:CssParameter name="stroke">#3090C7</sld:CssParameter>
+                                </sld:Stroke>
+                            </sld:Mark>
+                            <sld:Size>5</sld:Size>
+                        </sld:Graphic>
+                    </sld:GraphicFill>
+                </sld:Fill>
+            </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <sld:MinScaleDenominator>1000000.0</sld:MinScaleDenominator>
+            <sld:PolygonSymbolizer>
+                <sld:Fill>
+                    <sld:CssParameter name="fill">#3090C7</sld:CssParameter>
+                    <sld:CssParameter name="fill-opacity">0.30000001192092896</sld:CssParameter>
+                </sld:Fill>
+            </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
             <sld:MinScaleDenominator>30000.0</sld:MinScaleDenominator>
             <sld:MaxScaleDenominator>34123.0</sld:MaxScaleDenominator>
             <sld:PolygonSymbolizer>
@@ -22,11 +50,9 @@
                                     <sld:CssParameter name="stroke">#3090C7</sld:CssParameter>
                                 </sld:Stroke>
                             </sld:Mark>
-                            <sld:Opacity>0.10000000149011612</sld:Opacity>
                             <sld:Size>28</sld:Size>
                         </sld:Graphic>
                     </sld:GraphicFill>
-                    <sld:CssParameter name="fill-opacity">0.10000000149011612</sld:CssParameter>
                 </sld:Fill>
             </sld:PolygonSymbolizer>
         </sld:Rule>
@@ -42,11 +68,9 @@
                                     <sld:CssParameter name="stroke">#3090C7</sld:CssParameter>
                                 </sld:Stroke>
                             </sld:Mark>
-                            <sld:Opacity>0.10000000149011612</sld:Opacity>
                             <sld:Size>28</sld:Size>
                         </sld:Graphic>
                     </sld:GraphicFill>
-                    <sld:CssParameter name="fill-opacity">0.10000000149011612</sld:CssParameter>
                 </sld:Fill>
             </sld:PolygonSymbolizer>
             <sld:LineSymbolizer>
@@ -55,36 +79,6 @@
                     <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <sld:MinScaleDenominator>1000000.0</sld:MinScaleDenominator>
-            <sld:PolygonSymbolizer>
-                <sld:Fill>
-                    <sld:CssParameter name="fill">#3090C7</sld:CssParameter>
-                    <sld:CssParameter name="fill-opacity">0.30000001192092896</sld:CssParameter>
-                </sld:Fill>
-            </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <sld:MinScaleDenominator>34123.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>1000000.0</sld:MaxScaleDenominator>
-            <sld:PolygonSymbolizer>
-                <sld:Fill>
-                    <sld:GraphicFill>
-                        <sld:Graphic>
-                            <sld:Mark>
-                                <sld:WellKnownName>shape://slash</sld:WellKnownName>
-                                <sld:Stroke>
-                                    <sld:CssParameter name="stroke">#3090C7</sld:CssParameter>
-                                </sld:Stroke>
-                            </sld:Mark>
-                            <sld:Opacity>0.10000000149011612</sld:Opacity>
-                            <sld:Size>5</sld:Size>
-                        </sld:Graphic>
-                    </sld:GraphicFill>
-                    <sld:CssParameter name="fill-opacity">0.10000000149011612</sld:CssParameter>
-                </sld:Fill>
-            </sld:PolygonSymbolizer>
         </sld:Rule>
     </sld:FeatureTypeStyle>
 </sld:UserStyle>

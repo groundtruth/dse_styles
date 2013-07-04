@@ -1,7 +1,4 @@
-*{
-    fill:#4863A0;
-    fill-opacity: 0.1;
-}
+
 
 [@scale>1000000]{
     fill:#4863A0;
@@ -10,7 +7,6 @@
 
 [@scale<1000000]{
     fill:symbol('shape://slash');
-    fill-opacity: 0.1;
 }
 [@scale<30000]{
     stroke:#4863A0;

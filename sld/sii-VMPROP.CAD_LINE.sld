@@ -10,14 +10,15 @@
     <sld:FeatureTypeStyle>
         <sld:Name>name</sld:Name>
         <sld:Rule>
+            <sld:MaxScaleDenominator>10000.0</sld:MaxScaleDenominator>
             <sld:PolygonSymbolizer>
                 <sld:Fill>
-                    <sld:CssParameter name="fill">#008000</sld:CssParameter>
+                    <sld:CssParameter name="fill">#FFF8DC</sld:CssParameter>
                 </sld:Fill>
             </sld:PolygonSymbolizer>
             <sld:LineSymbolizer>
                 <sld:Stroke>
-                    <sld:CssParameter name="stroke">#ff0000</sld:CssParameter>
+                    <sld:CssParameter name="stroke">#D1D0CE</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
         </sld:Rule>

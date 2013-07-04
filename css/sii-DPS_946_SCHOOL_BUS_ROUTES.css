@@ -1,12 +1,12 @@
 /*School Bus Routes*/
 
 *{
-    stroke:#E7E7E8, #0A8A8A;
+    stroke:#E7E7E8, #E77471;
     stroke-width:3.8, 3;
 }
 
 [@scale <50000]{
-    stroke:#E7E7E8, #0A8A8A;
+    stroke:#E7E7E8, #E77471;
     stroke-width:4.8, 3.5;
 }
 

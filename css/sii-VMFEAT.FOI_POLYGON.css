@@ -1,6 +1,4 @@
-*{
-    fill:red;
-}
+*{fill-opacity:0.3;}
 
 [@scale <14000 ]{
     label:[NAME_LABEL];
