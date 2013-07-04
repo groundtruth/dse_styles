@@ -18,6 +18,7 @@
             <sld:LineSymbolizer>
                 <sld:Stroke>
                     <sld:CssParameter name="stroke">#FFFFFF</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.1</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
         </sld:Rule>
