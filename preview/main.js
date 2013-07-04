@@ -6,7 +6,7 @@ var servers = {
     options: { subdomains: "1234" }
   },
   depi: {
-    url: "http://services.land.vic.gov.au/catalogue/httpproxy/sdm_geoserver/wms",
+    url: "http://services.land.vic.gov.au/catalogue/publicproxy/guest/sdm_geoserver/wms",
     options: {}
   }
 };
