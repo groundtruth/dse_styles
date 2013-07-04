@@ -15,68 +15,68 @@
 /*Freeway*/
 [@scale<136480][CLASS_CODE='0']{
     label:[EZI_ROAD_NAME_LABEL];
-    font-size: 21;
+    font-size: 19;
     font-fill:#165417;
 }
 
 /* Freeway-label scale dependant*/
 [@scale>136480][@scale<500000][CLASS_CODE='0']{
     label:[EZI_ROAD_NAME_LABEL];
-    font-size: 18;
+    font-size: 16;
     font-fill:#165417;
 }
 
 /*Highway*/
 [@scale<136480][CLASS_CODE='1']{
     label:[EZI_ROAD_NAME_LABEL];
-    font-size: 20;
+    font-size: 18;
     font-fill:#E42217;
 }
 
 /* Highway - label scale dependant */
 [@scale>136480][@scale<500000][CLASS_CODE='1']{
     label:[EZI_ROAD_NAME_LABEL];
-    font-size: 17;
+    font-size: 15;
     font-fill:#E42217;
 }
 
 /*Arterial*/
 [@scale<250000][CLASS_CODE='2']{
     label:[EZI_ROAD_NAME_LABEL];
-    font-size: 19;
+    font-size: 17;
     font-fill:#E42217;
 }
 
 /*Sub-Arterial*/
 [@scale<125000][CLASS_CODE='3']{
     label:[EZI_ROAD_NAME_LABEL];
-    font-size: 18;
+    font-size: 16;
     font-fill:#E42217;
 }
 
 /*Collector*/
 [@scale<50000][CLASS_CODE='4']{
     label:[EZI_ROAD_NAME_LABEL];
-    font-size: 17;
+    font-size: 15;
     font-fill:#505050;
 }
 /*Local*/
 [@scale<50000][CLASS_CODE='5']{
     label:[EZI_ROAD_NAME_LABEL];
-    font-size: 16;
+    font-size: 14;
     font-fill:#505050;
 }
 
 /*2WD*/
 [@scale<25000][CLASS_CODE='6']{
     label:[EZI_ROAD_NAME_LABEL];
-    font-size: 14;
+    font-size: 12;
     font-fill:#E42217;
 }
 
 /*4WD*/
 [@scale<12000][CLASS_CODE='7']{
     label:[EZI_ROAD_NAME_LABEL];
-    font-size: 14;
+    font-size: 12;
     font-fill:#E42217;
 }
