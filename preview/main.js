@@ -38,7 +38,10 @@ var examples = [
   {
     title: "Bushfire prone areas, without a description",
     before: [layers.poziBase, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA" } }],
-    after:  [layers.poziBase, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA.sld" } }],
+    after:  [
+      layers.poziBase,
+      { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA.sld" } }
+    ],
     center: centers.gtHQ,
     zoom:   10
   }
