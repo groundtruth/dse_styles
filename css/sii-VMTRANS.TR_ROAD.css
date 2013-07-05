@@ -1,3 +1,15 @@
+/*
+
+Since CSS can't order colouring of features, it's best to do a base colour
+(e.g. grey) in a lower layer, and other colours in separate ones.
+However, this stylesheet does not account for that.
+
+Use this (VMTRANS.TR_ROAD) for scales (more detailed than) <= 68000, because it
+shows more details of individual roads. VMLite_TR_ROAD is better suited for
+less detailed views.
+
+*/
+
 /* Streetnetwork */
 
 /*Bicycle Path - green*/
