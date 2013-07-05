@@ -35,6 +35,10 @@ for troubleshooting), run:
 
     ./bin/sync.sh
 
+## Preview page
+
+See the `preview/` directory for details.
+
 ## CSS limitations
 
 These are issues we discovered in the CSS module. They were fixed, but have not necessarily
