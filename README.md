@@ -41,6 +41,8 @@ See the `preview/` directory for details.
 
 ## Rewrapping and stylesheet/layer naming conventions
 
+See `bin/rewrap.rb`.
+
 ## CSS limitations
 
 These are issues we discovered in the CSS module. They were fixed, but have not necessarily
