@@ -121,7 +121,7 @@ var examples = [
     views: [ { center: centers.gtHQ, zoom: 16, span: 12 } ],
     layers: [
       [layers.poziBase, 
-        { server: servers.depi, options: { layers: "sii:VMTRANS.TR_ROAD", sld: sldPrefix + "sii-VMTRANS.TR_ROAD.sld" } } ,
+        { server: servers.depi, options: { layers: "sii:VMTRANS.TR_ROAD", sld: sldPrefix + "sii-VMTRANS.TR_ROAD.sld", tiled: true } } ,
         { server: servers.depi, options: { layers: "sii:VMTRANS.TR_ROAD", sld: sldPrefix + "sii-VMTRANS.TR_ROAD-labels.sld" } }
       ]
     ]
@@ -141,14 +141,17 @@ var examples = [
     title: "Sea Level Rise",
     description: "",
     views: [
-      { center: centers.bay, zoom: 13, span: 4, attribution: "2009" },
+      { center: centers.bay, zoom: 13, span: 4, attribution: "2009+2100, 82cm rise" },
       { center: centers.bay, zoom: 13, span: 4, attribution: "2009-2070" },
       { center: centers.bay, zoom: 13, span: 4, attribution: "2009-2070 plus increasing storms" }
     ],
     layers: [
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:COASTS.SLR00CM_2009", sld: sldPrefix + "sii-COASTS.SLR00CM_2009.sld" } } ],
       [layers.poziBase,
-        { server: servers.depi, options: { layers: "sii:COASTS.SLR47CM_2070", sld: sldPrefix + "sii-COASTS.SLR47CM_2070.sld" } },
+        { server: servers.depi, options: { layers: "sii:COASTS.SLR82CM_2100", sld: sldPrefix + "sii-COASTS.SLR82CM_2100.sld" } },
+        { server: servers.depi, options: { layers: "sii:COASTS.SLR00CM_2009", sld: sldPrefix + "sii-COASTS.SLR00CM_2009.sld" } }
+      ],
+      [layers.poziBase,
+        { server: servers.depi, options: { layers: "sii:COASTS.SLR82CM_2100", sld: sldPrefix + "sii-COASTS.SLR82CM_2100.sld" } },
         { server: servers.depi, options: { layers: "sii:COASTS.SLR00CM_2009", sld: sldPrefix + "sii-COASTS.SLR00CM_2009.sld" } }
       ],
       [layers.poziBase,
@@ -170,7 +173,7 @@ var examples = [
     ]
   },
   {
-    views: [ { center: centers.gtHQ, zoom: 7, span: 8, attribution: "Catchment Management Authority Boundaries" } ],
+    views: [ { center: centers.gtHQ, zoom: 7, span: 12, attribution: "Catchment Management Authority Boundaries" } ],
     layers: [ [layers.poziBase, { server: servers.depi, options: { layers: "sii:CATCHMENTS.CMA100", sld: sldPrefix + "sii-CATCHMENTS.CMA100.sld" } } ] ]
   },
   {
