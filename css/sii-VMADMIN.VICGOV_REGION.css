@@ -13,7 +13,6 @@
     halo-color: #E7E7E8;
     -gt-label-auto-wrap:90;
     -gt-label-max-displacement: 150;
-    -gt-label-fit-godness: 0.2 ;
 }
 
 [@scale >217001]{
@@ -26,7 +25,6 @@
     halo-color: #E7E7E8;
     -gt-label-auto-wrap:120;
     -gt-label-max-displacement: 150;
-    -gt-label-fit-godness: 0.2 ;
     -gt-label-group: true;
     -gt-label-max-displacement:10;
 }
