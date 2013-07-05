@@ -25,7 +25,7 @@ else
   echo "Processing: ${unprocessed_css[@]}"
 
   java -Djava.awt.headless=true \
-    -cp "$GEOSERVER_LIB/*" \
+    -cp "$GEOSERVER_LIB_DIR/*" \
     org.geoscript.geocss.Converter \
     ${unprocessed_css[@]}
 
