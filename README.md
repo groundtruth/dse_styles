@@ -1,4 +1,4 @@
-# VIC Styles
+# Groundtruth Public Styles
 
 Stylesheets for Victorian state-level geospatial data layers used at Groundtruth.
 
