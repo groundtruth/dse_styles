@@ -39,16 +39,30 @@ for troubleshooting), run:
 
 See the `preview/` directory for details.
 
+## Rewrapping and stylesheet/layer naming conventions
+
 ## CSS limitations
 
 These are issues we discovered in the CSS module. They were fixed, but have not necessarily
 been included in the public release builds yet:
 
-* [Long comments causing stack overflow](https://github.com/dwins/geoscript.scala/issues/27)
 * [CSS with solid font-fill generating SLD with empty GraphicFill](https://github.com/dwins/geoscript.scala/issues/25)
+* [Long comments causing stack overflow](https://github.com/dwins/geoscript.scala/issues/27)
 
 Other limitations of CSS we faced included:
 
-* No `-drop-shadow` (can't create an offset of a polygon)
-* No `-label-anchor`
+* Can't specify fill properties in more than three scales (e.g. rules like `[@scale<17061]:fill{ ... }`).
+* No `-drop-shadow` (can't create an offset of a polygon).
+* No `-label-anchor`.
+* Padding (minimum space around an item in which items of same time are not repeated)
+  can't be set around marks (only labels).
+
+## CSS tricks
+
+* Use a separate layer for a road underlay (so that individual road segments don't have
+  stroke borders that overlap other segments' stroke bodies).
+* Use a label of '.' (or maybe '') with a shield to get an effect similar to marks with padding.
+
+
+
 
