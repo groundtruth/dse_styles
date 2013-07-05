@@ -43,3 +43,9 @@ We discovered issues that were fixed, but not necessarily in the public release 
 
 * [Long comments causing stack overflow](https://github.com/dwins/geoscript.scala/issues/27)
 * [CSS with solid font-fill generating SLD with empty GraphicFill](https://github.com/dwins/geoscript.scala/issues/25)
+
+Other limitations of CSS we faced included:
+
+* `-drop-shadow` (can't create an offset of a polygon)
+* `-label-anchor`
+
