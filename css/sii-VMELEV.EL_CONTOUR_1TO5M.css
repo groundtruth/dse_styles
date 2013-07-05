@@ -16,7 +16,7 @@ http://services.land.vic.gov.au/catalogue/metadata?anzlicId=ANZVI0803002813&publ
     -gt-label-max-displacement:20;
 }
 [@scale>120000]{ font-size:8}
-[@scale>120000][ALTITUDE='1']   { stroke:#A67C29; stroke-width:0.2;}
+[@scale>120000][ALTITUDE='0']   { stroke:#A67C29; stroke-width:0.2;}
 [@scale>120000][ALTITUDE='50']  { stroke:#A67C29; stroke-width:0.2;}
 [@scale>120000][ALTITUDE='100'] { stroke:#A67C29; stroke-width:0.2;}
 [@scale>120000][ALTITUDE='200'] { stroke:#A67C29; stroke-width:0.2;}

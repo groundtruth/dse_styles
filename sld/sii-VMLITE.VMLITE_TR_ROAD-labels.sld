@@ -13,7 +13,7 @@
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
-                    <ogc:Literal>0</ogc:Literal>
+                    <ogc:Literal>1</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
             <sld:MinScaleDenominator>136480.0</sld:MinScaleDenominator>
@@ -24,7 +24,7 @@
                 </sld:Label>
                 <sld:Font>
                     <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
-                    <sld:CssParameter name="font-size">18</sld:CssParameter>
+                    <sld:CssParameter name="font-size">15</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
                 </sld:Font>
@@ -36,7 +36,7 @@
                 </sld:Halo>
                 <sld:Fill>
                     
-                    <sld:CssParameter name="fill">#165417</sld:CssParameter>
+                    <sld:CssParameter name="fill">#E42217</sld:CssParameter>
                 </sld:Fill>
                 <sld:VendorOption name="maxAngleDelta">90</sld:VendorOption>
                 <sld:VendorOption name="followLine">true</sld:VendorOption>
@@ -58,41 +58,7 @@
                 </sld:Label>
                 <sld:Font>
                     <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
-                    <sld:CssParameter name="font-size">17</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#505050</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="maxAngleDelta">90</sld:VendorOption>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="group">true</sld:VendorOption>
-                <sld:VendorOption name="maxDisplacement">400</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
-                    <ogc:Literal>5</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>EZI_ROAD_NAME_LABEL</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
-                    <sld:CssParameter name="font-size">16</sld:CssParameter>
+                    <sld:CssParameter name="font-size">15</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
                 </sld:Font>
@@ -126,7 +92,7 @@
                 </sld:Label>
                 <sld:Font>
                     <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
-                    <sld:CssParameter name="font-size">14</sld:CssParameter>
+                    <sld:CssParameter name="font-size">12</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
                 </sld:Font>
@@ -150,78 +116,10 @@
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
-                    <ogc:Literal>6</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>25000.0</sld:MaxScaleDenominator>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>EZI_ROAD_NAME_LABEL</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
-                    <sld:CssParameter name="font-size">14</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#E42217</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="maxAngleDelta">90</sld:VendorOption>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="group">true</sld:VendorOption>
-                <sld:VendorOption name="maxDisplacement">400</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
-                    <ogc:Literal>0</ogc:Literal>
+                    <ogc:Literal>1</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
             <sld:MaxScaleDenominator>136480.0</sld:MaxScaleDenominator>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>EZI_ROAD_NAME_LABEL</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
-                    <sld:CssParameter name="font-size">21</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#165417</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="maxAngleDelta">90</sld:VendorOption>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="group">true</sld:VendorOption>
-                <sld:VendorOption name="maxDisplacement">400</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
-                    <ogc:Literal>3</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MaxScaleDenominator>125000.0</sld:MaxScaleDenominator>
             <sld:TextSymbolizer>
                 <sld:Label>
                     <ogc:PropertyName>EZI_ROAD_NAME_LABEL</ogc:PropertyName>
@@ -262,41 +160,6 @@
                 </sld:Label>
                 <sld:Font>
                     <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
-                    <sld:CssParameter name="font-size">19</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
-                </sld:Font>
-                <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
-                    <sld:Fill>
-                        <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
-                    </sld:Fill>
-                </sld:Halo>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#E42217</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="maxAngleDelta">90</sld:VendorOption>
-                <sld:VendorOption name="followLine">true</sld:VendorOption>
-                <sld:VendorOption name="group">true</sld:VendorOption>
-                <sld:VendorOption name="maxDisplacement">400</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
-                    <ogc:Literal>1</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>136480.0</sld:MinScaleDenominator>
-            <sld:MaxScaleDenominator>500000.0</sld:MaxScaleDenominator>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>EZI_ROAD_NAME_LABEL</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
                     <sld:CssParameter name="font-size">17</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
@@ -321,17 +184,17 @@
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
-                    <ogc:Literal>1</ogc:Literal>
+                    <ogc:Literal>6</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
-            <sld:MaxScaleDenominator>136480.0</sld:MaxScaleDenominator>
+            <sld:MaxScaleDenominator>25000.0</sld:MaxScaleDenominator>
             <sld:TextSymbolizer>
                 <sld:Label>
                     <ogc:PropertyName>EZI_ROAD_NAME_LABEL</ogc:PropertyName>
                 </sld:Label>
                 <sld:Font>
                     <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
-                    <sld:CssParameter name="font-size">20</sld:CssParameter>
+                    <sld:CssParameter name="font-size">12</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
                 </sld:Font>
@@ -344,6 +207,143 @@
                 <sld:Fill>
                     
                     <sld:CssParameter name="fill">#E42217</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="maxAngleDelta">90</sld:VendorOption>
+                <sld:VendorOption name="followLine">true</sld:VendorOption>
+                <sld:VendorOption name="group">true</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">400</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
+                    <ogc:Literal>5</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>EZI_ROAD_NAME_LABEL</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
+                    <sld:CssParameter name="font-size">14</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#505050</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="maxAngleDelta">90</sld:VendorOption>
+                <sld:VendorOption name="followLine">true</sld:VendorOption>
+                <sld:VendorOption name="group">true</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">400</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
+                    <ogc:Literal>0</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MaxScaleDenominator>136480.0</sld:MaxScaleDenominator>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>EZI_ROAD_NAME_LABEL</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
+                    <sld:CssParameter name="font-size">19</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#165417</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="maxAngleDelta">90</sld:VendorOption>
+                <sld:VendorOption name="followLine">true</sld:VendorOption>
+                <sld:VendorOption name="group">true</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">400</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
+                    <ogc:Literal>3</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MaxScaleDenominator>125000.0</sld:MaxScaleDenominator>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>EZI_ROAD_NAME_LABEL</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
+                    <sld:CssParameter name="font-size">16</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#E42217</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="maxAngleDelta">90</sld:VendorOption>
+                <sld:VendorOption name="followLine">true</sld:VendorOption>
+                <sld:VendorOption name="group">true</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">400</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>CLASS_CODE</ogc:PropertyName>
+                    <ogc:Literal>0</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>136480.0</sld:MinScaleDenominator>
+            <sld:MaxScaleDenominator>500000.0</sld:MaxScaleDenominator>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>EZI_ROAD_NAME_LABEL</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
+                    <sld:CssParameter name="font-size">16</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">normal</sld:CssParameter>
+                </sld:Font>
+                <sld:Halo>
+                    <sld:Radius>1</sld:Radius>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
+                    </sld:Fill>
+                </sld:Halo>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#165417</sld:CssParameter>
                 </sld:Fill>
                 <sld:VendorOption name="maxAngleDelta">90</sld:VendorOption>
                 <sld:VendorOption name="followLine">true</sld:VendorOption>

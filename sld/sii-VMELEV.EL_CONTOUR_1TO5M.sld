@@ -2098,21 +2098,6 @@
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
-                    <ogc:Literal>1</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:MinScaleDenominator>120000.0</sld:MinScaleDenominator>
-            <sld:LineSymbolizer>
-                <sld:Stroke>
-                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
-                </sld:Stroke>
-            </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
                     <ogc:Literal>890</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
@@ -5130,6 +5115,21 @@
                 <sld:VendorOption name="forceLeftToRight">false</sld:VendorOption>
                 <sld:VendorOption name="maxDisplacement">20</sld:VendorOption>
             </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>ALTITUDE</ogc:PropertyName>
+                    <ogc:Literal>0</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:MinScaleDenominator>120000.0</sld:MinScaleDenominator>
+            <sld:LineSymbolizer>
+                <sld:Stroke>
+                    <sld:CssParameter name="stroke">#A67C29</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">0.2</sld:CssParameter>
+                </sld:Stroke>
+            </sld:LineSymbolizer>
         </sld:Rule>
         <sld:Rule>
             <ogc:Filter>

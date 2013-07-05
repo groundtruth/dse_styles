@@ -2,8 +2,6 @@
     font-family:'Tahoma';
     font-style: normal;
     font-weight: normal;
-    label-anchor: 0.0, 0.5;
-    label-rotation:0;
     halo-radius:1;
     halo-color:#FFFFFF;
     -gt-label-follow-line:true;
