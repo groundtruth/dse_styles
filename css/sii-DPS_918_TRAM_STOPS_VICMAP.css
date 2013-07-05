@@ -1,7 +1,7 @@
 /* Tram Stops*/
 
 [@scale <3000]{
-    mark: url('http://basemap.pozi.com/vic_styles/sld/trams.png');
+    mark: url('https://raw.github.com/groundtruth/gt_public_styles/master/images/trams.png');
 }
 
 :mark{
@@ -39,7 +39,7 @@
     font-size: 10;
     -gt-label-padding:25;
 
-    shield: url("http://basemap.pozi.com/vic_styles/sld/trams.png");
+    shield: url('https://raw.github.com/groundtruth/gt_public_styles/master/images/trams.png');
     shield-mime:"image/png";
     shield-size:15;
 }
@@ -50,7 +50,7 @@
     font-size: 10;
     -gt-label-padding:5;
 
-    shield: url("http://basemap.pozi.com/vic_styles/sld/trams.png");
+    shield: url('https://raw.github.com/groundtruth/gt_public_styles/master/images/trams.png');
     shield-mime:"image/png";
     shield-size:15;
 }

@@ -1,5 +1,5 @@
 *{
-    mark: url('http://basemap.pozi.com/vic_styles/sld/airport.png');
+    mark: url('https://raw.github.com/groundtruth/gt_public_styles/master/images/airport.png');
 }
 
 :mark{
