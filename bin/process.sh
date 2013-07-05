@@ -3,7 +3,7 @@
 # set -x
 set -e
 
-GEOSERVER_LIB='C:\Program Files (x86)\OpenGeo\OpenGeo Suite\webapps\geoserver\WEB-INF\lib'
+. config.sh
 
 echo -n "Checking CSS"
 unprocessed_css=()
@@ -38,3 +38,4 @@ else
 
   ./bin/sync.sh
 fi
+

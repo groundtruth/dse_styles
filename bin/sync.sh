@@ -2,8 +2,8 @@
 
 set -e
 
-RSYNC_DESTINATION='root@basemap.pozi.com:/var/lib/tomcat6/webapps/vic_styles/sld/'
+. config.sh
 
-rsync --recursive --delete --chmod=ugo=r sld/ "$RSYNC_DESTINATION"
-
+rsync --recursive --delete --chmod=ugo=r sld/ "$GT_PUBLIC_STYLES_RSYNC_DEST"
 echo "Synchronized to server"
+
