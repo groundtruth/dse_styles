@@ -51,7 +51,6 @@
             <sld:PolygonSymbolizer>
                 <sld:Fill>
                     <sld:CssParameter name="fill">#B23232</sld:CssParameter>
-                    <sld:CssParameter name="fill-opacity">0.30000001192092896</sld:CssParameter>
                 </sld:Fill>
             </sld:PolygonSymbolizer>
         </sld:Rule>

@@ -11,69 +11,69 @@
 }
 
 /*Freeway*/
-[@scale<136480][CLASS_CODE='0']{
+[@scale<136480][CLASS_CODE='0'][EZI_ROAD_NAME_LABEL<>'Unnamed']{
     label:[EZI_ROAD_NAME_LABEL];
     font-size: 19;
     font-fill:#165417;
 }
 
 /* Freeway-label scale dependant*/
-[@scale>136480][@scale<500000][CLASS_CODE='0']{
+[@scale>136480][@scale<500000][CLASS_CODE='0'][EZI_ROAD_NAME_LABEL<>'Unnamed']{
     label:[EZI_ROAD_NAME_LABEL];
     font-size: 16;
     font-fill:#165417;
 }
 
 /*Highway*/
-[@scale<136480][CLASS_CODE='1']{
+[@scale<136480][CLASS_CODE='1'][EZI_ROAD_NAME_LABEL<>'Unnamed']{
     label:[EZI_ROAD_NAME_LABEL];
     font-size: 18;
     font-fill:#E42217;
 }
 
 /* Highway - label scale dependant */
-[@scale>136480][@scale<500000][CLASS_CODE='1']{
+[@scale>136480][@scale<500000][CLASS_CODE='1'][EZI_ROAD_NAME_LABEL<>'Unnamed']{
     label:[EZI_ROAD_NAME_LABEL];
     font-size: 15;
     font-fill:#E42217;
 }
 
 /*Arterial*/
-[@scale<250000][CLASS_CODE='2']{
+[@scale<250000][CLASS_CODE='2'][EZI_ROAD_NAME_LABEL<>'Unnamed']{
     label:[EZI_ROAD_NAME_LABEL];
     font-size: 17;
     font-fill:#E42217;
 }
 
 /*Sub-Arterial*/
-[@scale<125000][CLASS_CODE='3']{
+[@scale<125000][CLASS_CODE='3'][EZI_ROAD_NAME_LABEL<>'Unnamed']{
     label:[EZI_ROAD_NAME_LABEL];
     font-size: 16;
     font-fill:#E42217;
 }
 
 /*Collector*/
-[@scale<50000][CLASS_CODE='4']{
+[@scale<50000][CLASS_CODE='4'][EZI_ROAD_NAME_LABEL<>'Unnamed']{
     label:[EZI_ROAD_NAME_LABEL];
     font-size: 15;
     font-fill:#505050;
 }
 /*Local*/
-[@scale<50000][CLASS_CODE='5']{
+[@scale<50000][CLASS_CODE='5'][EZI_ROAD_NAME_LABEL<>'Unnamed']{
     label:[EZI_ROAD_NAME_LABEL];
     font-size: 14;
     font-fill:#505050;
 }
 
 /*2WD*/
-[@scale<25000][CLASS_CODE='6']{
+[@scale<25000][CLASS_CODE='6'][EZI_ROAD_NAME_LABEL<>'Unnamed']{
     label:[EZI_ROAD_NAME_LABEL];
     font-size: 12;
     font-fill:#E42217;
 }
 
 /*4WD*/
-[@scale<12000][CLASS_CODE='7']{
+[@scale<12000][CLASS_CODE='7'][EZI_ROAD_NAME_LABEL<>'Unnamed']{
     label:[EZI_ROAD_NAME_LABEL];
     font-size: 12;
     font-fill:#E42217;

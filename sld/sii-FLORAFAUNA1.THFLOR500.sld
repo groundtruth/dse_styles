@@ -28,15 +28,6 @@
             </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-            <sld:MinScaleDenominator>545978.0</sld:MinScaleDenominator>
-            <sld:PolygonSymbolizer>
-                <sld:Fill>
-                    <sld:CssParameter name="fill">#008800</sld:CssParameter>
-                    <sld:CssParameter name="fill-opacity">0.30000001192092896</sld:CssParameter>
-                </sld:Fill>
-            </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
             <sld:MinScaleDenominator>136494.0</sld:MinScaleDenominator>
             <sld:MaxScaleDenominator>545978.0</sld:MaxScaleDenominator>
             <sld:PolygonSymbolizer>
@@ -71,6 +62,14 @@
                             <sld:Size>14</sld:Size>
                         </sld:Graphic>
                     </sld:GraphicFill>
+                </sld:Fill>
+            </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <sld:MinScaleDenominator>545978.0</sld:MinScaleDenominator>
+            <sld:PolygonSymbolizer>
+                <sld:Fill>
+                    <sld:CssParameter name="fill">#008800</sld:CssParameter>
                 </sld:Fill>
             </sld:PolygonSymbolizer>
         </sld:Rule>
