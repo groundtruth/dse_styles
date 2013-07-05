@@ -13,39 +13,38 @@ for example, from [here](http://gridlock.opengeo.org/geoserver/master/community-
 
 Next, get the code:
 
-    git clone git@github.com:groundtruth/vic_styles.git && cd vic_styles
+    git clone git@github.com:groundtruth/gt_public_styles.git && cd gt_public_styles
 
-### With automatic file watching
+## CSS regeneration workflow
 
-Install the Ruby gems:
+Copy the `config.sh.eg` file to `config.sh` and adjust it for your GeoServer installation
+and `rsync` destination.
 
-    bundle install
-
-   
-Make sure the `Guardfile` has the correct settings for `GEOSERVER_LIB` and `RSYNC_DESTINATION`.
-Then run guard to automatically regenerate the SLD files and synchronise them to the server
-in the background:
-
-    bundle exec guard
-
-After that you can edit the CSS files under `css/` and see the results almost immediately.
-
-### Manually
-
-A similar workflow can be used manually. Adjust the variables in `bin/process.sh`
-and run that from the project root:
+To process the CSS files and synchronise the resulting SLD files to a server using `rsync`,
+run:
 
     ./bin/process.sh
- 
-### Issues
 
-We discovered issues that were fixed, but not necessarily in the public release builds yet:
+On UNIX this can be triggered automatically when files under `./css/` change as follows:
+
+    bundle install
+    ./bin/watch.sh
+
+To just synchronise the SLD files to the sever (useful when manually tweaking the SLDs
+for troubleshooting), run:
+
+    ./bin/sync.sh
+
+## CSS limitations
+
+These are issues we discovered in the CSS module. They were fixed, but have not necessarily
+been included in the public release builds yet:
 
 * [Long comments causing stack overflow](https://github.com/dwins/geoscript.scala/issues/27)
 * [CSS with solid font-fill generating SLD with empty GraphicFill](https://github.com/dwins/geoscript.scala/issues/25)
 
 Other limitations of CSS we faced included:
 
-* `-drop-shadow` (can't create an offset of a polygon)
-* `-label-anchor`
+* No `-drop-shadow` (can't create an offset of a polygon)
+* No `-label-anchor`
 
