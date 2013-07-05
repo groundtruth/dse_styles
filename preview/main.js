@@ -1,3 +1,4 @@
+
 var sldPrefix = "http://basemap.pozi.com/vic_styles/sld/";
 
 var servers = {
@@ -12,7 +13,7 @@ var servers = {
 };
 
 var layers = {
-  poziBase: { server: servers.gt, options: { layers: "VICMAP_CLASSIC:VicmapClassic" } }
+  poziBase: { server: servers.gt, options: { layers: "VICMAP_CLASSIC:VicmapClassic", tiled: true } }
 };
 
 var centers = {
@@ -274,7 +275,8 @@ _(examples).each(function(eg, egIndex) {
     map.attributionControl.addAttribution(view.attribution);
 
     _(layers).each(function(config) {
-      var layer = new L.TileLayer.WMS(config.server.url, $.extend({},
+      var layerClass = config.options.tiled ? L.TileLayer.WMS : L.SingleTileWMSLayer;
+      var layer = new layerClass(config.server.url, $.extend({},
         defaultLayerOptions,
         config.server.options,
         config.options
