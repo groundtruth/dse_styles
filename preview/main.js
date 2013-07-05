@@ -19,13 +19,20 @@ var centers = {
   gtHQ: [-37.815933, 144.965785],
   woods: [-37.69563, 145.20707],
   bay: [-37.8519, 144.92875],
-  clc: [-37.8269, 144.93085]
+  clc: [-37.8269, 144.93085],
+  pIsl: [-38.518812, 145.330405],
+  haGa :[-37.14241, 142.52089]
 }
+
+// gtHQ: Groundtruth Headquaters
+// clc: Citylink Circle, south-west of CBD
+// pIsl: Phillip Island
+// haGa: Halls Gap 
 
 var examples = [
   {
     title: "Bushfire prone areas in two different styles",
-    description: "A sentence or so describing this example. An additional sentence or so describing this example.",
+    description: "To mark big areas you can either use a transpar style (value:0.3, left) or different marks as slash-lines (right).",
     views: [ { center: centers.gtHQ, zoom: 9, span: 6 }, { center: centers.gtHQ, zoom: 10, span: 6 } ],
     layers: [
       [layers.poziBase, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA.sld" } } ],
@@ -40,9 +47,9 @@ var examples = [
       { center: centers.woods, zoom: 17, span: 4 }
     ],
     layers: [
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA_GEN", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA_GEN.sld" } } ],
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA_GEN", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA_GEN.sld" } } ],
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA_GEN", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA_GEN.sld" } } ]
+      [layers.poziBase, layers.bushfireProneAreaGen = { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA_GEN", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA_GEN.sld" } } ],
+      [layers.poziBase, layers.bushfireProneAreaGen ],
+      [layers.poziBase, layers.bushfireProneAreaGen ]
     ]
   },
   {
@@ -149,7 +156,11 @@ var examples = [
       [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMADMIN.LOCALITY_POLYGON", sld: sldPrefix + "sii-VMADMIN.LOCALITY_POLYGON.sld" } } ]
     ]
   },
-  {
+    {
+    views: [ { center: centers.gtHQ, zoom: 7, span: 12, attribution: "Catchment Management Authority Boundaries" } ],
+    layers: [ [layers.poziBase, { server: servers.depi, options: { layers: "sii:CATCHMENTS.CMA100", sld: sldPrefix + "sii-CATCHMENTS.CMA100.sld" } } ] ]
+  }
+  ,{
     views: [
       { center: centers.bay, zoom: 10, span: 4, attribution: "LGA" },
       { center: centers.bay, zoom: 10, span: 4, attribution: "Parish" },
@@ -159,6 +170,62 @@ var examples = [
       [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMADMIN.LGA_POLYGON", sld: sldPrefix + "sii-VMADMIN.LGA_POLYGON.sld" } } ],
       [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMADMIN.PARISH_POLYGON", sld: sldPrefix + "sii-VMADMIN.PARISH_POLYGON.sld" } } ],
       [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMADMIN.STATE_ASSEMBLY_2001", sld: sldPrefix + "sii-VMADMIN.STATE_ASSEMBLY_2001.sld" } } ]
+    ]
+  },
+  {
+    description: " It is also easy to recreat default sld styles in a shorter and more compact way using css.",
+    views: [ { center: centers.gtHQ, zoom: 8, span: 6, attribution: "Default" }, { center: centers.gtHQ, zoom: 8, span: 6 } ],
+    layers: [
+      [layers.poziBase, { server: servers.depi, options: { layers: "sii:FLORAFAUNA1.VBIOREG100" } } ],
+      [layers.poziBase, { server: servers.depi, options: { layers: "sii:FLORAFAUNA1.VBIOREG100", sld: sldPrefix + "sii-FLORAFAUNA1.VBIOREG100.sld" } } ]
+    ]
+  },
+  {
+    title: "Vegetation Layers",
+    views: [ { center: centers.gtHQ, zoom: 12, span: 6, attribution: "Default" }, { center: centers.gtHQ, zoom: 12, span: 6, attribution: "Tree density" } ],
+    layers: [
+      [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMVEG.TREE_DENSITY" } } ],
+      [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMVEG.TREE_DENSITY", sld: sldPrefix + "sii-VMVEG.TREE_DENSITY.sld" } } ]
+    ]
+  },
+  {
+    description: "Style is changing in different zoom levels, here showing wetlands. When showing big areas, the polygon is filled by colour, when zooming in, the area is filled by strokes with the distance between the strokes chaning to bigger distances when zooming in and at the closest, border strokes appear.",
+    views: [
+      { center: centers.pIsl, zoom: 8, span: 4, attribution: "Zoom 8" },
+      { center: centers.pIsl, zoom: 10, span: 4, attribution: "Zoom 10" },
+      { center: centers.pIsl, zoom: 18, span: 4, attribution: "Zoom 18" }
+    ],
+    layers: [
+      [layers.poziBase, { server: servers.depi, options: { layers: "sii:FLORAFAUNA1.WETLANDDIR", sld: sldPrefix + "sii-FLORAFAUNA1.WETLANDDIR.sld" } } ],
+      [layers.poziBase, { server: servers.depi, options: { layers: "sii:FLORAFAUNA1.WETLANDDIR", sld: sldPrefix + "sii-FLORAFAUNA1.WETLANDDIR.sld" } } ],
+      [layers.poziBase, { server: servers.depi, options: { layers: "sii:FLORAFAUNA1.WETLANDDIR", sld: sldPrefix + "sii-FLORAFAUNA1.WETLANDDIR.sld" } } ]
+    ]
+  },
+  {
+    title: "Topographical Layers",
+    views: [ { center: centers.gtHQ, zoom: 11, span: 8, attribution: "zoom 11 shows only points"}, { center: centers.clc, zoom: 14, span: 4, attribution: "zoom 14 shows points with description"}  ],
+    layers: [ 
+      [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMELEV.EL_GRND_SURFACE_POINT", sld: sldPrefix + "sii-VMELEV.EL_GRND_SURFACE_POINT.sld" } } ],
+      [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMELEV.EL_GRND_SURFACE_POINT", sld: sldPrefix + "sii-VMELEV.EL_GRND_SURFACE_POINT.sld" } } ]
+     ]
+  },
+  {
+    views: [ { center: centers.gtHQ, zoom: 9, span: 6, attribution: "this shows the area around Melbourne"}, { center: centers.gtHQ, zoom: 8, span: 6, attribution: "this layer shows Victoria"}  ],
+    layers: [ 
+      [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMELEV.EL_CONTOUR_1TO5M", sld: sldPrefix + "sii-VMELEV.EL_CONTOUR_1TO5M.sld" } } ],
+      layers.contour = [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMELEV.EL_CONTOUR", sld: sldPrefix + "sii-VMELEV.EL_CONTOUR.sld" } } ]
+     ]
+  },
+  {
+    views: [
+      { center: centers.haGa, zoom: 11, span: 4, attribution: "Zoom 11" },
+      { center: centers.haGa, zoom: 13, span: 4, attribution: "Zoom 13" },
+      { center: centers.haGa, zoom: 15, span: 4, attribution: "Zoom 15" }
+    ],
+    layers: [
+      layers.contour,
+      layers.contour,
+      layers.contour
     ]
   }
 ];
