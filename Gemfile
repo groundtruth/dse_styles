@@ -1,10 +1,6 @@
-require 'rbconfig'
-
-source "http://rubygems.org"
+source "https://rubygems.org"
 
 group :development do
-  gem "guard"
-  # gem "wdm", ">= 0.1.0" if RbConfig::CONFIG['target_os'] =~ /mswin|mingw/i
-  gem "guard-shell"
+  gem "kicker", git: "git@github.com:alloy/kicker.git", branch: "3.0.0"
 end
 
