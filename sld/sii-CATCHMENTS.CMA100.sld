@@ -13,12 +13,43 @@
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>CMA_NO</ogc:PropertyName>
-                    <ogc:Literal>1</ogc:Literal>
+                    <ogc:Literal>2</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
             <sld:PolygonSymbolizer>
                 <sld:Fill>
-                    <sld:CssParameter name="fill">#0000ff</sld:CssParameter>
+                    <sld:CssParameter name="fill">#008000</sld:CssParameter>
+                    <sld:CssParameter name="fill-opacity">0.5</sld:CssParameter>
+                </sld:Fill>
+            </sld:PolygonSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>CMANAME</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
+                    <sld:CssParameter name="font-size">10</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">bold</sld:CssParameter>
+                </sld:Font>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#000000</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="autoWrap">100</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">150</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>CMA_NO</ogc:PropertyName>
+                    <ogc:Literal>8</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:PolygonSymbolizer>
+                <sld:Fill>
+                    <sld:CssParameter name="fill">#808000</sld:CssParameter>
                     <sld:CssParameter name="fill-opacity">0.5</sld:CssParameter>
                 </sld:Fill>
             </sld:PolygonSymbolizer>
@@ -143,12 +174,12 @@
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>CMA_NO</ogc:PropertyName>
-                    <ogc:Literal>10</ogc:Literal>
+                    <ogc:Literal>6</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
             <sld:PolygonSymbolizer>
                 <sld:Fill>
-                    <sld:CssParameter name="fill">#a52a2a</sld:CssParameter>
+                    <sld:CssParameter name="fill">#00ffff</sld:CssParameter>
                     <sld:CssParameter name="fill-opacity">0.5</sld:CssParameter>
                 </sld:Fill>
             </sld:PolygonSymbolizer>
@@ -174,12 +205,12 @@
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>CMA_NO</ogc:PropertyName>
-                    <ogc:Literal>7</ogc:Literal>
+                    <ogc:Literal>9</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
             <sld:PolygonSymbolizer>
                 <sld:Fill>
-                    <sld:CssParameter name="fill">#c0c0c0</sld:CssParameter>
+                    <sld:CssParameter name="fill">#ff00ff</sld:CssParameter>
                     <sld:CssParameter name="fill-opacity">0.5</sld:CssParameter>
                 </sld:Fill>
             </sld:PolygonSymbolizer>
@@ -267,6 +298,68 @@
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>CMA_NO</ogc:PropertyName>
+                    <ogc:Literal>7</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:PolygonSymbolizer>
+                <sld:Fill>
+                    <sld:CssParameter name="fill">#c0c0c0</sld:CssParameter>
+                    <sld:CssParameter name="fill-opacity">0.5</sld:CssParameter>
+                </sld:Fill>
+            </sld:PolygonSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>CMANAME</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
+                    <sld:CssParameter name="font-size">10</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">bold</sld:CssParameter>
+                </sld:Font>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#000000</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="autoWrap">100</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">150</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>CMA_NO</ogc:PropertyName>
+                    <ogc:Literal>1</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:PolygonSymbolizer>
+                <sld:Fill>
+                    <sld:CssParameter name="fill">#0000ff</sld:CssParameter>
+                    <sld:CssParameter name="fill-opacity">0.5</sld:CssParameter>
+                </sld:Fill>
+            </sld:PolygonSymbolizer>
+            <sld:TextSymbolizer>
+                <sld:Label>
+                    <ogc:PropertyName>CMANAME</ogc:PropertyName>
+                </sld:Label>
+                <sld:Font>
+                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
+                    <sld:CssParameter name="font-size">10</sld:CssParameter>
+                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
+                    <sld:CssParameter name="font-weight">bold</sld:CssParameter>
+                </sld:Font>
+                <sld:Fill>
+                    
+                    <sld:CssParameter name="fill">#000000</sld:CssParameter>
+                </sld:Fill>
+                <sld:VendorOption name="autoWrap">100</sld:VendorOption>
+                <sld:VendorOption name="maxDisplacement">150</sld:VendorOption>
+            </sld:TextSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>CMA_NO</ogc:PropertyName>
                     <ogc:Literal>4</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
@@ -298,105 +391,12 @@
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>CMA_NO</ogc:PropertyName>
-                    <ogc:Literal>2</ogc:Literal>
+                    <ogc:Literal>10</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
             <sld:PolygonSymbolizer>
                 <sld:Fill>
-                    <sld:CssParameter name="fill">#008000</sld:CssParameter>
-                    <sld:CssParameter name="fill-opacity">0.5</sld:CssParameter>
-                </sld:Fill>
-            </sld:PolygonSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>CMANAME</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
-                    <sld:CssParameter name="font-size">10</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">bold</sld:CssParameter>
-                </sld:Font>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#000000</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="autoWrap">100</sld:VendorOption>
-                <sld:VendorOption name="maxDisplacement">150</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>CMA_NO</ogc:PropertyName>
-                    <ogc:Literal>8</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:PolygonSymbolizer>
-                <sld:Fill>
-                    <sld:CssParameter name="fill">#808000</sld:CssParameter>
-                    <sld:CssParameter name="fill-opacity">0.5</sld:CssParameter>
-                </sld:Fill>
-            </sld:PolygonSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>CMANAME</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
-                    <sld:CssParameter name="font-size">10</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">bold</sld:CssParameter>
-                </sld:Font>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#000000</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="autoWrap">100</sld:VendorOption>
-                <sld:VendorOption name="maxDisplacement">150</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>CMA_NO</ogc:PropertyName>
-                    <ogc:Literal>6</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:PolygonSymbolizer>
-                <sld:Fill>
-                    <sld:CssParameter name="fill">#00ffff</sld:CssParameter>
-                    <sld:CssParameter name="fill-opacity">0.5</sld:CssParameter>
-                </sld:Fill>
-            </sld:PolygonSymbolizer>
-            <sld:TextSymbolizer>
-                <sld:Label>
-                    <ogc:PropertyName>CMANAME</ogc:PropertyName>
-                </sld:Label>
-                <sld:Font>
-                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
-                    <sld:CssParameter name="font-size">10</sld:CssParameter>
-                    <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                    <sld:CssParameter name="font-weight">bold</sld:CssParameter>
-                </sld:Font>
-                <sld:Fill>
-                    
-                    <sld:CssParameter name="fill">#000000</sld:CssParameter>
-                </sld:Fill>
-                <sld:VendorOption name="autoWrap">100</sld:VendorOption>
-                <sld:VendorOption name="maxDisplacement">150</sld:VendorOption>
-            </sld:TextSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>CMA_NO</ogc:PropertyName>
-                    <ogc:Literal>9</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:PolygonSymbolizer>
-                <sld:Fill>
-                    <sld:CssParameter name="fill">#ff00ff</sld:CssParameter>
+                    <sld:CssParameter name="fill">#a52a2a</sld:CssParameter>
                     <sld:CssParameter name="fill-opacity">0.5</sld:CssParameter>
                 </sld:Fill>
             </sld:PolygonSymbolizer>
