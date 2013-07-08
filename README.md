@@ -1,6 +1,7 @@
 # Groundtruth Public Styles
 
-Stylesheets for Victorian state-level geospatial data layers used at Groundtruth.
+Stylesheets for [Victorian geospatial data](http://www.data.vic.gov.au/category/Spatial+Data)
+layers used at Groundtruth.
 
 These are written in [GeoServer CSS](http://docs.geoserver.org/latest/en/user/community/css/index.html)
 but this repository tracks the styles in both CSS and the SLD generated from them.
