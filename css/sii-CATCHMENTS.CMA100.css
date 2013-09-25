@@ -15,52 +15,52 @@
 /* Setting titles for correct legend display */
 /* http://docs.geoserver.org/latest/en/user/extensions/css/tutorial.html#setting-titles-for-the-legend */
 
-/* @title Mallee */
-[CMA_NO='1']{
-    fill:blue;
-}
-
-/* @title Wimmera */
-[CMA_NO='2']{
-    fill:green;
-}
-
-/* @title Glenelg Hopkins */
-[CMA_NO='3']{
-    fill:yellow;
-}
-
-/* @title North Central */
-[CMA_NO='4']{
-    fill:purple;
-}
-
-/* @title Corangamite */
+/* @title Corangamite*/
 [CMA_NO='5']{
     fill:orange;
 }
 
-/* @title Goulburn Broken */
+/* @title East Gippsland*/
+[CMA_NO='10']{
+    fill:brown;
+}
+
+/* @title Glenelg Hopkins*/
+[CMA_NO='3']{
+    fill:yellow;
+}
+
+/* @title Goulburn Broken*/
 [CMA_NO='6']{
     fill:cyan;
 }
 
-/* @title Port Phillip and Westernport */
-[CMA_NO='7']{
-    fill:silver;
+/* @title Mallee*/
+[CMA_NO='1']{
+    fill:blue;
 }
 
-/* @title North East */
+/* @title North Central*/
+[CMA_NO='4']{
+    fill:purple;
+}
+
+/* @title North East*/
 [CMA_NO='8']{
     fill:olive;
 }
 
-/* @title West Gippsland */
+/* @title Port Phillip and Westernport*/
+[CMA_NO='7']{
+    fill:silver;
+}
+
+/* @title West Gippsland*/
 [CMA_NO='9']{
     fill:magenta;
 }
 
-/* @title East Gippsland */
-[CMA_NO='10']{
-    fill:brown;
+/* @title Wimmera*/
+[CMA_NO='2']{
+    fill:green;
 }
