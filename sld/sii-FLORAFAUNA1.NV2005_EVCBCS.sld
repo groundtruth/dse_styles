@@ -66,6 +66,20 @@
             </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
+            <sld:Title>E1-Endangered</sld:Title>
+            <ogc:Filter>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>EVC_BCS</ogc:PropertyName>
+                    <ogc:Literal>E</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+            <sld:PolygonSymbolizer>
+                <sld:Fill>
+                    <sld:CssParameter name="fill">#F46D43</sld:CssParameter>
+                </sld:Fill>
+            </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
             <sld:Title>X-Presumed Extinct</sld:Title>
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
@@ -80,25 +94,11 @@
             </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-            <sld:Title>E1-Endangered</sld:Title>
-            <ogc:Filter>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>EVC_BCS</ogc:PropertyName>
-                    <ogc:Literal>E1</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-            <sld:PolygonSymbolizer>
-                <sld:Fill>
-                    <sld:CssParameter name="fill">#F46D43</sld:CssParameter>
-                </sld:Fill>
-            </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
             <sld:Title>V1-Vulnerable</sld:Title>
             <ogc:Filter>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>EVC_BCS</ogc:PropertyName>
-                    <ogc:Literal>V1</ogc:Literal>
+                    <ogc:Literal>V</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Filter>
             <sld:PolygonSymbolizer>
