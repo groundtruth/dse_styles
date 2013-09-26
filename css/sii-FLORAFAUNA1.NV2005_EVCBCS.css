@@ -4,13 +4,13 @@
 [EVC_BCS='X']{fill:#D73027;}
 
 /* @title E1-Endangered*/
-[EVC_BCS='E1']{fill:#F46D43;}
+[EVC_BCS='E']{fill:#F46D43;}
 
 /* @title E2-Endangered*/
 [EVC_BCS='E2']{fill:#FDAE61;}
 
 /* @title V1-Vulnerable*/
-[EVC_BCS='V1']{fill:#FEE08B;}
+[EVC_BCS='V']{fill:#FEE08B;}
 
 /* @title V2-Vulnerable*/
 [EVC_BCS='V2']{fill:#FFFFBF;}
