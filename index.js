@@ -1,5 +1,6 @@
 
-var sldPrefix = "http://basemap.pozi.com/vic_styles/sld/";
+var sldPrefix = "https://raw.github.com/groundtruth/gt_public_styles/master/sld/";
+
 
 var servers = {
   gt: {

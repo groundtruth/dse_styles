@@ -1,5 +1,5 @@
 #!/bin/bash
 
 GEOSERVER_LIB_DIR='/opt/opengeo/suite/webapps/geoserver/WEB-INF/lib/'
-GT_PUBLIC_STYLES_RSYNC_DEST='root@basemap.pozi.com:/var/lib/tomcat6/webapps/vic_styles/sld/'
+GT_PUBLIC_STYLES_RSYNC_DEST='root@basemap.pozi.com:/var/lib/tomcat6/webapps/gt_public_styles_tmp/sld/'
 
