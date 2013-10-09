@@ -6,6 +6,8 @@ layers used at Groundtruth.
 These are written in [GeoServer CSS](http://docs.geoserver.org/latest/en/user/community/css/index.html)
 but this repository tracks the styles in both CSS and the SLD generated from them.
 
+The GitHub page for this repository provides a [showcase of selected styles](http://groundtruth.github.io/gt_public_styles).
+
 ## Getting started
 
 Before getting started you'll need to
