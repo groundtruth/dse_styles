@@ -1984,7 +1984,7 @@
                     </sld:LabelPlacement>
                     <sld:Halo>
                         <sld:Radius>
-                            <ogc:Literal>3</ogc:Literal>
+                            <ogc:Literal>1.5</ogc:Literal>
                         </sld:Radius>
                         <sld:Fill>
                             <sld:CssParameter name="fill">#000000</sld:CssParameter>
