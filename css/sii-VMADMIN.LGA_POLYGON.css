@@ -2,7 +2,7 @@
     stroke:#CA226B;
 }
 
-[@scale <100000]{
+[@scale > 8000]{
     label: [LGA_NAME];
     font-family: "Tahoma";
     font-style: normal;
