@@ -2,7 +2,7 @@
     stroke:#CA226B;
 }
 
-[@scale > 8000]{
+[@scale >8000]{
     label: [LGA_NAME];
     font-family: "Tahoma";
     font-style: normal;
@@ -15,7 +15,7 @@
     -gt-label-max-displacement: 150;
 }
 
-[@scale >800000]{
+[@scale >750001]{
     stroke-width:1.2;
 }
 
@@ -30,3 +30,4 @@
 [@scale <108000]{
     stroke-width:6.1;
 }
+
