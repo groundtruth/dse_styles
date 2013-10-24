@@ -2,7 +2,7 @@
     stroke:#CA226B;
 }
 
-[@scale <217000]{
+[@scale <100000]{
     label: [LGA_NAME];
     font-family: "Tahoma";
     font-style: normal;
@@ -14,22 +14,6 @@
     -gt-label-auto-wrap:60;
     -gt-label-max-displacement: 150;
 }
-
-[@scale < 800000] [@scale >217001]{
-    label: [LGA_NAME];
-    font-family: "Tahoma";
-    font-style: normal;
-    font-fill: #CA226B;
-    font-size: 10;
-    halo-radius: 1;
-    halo-color: #E7E7E8;
-    -gt-label-auto-wrap:20;
-    -gt-label-max-displacement: 150;
-    -gt-label-group: true;
-    -gt-label-padding:10;
-    -gt-label-max-displacement:10;
-}
-
 
 [@scale >800000]{
     stroke-width:1.2;
