@@ -1,5 +1,6 @@
 * {
     stroke:#CA226B;
+    stroke-width:2.2;
 }
 
 [@scale >8000]{
@@ -13,21 +14,5 @@
     halo-color: #E7E7E8;
     -gt-label-auto-wrap:60;
     -gt-label-max-displacement: 150;
-}
-
-[@scale >750001]{
-    stroke-width:1.2;
-}
-
-[@scale <750000][@scale >433001]{
-    stroke-width: 2.2;
-}
-
-[@scale <433000][@scale >108001]{
-    stroke-width: 3.8;
-}
-
-[@scale <108000]{
-    stroke-width:6.1;
 }
 
