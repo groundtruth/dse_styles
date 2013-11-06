@@ -2,7 +2,7 @@
 <!-- Styled by Lotta for Groundtruth (http://www.groundtruth.com.au) -->
 <StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:sld="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:gml="http://www.opengis.net/gml">
     <NamedLayer>
-        <Name>sii:DPS_1202_TRAIN_CORR_CENTL</Name>
+        <Name>sii:DPS_1202_TRAIN_CORR_CENTL_SDO</Name>
         
 <sld:UserStyle>
     <sld:Name>Default Styler</sld:Name>
