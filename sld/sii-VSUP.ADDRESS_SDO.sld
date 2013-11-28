@@ -19,6 +19,14 @@
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
                 </sld:Font>
+                <sld:LabelPlacement>
+                    <sld:PointPlacement>
+                        <sld:AnchorPoint>
+                            <sld:AnchorPointX>0.5</sld:AnchorPointX>
+                            <sld:AnchorPointY>0.5</sld:AnchorPointY>
+                        </sld:AnchorPoint>
+                    </sld:PointPlacement>
+                </sld:LabelPlacement>
                 <sld:Halo>
                     <sld:Radius>0</sld:Radius>
                     <sld:Fill>
