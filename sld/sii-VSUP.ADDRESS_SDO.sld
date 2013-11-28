@@ -11,7 +11,7 @@
             <sld:MaxScaleDenominator>4200.0</sld:MaxScaleDenominator>
             <sld:TextSymbolizer>
                 <sld:Label>
-                    <ogc:PropertyName>num_address</ogc:PropertyName>
+                    <ogc:PropertyName>numadd</ogc:PropertyName>
                 </sld:Label>
                 <sld:Font>
                     <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
