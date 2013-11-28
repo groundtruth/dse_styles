@@ -171,15 +171,20 @@
                 if (lts.value)
                 {
 
+                    var params = {
+                        layers: lts.value,
+                        format:"image/png8",
+                        transparent: true,
+                        srs: document.getElementById("srs").value
+                    };
+
+                    if (document.getElementById("sld_location").value !== '') {
+                        params['sld'] = sld_base_dir + document.getElementById("sld_location").value;
+                    }
+
                     layertostyle = new OpenLayers.Layer.WMS( "Layer to style",
                         document.getElementById("wms_endpoint").value,
-                        {
-                            layers: lts.value,
-                            format:"image/png8",
-                            transparent: true,
-                            srs: document.getElementById("srs").value,
-                            sld: sld_base_dir + document.getElementById("sld_location").value
-                        },
+                        params,
                         {
                             isBaseLayer: false,
                             singleTile: true
