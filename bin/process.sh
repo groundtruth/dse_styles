@@ -20,7 +20,7 @@ done
 echo
 
 if [[ ${unprocessed_css[@]} =~ ^\s*$ ]]; then
-  echo "Nothing to do."  
+  echo "Nothing to do."
 else
   echo "Processing: ${unprocessed_css[@]}"
 
