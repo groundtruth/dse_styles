@@ -225,6 +225,90 @@
             </sld:Rule>
             <sld:Rule>
                 <sld:Name>rule01</sld:Name>
+                <sld:Title>C1Z</sld:Title>
+                <sld:Abstract>Abstract</sld:Abstract>
+                <ogc:Filter>
+                    <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>ZONE_CODE</ogc:PropertyName>
+                        <ogc:Literal>B1Z</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                </ogc:Filter>
+                <sld:MaxScaleDenominator>1.7976931348623157E308</sld:MaxScaleDenominator>
+                <sld:PolygonSymbolizer>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">
+                            <ogc:Literal>#F0CFFA</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="fill-opacity">
+                            <ogc:Literal>0.5</ogc:Literal>
+                        </sld:CssParameter>
+                    </sld:Fill>
+                    <sld:Stroke>
+                        <sld:CssParameter name="stroke">
+                            <ogc:Literal>#F0CFFA</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-linecap">
+                            <ogc:Literal>butt</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-linejoin">
+                            <ogc:Literal>miter</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-opacity">
+                            <ogc:Literal>0.5</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-width">
+                            <ogc:Literal>1.0</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-dashoffset">
+                            <ogc:Literal>0.0</ogc:Literal>
+                        </sld:CssParameter>
+                    </sld:Stroke>
+                </sld:PolygonSymbolizer>
+            </sld:Rule>
+            <sld:Rule>
+                <sld:Name>rule01</sld:Name>
+                <sld:Title>C2Z</sld:Title>
+                <sld:Abstract>Abstract</sld:Abstract>
+                <ogc:Filter>
+                    <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>ZONE_CODE</ogc:PropertyName>
+                        <ogc:Literal>B3Z</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                </ogc:Filter>
+                <sld:MaxScaleDenominator>1.7976931348623157E308</sld:MaxScaleDenominator>
+                <sld:PolygonSymbolizer>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">
+                            <ogc:Literal>#C28CB2</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="fill-opacity">
+                            <ogc:Literal>0.5</ogc:Literal>
+                        </sld:CssParameter>
+                    </sld:Fill>
+                    <sld:Stroke>
+                        <sld:CssParameter name="stroke">
+                            <ogc:Literal>#C28CB2</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-linecap">
+                            <ogc:Literal>butt</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-linejoin">
+                            <ogc:Literal>miter</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-opacity">
+                            <ogc:Literal>0.5</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-width">
+                            <ogc:Literal>1.0</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-dashoffset">
+                            <ogc:Literal>0.0</ogc:Literal>
+                        </sld:CssParameter>
+                    </sld:Stroke>
+                </sld:PolygonSymbolizer>
+            </sld:Rule>
+            <sld:Rule>
+                <sld:Name>rule01</sld:Name>
                 <sld:Title>R1Z</sld:Title>
                 <sld:Abstract>Abstract</sld:Abstract>
                 <ogc:Filter>
