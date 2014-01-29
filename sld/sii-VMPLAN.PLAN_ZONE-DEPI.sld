@@ -230,7 +230,7 @@
                 <ogc:Filter>
                     <ogc:PropertyIsEqualTo>
                         <ogc:PropertyName>ZONE_CODE</ogc:PropertyName>
-                        <ogc:Literal>B1Z</ogc:Literal>
+                        <ogc:Literal>C1Z</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
                 </ogc:Filter>
                 <sld:MaxScaleDenominator>1.7976931348623157E308</sld:MaxScaleDenominator>
@@ -272,7 +272,7 @@
                 <ogc:Filter>
                     <ogc:PropertyIsEqualTo>
                         <ogc:PropertyName>ZONE_CODE</ogc:PropertyName>
-                        <ogc:Literal>B3Z</ogc:Literal>
+                        <ogc:Literal>C2Z</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
                 </ogc:Filter>
                 <sld:MaxScaleDenominator>1.7976931348623157E308</sld:MaxScaleDenominator>
