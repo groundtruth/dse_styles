@@ -2,7 +2,7 @@
 <!-- Styled by Lotta for Groundtruth (http://www.groundtruth.com.au) -->
 <StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:sld="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:gml="http://www.opengis.net/gml">
     <NamedLayer>
-        <Name>sii:DPS_932_RAIL_STATIONS_VMT_SDO</Name>
+        <Name>sii:RAEDATA.DPS_932_RAIL_STATIONS_VMT</Name>
         
 <sld:UserStyle>
     <sld:Name>Default Styler</sld:Name>
@@ -22,7 +22,7 @@
                 <sld:Fill/>
                 <sld:Graphic>
                     <sld:ExternalGraphic>
-                        <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://raw.github.com/groundtruth/gt_public_styles/master/images/metro_2.png"/>
+                        <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://general.pozi.com/gt_public_styles/images/metro_2.png"/>
                         <sld:Format>image/png</sld:Format>
                     </sld:ExternalGraphic>
                     <sld:Size>15</sld:Size>
@@ -35,7 +35,7 @@
             <sld:PointSymbolizer>
                 <sld:Graphic>
                     <sld:ExternalGraphic>
-                        <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://raw.github.com/groundtruth/gt_public_styles/master/images/metro_2.png"/>
+                        <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://general.pozi.com/gt_public_styles/images/metro_2.png"/>
                         <sld:Format>image/jpeg</sld:Format>
                     </sld:ExternalGraphic>
                     <sld:Size>15</sld:Size>
@@ -79,7 +79,7 @@
                 <sld:Fill/>
                 <sld:Graphic>
                     <sld:ExternalGraphic>
-                        <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://raw.github.com/groundtruth/gt_public_styles/master/images/metro_2.png"/>
+                        <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://general.pozi.com/gt_public_styles/images/metro_2.png"/>
                         <sld:Format>image/png</sld:Format>
                     </sld:ExternalGraphic>
                     <sld:Size>15</sld:Size>
