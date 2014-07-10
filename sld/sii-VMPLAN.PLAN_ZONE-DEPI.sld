@@ -2038,6 +2038,132 @@
                 </sld:PolygonSymbolizer>
             </sld:Rule>
             <sld:Rule>
+                <sld:Name>rule01</sld:Name>
+                <sld:Title>GRZ</sld:Title>
+                <sld:Abstract>Abstract</sld:Abstract>
+                <ogc:Filter>
+                    <ogc:PropertyIsLike escape="\" singleChar="_" wildCard="%">
+                        <ogc:PropertyName>ZONE_CODE</ogc:PropertyName>
+                        <ogc:Literal>GRZ%</ogc:Literal>
+                    </ogc:PropertyIsLike>
+                </ogc:Filter>
+                <sld:MaxScaleDenominator>1.7976931348623157E308</sld:MaxScaleDenominator>
+                <sld:PolygonSymbolizer>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">
+                            <ogc:Literal>#ffd1cc</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="fill-opacity">
+                            <ogc:Literal>0.5</ogc:Literal>
+                        </sld:CssParameter>
+                    </sld:Fill>
+                    <sld:Stroke>
+                        <sld:CssParameter name="stroke">
+                            <ogc:Literal>#ffd1cc</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-linecap">
+                            <ogc:Literal>butt</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-linejoin">
+                            <ogc:Literal>miter</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-opacity">
+                            <ogc:Literal>0.5</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-width">
+                            <ogc:Literal>1.0</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-dashoffset">
+                            <ogc:Literal>0.0</ogc:Literal>
+                        </sld:CssParameter>
+                    </sld:Stroke>
+                </sld:PolygonSymbolizer>
+            </sld:Rule>
+            <sld:Rule>
+                <sld:Name>rule01</sld:Name>
+                <sld:Title>RGZ</sld:Title>
+                <sld:Abstract>Abstract</sld:Abstract>
+                <ogc:Filter>
+                    <ogc:PropertyIsLike escape="\" singleChar="_" wildCard="%">
+                        <ogc:PropertyName>ZONE_CODE</ogc:PropertyName>
+                        <ogc:Literal>RGZ%</ogc:Literal>
+                    </ogc:PropertyIsLike>
+                </ogc:Filter>
+                <sld:MaxScaleDenominator>1.7976931348623157E308</sld:MaxScaleDenominator>
+                <sld:PolygonSymbolizer>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">
+                            <ogc:Literal>#ff99cc</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="fill-opacity">
+                            <ogc:Literal>0.5</ogc:Literal>
+                        </sld:CssParameter>
+                    </sld:Fill>
+                    <sld:Stroke>
+                        <sld:CssParameter name="stroke">
+                            <ogc:Literal>#ff99cc</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-linecap">
+                            <ogc:Literal>butt</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-linejoin">
+                            <ogc:Literal>miter</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-opacity">
+                            <ogc:Literal>0.5</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-width">
+                            <ogc:Literal>1.0</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-dashoffset">
+                            <ogc:Literal>0.0</ogc:Literal>
+                        </sld:CssParameter>
+                    </sld:Stroke>
+                </sld:PolygonSymbolizer>
+            </sld:Rule>
+            <sld:Rule>
+                <sld:Name>rule01</sld:Name>
+                <sld:Title>NRZ</sld:Title>
+                <sld:Abstract>Abstract</sld:Abstract>
+                <ogc:Filter>
+                    <ogc:PropertyIsLike escape="\" singleChar="_" wildCard="%">
+                        <ogc:PropertyName>ZONE_CODE</ogc:PropertyName>
+                        <ogc:Literal>NRZ%</ogc:Literal>
+                    </ogc:PropertyIsLike>
+                </ogc:Filter>
+                <sld:MaxScaleDenominator>1.7976931348623157E308</sld:MaxScaleDenominator>
+                <sld:PolygonSymbolizer>
+                    <sld:Fill>
+                        <sld:CssParameter name="fill">
+                            <ogc:Literal>#ffb5cf</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="fill-opacity">
+                            <ogc:Literal>0.5</ogc:Literal>
+                        </sld:CssParameter>
+                    </sld:Fill>
+                    <sld:Stroke>
+                        <sld:CssParameter name="stroke">
+                            <ogc:Literal>#ffb5cf</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-linecap">
+                            <ogc:Literal>butt</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-linejoin">
+                            <ogc:Literal>miter</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-opacity">
+                            <ogc:Literal>0.5</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-width">
+                            <ogc:Literal>1.0</ogc:Literal>
+                        </sld:CssParameter>
+                        <sld:CssParameter name="stroke-dashoffset">
+                            <ogc:Literal>0.0</ogc:Literal>
+                        </sld:CssParameter>
+                    </sld:Stroke>
+                </sld:PolygonSymbolizer>
+            </sld:Rule>
+            <sld:Rule>
                 <sld:Name>rule02</sld:Name>
                 <sld:Title>Label</sld:Title>
                 <sld:Abstract>Abstract</sld:Abstract>
