@@ -68,12 +68,12 @@ var examples = [
       [layers.poziBase,
         { server: servers.depi, options: { layers: "sii:DPS_895_BUS_STOPS_VICMAP" } },
         { server: servers.depi, options: { layers: "sii:DPS_918_TRAM_STOPS_VICMAP" } },
-        { server: servers.depi, options: { layers: "sii:RAEDATA.DPS_932_RAIL_STATIONS_VMT" } }
+        { server: servers.depi, options: { layers: "sii:PTV.PTV_TRAIN_STATION" } }
       ],
       [layers.poziBase,
         { server: servers.depi, options: { layers: "sii:DPS_895_BUS_STOPS_VICMAP", sld: sldPrefix + "sii-DPS_895_BUS_STOPS_VICMAP.sld" } },
         { server: servers.depi, options: { layers: "sii:DPS_918_TRAM_STOPS_VICMAP", sld: sldPrefix + "sii-DPS_918_TRAM_STOPS_VICMAP.sld" } },
-        { server: servers.depi, options: { layers: "sii:RAEDATA.DPS_932_RAIL_STATIONS_VMT", sld: sldPrefix + "sii-DPS_932_RAIL_STATIONS_VMT.sld" } }
+        { server: servers.depi, options: { layers: "sii:PTV.PTV_TRAIN_STATION", sld: sldPrefix + "sii-PTV.PTV_TRAIN_STATION.sld" } }
       ]
     ]
   },
