@@ -52,7 +52,7 @@ var examples = [
       { center: centers.woods, zoom: 17, span: 4 }
     ],
     layers: [
-      [layers.poziBase, layers.bushfireProneAreaGen = { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA_GEN", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA_GEN.sld" } } ],
+      [layers.poziBase, layers.bushfireProneAreaGen = { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA_GEN.sld" } } ],
       [layers.poziBase, layers.bushfireProneAreaGen ],
       [layers.poziBase, layers.bushfireProneAreaGen ]
     ]
