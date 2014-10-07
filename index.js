@@ -66,12 +66,12 @@ var examples = [
     ],
     layers: [
       [layers.poziBase,
-        { server: servers.depi, options: { layers: "sii:DPS_895_BUS_STOPS_VICMAP" } },
+        { server: servers.depi, options: { layers: "sii:PTV.PTV_BUS_STOP" } },
         { server: servers.depi, options: { layers: "sii:PTV.PTV_TRAM_STOP" } },
         { server: servers.depi, options: { layers: "sii:PTV.PTV_TRAIN_STATION" } }
       ],
       [layers.poziBase,
-        { server: servers.depi, options: { layers: "sii:DPS_895_BUS_STOPS_VICMAP", sld: sldPrefix + "sii-DPS_895_BUS_STOPS_VICMAP.sld" } },
+        { server: servers.depi, options: { layers: "sii:PTV.PTV_BUS_STOP", sld: sldPrefix + "sii-PTV.PTV_BUS_STOP.sld" } },
         { server: servers.depi, options: { layers: "sii:PTV.PTV_TRAM_STOP", sld: sldPrefix + "sii-PTV.PTV_TRAM_STOP.sld" } },
         { server: servers.depi, options: { layers: "sii:PTV.PTV_TRAIN_STATION", sld: sldPrefix + "sii-PTV.PTV_TRAIN_STATION.sld" } }
       ]
