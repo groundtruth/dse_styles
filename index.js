@@ -100,7 +100,7 @@ var examples = [
       { server: servers.depi, options: { layers: "sii:DPS_946_SCHOOL_BUS_ROUTES", sld: sldPrefix + "sii-DPS_946_SCHOOL_BUS_ROUTES.sld"} },
       { server: servers.depi, options: { layers: "sii:RAEDATA.DPS_969_TRAM_ROUTES_VMT", sld: sldPrefix + "sii-DPS_969_TRAM_ROUTES_VMT.sld" } },
       { server: servers.depi, options: { layers: "sii:VMTRANS.TR_FERRY_ROUTE", sld: sldPrefix + "sii-VMTRANS.TR_FERRY_ROUTE.sld" } },
-      { server: servers.depi, options: { layers: "sii:RAEDATA.DPS_1202_TRAIN_CORR_CENTL", sld: sldPrefix + "sii-DPS_1202_TRAIN_CORR_CENTL.sld" } } ]
+      { server: servers.depi, options: { layers: "sii:PTV.PTV_TRAIN_CORRIDOR_CENTRELINE", sld: sldPrefix + "sii-PTV.PTV_TRAIN_CORRIDOR_CENTRELINE.sld" } } ]
     ]
   },
   {
