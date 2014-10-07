@@ -2,7 +2,7 @@
 <!-- Styled by Lotta for Groundtruth (http://www.groundtruth.com.au) -->
 <StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:sld="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:gml="http://www.opengis.net/gml">
     <NamedLayer>
-        <Name>sii:DPS_918_TRAM_STOPS_VICMAP</Name>
+        <Name>sii:PTV.PTV_TRAM_STOP</Name>
         
 <sld:UserStyle>
     <sld:Name>Default Styler</sld:Name>
