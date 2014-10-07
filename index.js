@@ -85,7 +85,7 @@ var examples = [
       { center: centers.gtHQ, zoom: 18, span: 4 }
     ],
     layers: [
-      layers.baseAndTramStops = [ layers.poziBase, { server: servers.depi, options: { layers: "sii:DPS_918_TRAM_STOPS_VICMAP", sld: sldPrefix + "sii-DPS_918_TRAM_STOPS_VICMAP.sld" } } ],
+      layers.baseAndTramStops = [ layers.poziBase, { server: servers.depi, options: { layers: "sii:PTV.PTV_TRAM_STOP", sld: sldPrefix + "sii-PTV.PTV_TRAM_STOP.sld" } } ],
       layers.baseAndTramStops,
       layers.baseAndTramStops
     ]
