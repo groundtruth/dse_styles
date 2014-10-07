@@ -1,5 +1,5 @@
 
-var sldPrefix = "https://raw.github.com/groundtruth/gt_public_styles/master/sld/";
+var sldPrefix = "https://raw.githubusercontent.com/groundtruth/gt_public_styles/master/sld/";
 
 
 var servers = {
