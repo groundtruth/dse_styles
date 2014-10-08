@@ -99,7 +99,6 @@ var examples = [
       { server: servers.depi, options: { layers: "sii:PTV.PTV_BUS_ROUTE_METRO", sld: sldPrefix + "sii-PTV.PTV_BUS_ROUTE_METRO.sld" } },
       { server: servers.depi, options: { layers: "sii:PTV.PTV_BUS_ROUTE_SCHOOL", sld: sldPrefix + "sii-PTV.PTV_BUS_ROUTE_SCHOOL.sld"} },
       { server: servers.depi, options: { layers: "sii:PTV.PTV_TRAM_ROUTE", sld: sldPrefix + "sii-PTV.PTV_TRAM_ROUTE.sld" } },
-      { server: servers.depi, options: { layers: "sii:VMTRANS.TR_FERRY_ROUTE", sld: sldPrefix + "sii-VMTRANS.TR_FERRY_ROUTE.sld" } },
       { server: servers.depi, options: { layers: "sii:PTV.PTV_TRAIN_CORRIDOR_CENTRELINE", sld: sldPrefix + "sii-PTV.PTV_TRAIN_CORRIDOR_CENTRELINE.sld" } } ]
     ]
   },
