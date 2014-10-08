@@ -14,7 +14,7 @@
             <sld:PointSymbolizer>
                 <sld:Graphic>
                     <sld:ExternalGraphic>
-                        <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://raw.github.com/groundtruth/gt_public_styles/master/images/trams.png"/>
+                        <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://general.pozi.com/gt_public_styles/images/trams.png"/>
                         <sld:Format>image/jpeg</sld:Format>
                     </sld:ExternalGraphic>
                     <sld:Size>15</sld:Size>
@@ -57,7 +57,7 @@
                 <sld:Fill/>
                 <sld:Graphic>
                     <sld:ExternalGraphic>
-                        <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://raw.github.com/groundtruth/gt_public_styles/master/images/trams.png"/>
+                        <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://general.pozi.com/gt_public_styles/images/trams.png"/>
                         <sld:Format>image/png</sld:Format>
                     </sld:ExternalGraphic>
                     <sld:Size>15</sld:Size>
@@ -71,7 +71,7 @@
             <sld:PointSymbolizer>
                 <sld:Graphic>
                     <sld:ExternalGraphic>
-                        <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://raw.github.com/groundtruth/gt_public_styles/master/images/trams.png"/>
+                        <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://general.pozi.com/gt_public_styles/images/trams.png"/>
                         <sld:Format>image/jpeg</sld:Format>
                     </sld:ExternalGraphic>
                     <sld:Size>15</sld:Size>
@@ -114,7 +114,7 @@
                 <sld:Fill/>
                 <sld:Graphic>
                     <sld:ExternalGraphic>
-                        <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://raw.github.com/groundtruth/gt_public_styles/master/images/trams.png"/>
+                        <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://general.pozi.com/gt_public_styles/images/trams.png"/>
                         <sld:Format>image/png</sld:Format>
                     </sld:ExternalGraphic>
                     <sld:Size>15</sld:Size>
