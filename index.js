@@ -96,7 +96,7 @@ var examples = [
     views: [ { center: centers.gtHQ, zoom: 11, span: 12 } ],
     layers: [
     [layers.poziBase,
-      { server: servers.depi, options: { layers: "sii:RAEDATA.DPS_955_METRO_BUS_ROUTES", sld: sldPrefix + "sii-DPS_955_METRO_BUS_ROUTES.sld" } },
+      { server: servers.depi, options: { layers: "sii:PTV.PTV_BUS_ROUTE_METRO", sld: sldPrefix + "sii-PTV.PTV_BUS_ROUTE_METRO.sld" } },
       { server: servers.depi, options: { layers: "sii:DPS_946_SCHOOL_BUS_ROUTES", sld: sldPrefix + "sii-DPS_946_SCHOOL_BUS_ROUTES.sld"} },
       { server: servers.depi, options: { layers: "sii:RAEDATA.DPS_969_TRAM_ROUTES_VMT", sld: sldPrefix + "sii-DPS_969_TRAM_ROUTES_VMT.sld" } },
       { server: servers.depi, options: { layers: "sii:VMTRANS.TR_FERRY_ROUTE", sld: sldPrefix + "sii-VMTRANS.TR_FERRY_ROUTE.sld" } },
