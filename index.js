@@ -7,6 +7,13 @@ var servers = {
     url: "http://basemap{s}.pozi.com/geoserver/wms",
     options: { subdomains: "1234" }
   },
+  mq:{
+    url: "http://otile{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.jpeg",
+    options: {
+      attribution: 'Tiles by <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+      subdomains: "1234"
+    }
+  },
   depi: {
     url: "http://services.land.vic.gov.au/catalogue/publicproxy/guest/sdm_geoserver/wms",
     options: {}
@@ -14,7 +21,7 @@ var servers = {
 };
 
 var layers = {
-  poziBase: { server: servers.gt, options: { layers: "VICMAP_CLASSIC:VicmapClassic", tiled: true } }
+  basemap: { server: servers.mq , options: {tiled:true} }
 };
 
 var centers = {
@@ -40,8 +47,8 @@ var examples = [
       { center: centers.gtHQ, zoom: 10, span: 6 }
     ],
     layers: [
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA.sld" } } ],
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA_GEN.sld" } } ]
+      [layers.basemap, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA.sld" } } ],
+      [layers.basemap, { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA_GEN.sld" } } ]
     ]
   },
   {
@@ -52,9 +59,9 @@ var examples = [
       { center: centers.woods, zoom: 17, span: 4 }
     ],
     layers: [
-      [layers.poziBase, layers.bushfireProneAreaGen = { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA_GEN.sld" } } ],
-      [layers.poziBase, layers.bushfireProneAreaGen ],
-      [layers.poziBase, layers.bushfireProneAreaGen ]
+      [layers.basemap, layers.bushfireProneAreaGen = { server: servers.depi, options: { layers: "sii:BUILDINGREG.BUSHFIRE_PRONE_AREA", sld: sldPrefix + "sii-BUILDINGREG.BUSHFIRE_PRONE_AREA_GEN.sld" } } ],
+      [layers.basemap, layers.bushfireProneAreaGen ],
+      [layers.basemap, layers.bushfireProneAreaGen ]
     ]
   },
   {
@@ -65,12 +72,12 @@ var examples = [
       { center: centers.gtHQ, zoom: 10, span: 8 }
     ],
     layers: [
-      [layers.poziBase,
+      [layers.basemap,
         { server: servers.depi, options: { layers: "sii:PTV.PTV_BUS_STOP" } },
         { server: servers.depi, options: { layers: "sii:PTV.PTV_TRAM_STOP" } },
         { server: servers.depi, options: { layers: "sii:PTV.PTV_TRAIN_STATION" } }
       ],
-      [layers.poziBase,
+      [layers.basemap,
         { server: servers.depi, options: { layers: "sii:PTV.PTV_BUS_STOP", sld: sldPrefix + "sii-PTV.PTV_BUS_STOP.sld" } },
         { server: servers.depi, options: { layers: "sii:PTV.PTV_TRAM_STOP", sld: sldPrefix + "sii-PTV.PTV_TRAM_STOP.sld" } },
         { server: servers.depi, options: { layers: "sii:PTV.PTV_TRAIN_STATION", sld: sldPrefix + "sii-PTV.PTV_TRAIN_STATION.sld" } }
@@ -85,7 +92,7 @@ var examples = [
       { center: centers.gtHQ, zoom: 18, span: 4 }
     ],
     layers: [
-      layers.baseAndTramStops = [ layers.poziBase, { server: servers.depi, options: { layers: "sii:PTV.PTV_TRAM_STOP", sld: sldPrefix + "sii-PTV.PTV_TRAM_STOP.sld" } } ],
+      layers.baseAndTramStops = [ layers.basemap, { server: servers.depi, options: { layers: "sii:PTV.PTV_TRAM_STOP", sld: sldPrefix + "sii-PTV.PTV_TRAM_STOP.sld" } } ],
       layers.baseAndTramStops,
       layers.baseAndTramStops
     ]
@@ -95,7 +102,7 @@ var examples = [
     description: "here is what we've done with the routes",
     views: [ { center: centers.gtHQ, zoom: 11, span: 12 } ],
     layers: [
-    [layers.poziBase,
+    [layers.basemap,
       { server: servers.depi, options: { layers: "sii:PTV.PTV_BUS_ROUTE_METRO", sld: sldPrefix + "sii-PTV.PTV_BUS_ROUTE_METRO.sld" } },
       { server: servers.depi, options: { layers: "sii:PTV.PTV_BUS_ROUTE_SCHOOL", sld: sldPrefix + "sii-PTV.PTV_BUS_ROUTE_SCHOOL.sld"} },
       { server: servers.depi, options: { layers: "sii:PTV.PTV_TRAM_ROUTE", sld: sldPrefix + "sii-PTV.PTV_TRAM_ROUTE.sld" } },
@@ -109,8 +116,8 @@ var examples = [
       { center: centers.gtHQ, zoom: 13, span: 8 }
     ],
     layers: [
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMLITE.VMLITE_TR_ROAD" } } ],
-      [layers.poziBase,
+      [layers.basemap, { server: servers.depi, options: { layers: "sii:VMLITE.VMLITE_TR_ROAD" } } ],
+      [layers.basemap,
         { server: servers.depi, options: { layers: "sii:VMLITE.VMLITE_TR_ROAD", sld: sldPrefix + "sii-VMLITE.VMLITE_TR_ROAD.sld"} } ,
         { server: servers.depi, options: { layers: "sii:VMLITE.VMLITE_TR_ROAD", sld: sldPrefix + "sii-VMLITE.VMLITE_TR_ROAD-labels.sld"} }
       ]
@@ -120,7 +127,7 @@ var examples = [
     description: "here we use a different layer for a closer zoom view",
     views: [ { center: centers.gtHQ, zoom: 16, span: 12 } ],
     layers: [
-      [layers.poziBase, 
+      [layers.basemap, 
         { server: servers.depi, options: { layers: "sii:VMTRANS.TR_ROAD", sld: sldPrefix + "sii-VMTRANS.TR_ROAD.sld", tiled: true } } ,
         { server: servers.depi, options: { layers: "sii:VMTRANS.TR_ROAD", sld: sldPrefix + "sii-VMTRANS.TR_ROAD-labels.sld" } }
       ]
@@ -133,8 +140,8 @@ var examples = [
       { center: centers.clc, zoom: 13, span: 6 }
     ],
     layers: [
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMHYDRO.HY_WATER_AREA_POLYGON" } } ],
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMHYDRO.HY_WATER_AREA_POLYGON", sld: sldPrefix + "sii-VMHYDRO.HY_WATER_AREA_POLYGON.sld" } } ]
+      [layers.basemap, { server: servers.depi, options: { layers: "sii:VMHYDRO.HY_WATER_AREA_POLYGON" } } ],
+      [layers.basemap, { server: servers.depi, options: { layers: "sii:VMHYDRO.HY_WATER_AREA_POLYGON", sld: sldPrefix + "sii-VMHYDRO.HY_WATER_AREA_POLYGON.sld" } } ]
     ]
   },
   {
@@ -146,15 +153,15 @@ var examples = [
       { center: centers.bay, zoom: 13, span: 4, attribution: "2009-2070 plus increasing storms" }
     ],
     layers: [
-      [layers.poziBase,
+      [layers.basemap,
         { server: servers.depi, options: { layers: "sii:COASTS.SLR82CM_2100", sld: sldPrefix + "sii-COASTS.SLR82CM_2100.sld" } },
         { server: servers.depi, options: { layers: "sii:COASTS.SLR00CM_2009", sld: sldPrefix + "sii-COASTS.SLR00CM_2009.sld" } }
       ],
-      [layers.poziBase,
+      [layers.basemap,
         { server: servers.depi, options: { layers: "sii:COASTS.SLR82CM_2100", sld: sldPrefix + "sii-COASTS.SLR82CM_2100.sld" } },
         { server: servers.depi, options: { layers: "sii:COASTS.SLR00CM_2009", sld: sldPrefix + "sii-COASTS.SLR00CM_2009.sld" } }
       ],
-      [layers.poziBase,
+      [layers.basemap,
         { server: servers.depi, options: { layers: "sii:COASTS.SLR47CM_ST_2070", sld: sldPrefix + "sii-COASTS.SLR47CM_ST_2070.sld" } },
         { server: servers.depi, options: { layers: "sii:COASTS.SLR00CM_2009", sld: sldPrefix + "sii-COASTS.SLR00CM_2009.sld" } }
       ]
@@ -168,13 +175,13 @@ var examples = [
       { center: centers.gtHQ, zoom: 12, span: 6 }
     ],
     layers: [
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMADMIN.LOCALITY_POLYGON" } } ],
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMADMIN.LOCALITY_POLYGON", sld: sldPrefix + "sii-VMADMIN.LOCALITY_POLYGON.sld" } } ]
+      [layers.basemap, { server: servers.depi, options: { layers: "sii:VMADMIN.LOCALITY_POLYGON" } } ],
+      [layers.basemap, { server: servers.depi, options: { layers: "sii:VMADMIN.LOCALITY_POLYGON", sld: sldPrefix + "sii-VMADMIN.LOCALITY_POLYGON.sld" } } ]
     ]
   },
   {
     views: [ { center: centers.gtHQ, zoom: 7, span: 12, attribution: "Catchment Management Authority Boundaries" } ],
-    layers: [ [layers.poziBase, { server: servers.depi, options: { layers: "sii:CATCHMENTS.CMA100", sld: sldPrefix + "sii-CATCHMENTS.CMA100.sld" } } ] ]
+    layers: [ [layers.basemap, { server: servers.depi, options: { layers: "sii:CATCHMENTS.CMA100", sld: sldPrefix + "sii-CATCHMENTS.CMA100.sld" } } ] ]
   },
   {
     views: [
@@ -183,9 +190,9 @@ var examples = [
       { center: centers.bay, zoom: 10, span: 4, attribution: "State Assembly" }
     ],
     layers: [
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMADMIN.LGA_POLYGON", sld: sldPrefix + "sii-VMADMIN.LGA_POLYGON.sld" } } ],
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMADMIN.PARISH_POLYGON", sld: sldPrefix + "sii-VMADMIN.PARISH_POLYGON.sld" } } ],
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMADMIN.STATE_ASSEMBLY_2001", sld: sldPrefix + "sii-VMADMIN.STATE_ASSEMBLY_2001.sld" } } ]
+      [layers.basemap, { server: servers.depi, options: { layers: "sii:VMADMIN.LGA_POLYGON", sld: sldPrefix + "sii-VMADMIN.LGA_POLYGON.sld" } } ],
+      [layers.basemap, { server: servers.depi, options: { layers: "sii:VMADMIN.PARISH_POLYGON", sld: sldPrefix + "sii-VMADMIN.PARISH_POLYGON.sld" } } ],
+      [layers.basemap, { server: servers.depi, options: { layers: "sii:VMADMIN.STATE_ASSEMBLY_2001", sld: sldPrefix + "sii-VMADMIN.STATE_ASSEMBLY_2001.sld" } } ]
     ]
   },
   {
@@ -195,8 +202,8 @@ var examples = [
       { center: centers.gtHQ, zoom: 8, span: 6 }
     ],
     layers: [
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:FLORAFAUNA1.VBIOREG100" } } ],
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:FLORAFAUNA1.VBIOREG100", sld: sldPrefix + "sii-FLORAFAUNA1.VBIOREG100.sld" } } ]
+      [layers.basemap, { server: servers.depi, options: { layers: "sii:FLORAFAUNA1.VBIOREG100" } } ],
+      [layers.basemap, { server: servers.depi, options: { layers: "sii:FLORAFAUNA1.VBIOREG100", sld: sldPrefix + "sii-FLORAFAUNA1.VBIOREG100.sld" } } ]
     ]
   },
   {
@@ -206,8 +213,8 @@ var examples = [
       { center: centers.gtHQ, zoom: 12, span: 6, attribution: "Tree density" }
     ],
     layers: [
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMVEG.TREE_DENSITY" } } ],
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMVEG.TREE_DENSITY", sld: sldPrefix + "sii-VMVEG.TREE_DENSITY.sld" } } ]
+      [layers.basemap, { server: servers.depi, options: { layers: "sii:VMVEG.TREE_DENSITY" } } ],
+      [layers.basemap, { server: servers.depi, options: { layers: "sii:VMVEG.TREE_DENSITY", sld: sldPrefix + "sii-VMVEG.TREE_DENSITY.sld" } } ]
     ]
   },
   {
@@ -218,9 +225,9 @@ var examples = [
       { center: centers.pIsl, zoom: 18, span: 4, attribution: "Zoom 18" }
     ],
     layers: [
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:FLORAFAUNA1.WETLANDDIR", sld: sldPrefix + "sii-FLORAFAUNA1.WETLANDDIR.sld" } } ],
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:FLORAFAUNA1.WETLANDDIR", sld: sldPrefix + "sii-FLORAFAUNA1.WETLANDDIR.sld" } } ],
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:FLORAFAUNA1.WETLANDDIR", sld: sldPrefix + "sii-FLORAFAUNA1.WETLANDDIR.sld" } } ]
+      [layers.basemap, { server: servers.depi, options: { layers: "sii:FLORAFAUNA1.WETLANDDIR", sld: sldPrefix + "sii-FLORAFAUNA1.WETLANDDIR.sld" } } ],
+      [layers.basemap, { server: servers.depi, options: { layers: "sii:FLORAFAUNA1.WETLANDDIR", sld: sldPrefix + "sii-FLORAFAUNA1.WETLANDDIR.sld" } } ],
+      [layers.basemap, { server: servers.depi, options: { layers: "sii:FLORAFAUNA1.WETLANDDIR", sld: sldPrefix + "sii-FLORAFAUNA1.WETLANDDIR.sld" } } ]
     ]
   },
   {
@@ -230,8 +237,8 @@ var examples = [
       { center: centers.clc, zoom: 14, span: 4, attribution: "zoom 14 shows points with description"}
     ],
     layers: [ 
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMELEV.EL_GRND_SURFACE_POINT", sld: sldPrefix + "sii-VMELEV.EL_GRND_SURFACE_POINT.sld" } } ],
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMELEV.EL_GRND_SURFACE_POINT", sld: sldPrefix + "sii-VMELEV.EL_GRND_SURFACE_POINT.sld" } } ]
+      [layers.basemap, { server: servers.depi, options: { layers: "sii:VMELEV.EL_GRND_SURFACE_POINT", sld: sldPrefix + "sii-VMELEV.EL_GRND_SURFACE_POINT.sld" } } ],
+      [layers.basemap, { server: servers.depi, options: { layers: "sii:VMELEV.EL_GRND_SURFACE_POINT", sld: sldPrefix + "sii-VMELEV.EL_GRND_SURFACE_POINT.sld" } } ]
      ]
   },
   {
@@ -240,8 +247,8 @@ var examples = [
       { center: centers.gtHQ, zoom: 8, span: 6, attribution: "this layer shows Victoria"}
     ],
     layers: [ 
-      [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMELEV.EL_CONTOUR_1TO5M", sld: sldPrefix + "sii-VMELEV.EL_CONTOUR_1TO5M.sld" } } ],
-      layers.contour = [layers.poziBase, { server: servers.depi, options: { layers: "sii:VMELEV.EL_CONTOUR", sld: sldPrefix + "sii-VMELEV.EL_CONTOUR.sld" } } ]
+      [layers.basemap, { server: servers.depi, options: { layers: "sii:VMELEV.EL_CONTOUR_1TO5M", sld: sldPrefix + "sii-VMELEV.EL_CONTOUR_1TO5M.sld" } } ],
+      layers.contour = [layers.basemap, { server: servers.depi, options: { layers: "sii:VMELEV.EL_CONTOUR", sld: sldPrefix + "sii-VMELEV.EL_CONTOUR.sld" } } ]
      ]
   },
   {
@@ -302,7 +309,7 @@ _(examples).each(function(eg, egIndex) {
     map.attributionControl.addAttribution(view.attribution);
 
     _(layers).each(function(config) {
-      var layerClass = config.options.tiled ? L.TileLayer.WMS : L.SingleTileWMSLayer;
+      var layerClass = config.options.tiled ? L.TileLayer : L.SingleTileWMSLayer;
       var layer = new layerClass(config.server.url, $.extend({},
         defaultLayerOptions,
         config.server.options,
