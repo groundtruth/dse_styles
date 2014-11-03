@@ -28,7 +28,7 @@
                             </sld:PointPlacement>
                         </sld:LabelPlacement>
                         <sld:Halo>
-                            <sld:Radius>0</sld:Radius>
+                            <sld:Radius>1.5</sld:Radius>
                             <sld:Fill>
                                 <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
                             </sld:Fill>
@@ -52,7 +52,7 @@
             <sld:Name>name</sld:Name>
             <sld:Rule>
               <sld:Title>Properties</sld:Title>
-              <sld:MaxScaleDenominator>25000.0</sld:MaxScaleDenominator>
+              <sld:MaxScaleDenominator>12500.0</sld:MaxScaleDenominator>
               <sld:PolygonSymbolizer>
                 <sld:Stroke>
                   <sld:CssParameter name="stroke">#CCCCCC</sld:CssParameter>
