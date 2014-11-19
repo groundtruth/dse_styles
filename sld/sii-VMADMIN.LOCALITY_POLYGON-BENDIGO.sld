@@ -129,8 +129,8 @@
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#D0FFD0</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.3</sld:CssParameter>
+              <sld:CssParameter name="fill">#00ff00</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.18</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>
@@ -187,8 +187,8 @@
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#D0FFFF</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.3</sld:CssParameter>
+              <sld:CssParameter name="fill">#00ffff</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.18</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>
@@ -241,8 +241,8 @@
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#FFD0D0</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.3</sld:CssParameter>
+              <sld:CssParameter name="fill">#ff0000</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.18</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>
@@ -283,8 +283,8 @@
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#D0D0FF</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.3</sld:CssParameter>
+              <sld:CssParameter name="fill">#0000ff</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.18</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>
@@ -361,8 +361,8 @@
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#FFFFD0</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.3</sld:CssParameter>
+              <sld:CssParameter name="fill">#ffff00</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.18</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>
@@ -407,8 +407,8 @@
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#D0E0FF</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.3</sld:CssParameter>
+              <sld:CssParameter name="fill">#0059ff</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.18</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>
@@ -441,8 +441,8 @@
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#E8D0FF</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.3</sld:CssParameter>
+              <sld:CssParameter name="fill">#8000ff</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.18</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>
@@ -463,8 +463,8 @@
           </ogc:Filter>
           <sld:PolygonSymbolizer>
             <sld:Fill>
-              <sld:CssParameter name="fill">#FFD0E8</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.3</sld:CssParameter>
+              <sld:CssParameter name="fill">#ff0080</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.18</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>
