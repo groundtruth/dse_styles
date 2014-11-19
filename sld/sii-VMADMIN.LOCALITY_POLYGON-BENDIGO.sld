@@ -366,7 +366,52 @@
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:MaxScaleDenominator>500000.0</sld:MaxScaleDenominator>
+          <sld:Title>#D0E0FF</sld:Title>
+          <ogc:Filter>
+            <ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>EAST BENDIGO</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>EMU CREEK</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>HUNTLY</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>KANGAROO FLAT</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>MOUNT CAMEL</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>WEST BENDIGO</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>WOODVALE</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#D0E0FF</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.7</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.7</sld:CssParameter>
+            </sld:Stroke>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <sld:MaxScaleDenominator>1000000.0</sld:MaxScaleDenominator>
           <sld:TextSymbolizer>
             <sld:Label>
               <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
@@ -375,6 +420,7 @@
               <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
               <sld:CssParameter name="font-size">12</sld:CssParameter>
               <sld:CssParameter name="font-style">normal</sld:CssParameter>
+              <sld:CssParameter name="font-weight">bold</sld:CssParameter>
             </sld:Font>
             <sld:Halo>
               <sld:Radius>1</sld:Radius>
