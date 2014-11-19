@@ -56,10 +56,11 @@
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#FFE8D0</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.7</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.3</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">4</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.7</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>
@@ -129,10 +130,11 @@
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#D0FFD0</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.7</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.3</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">4</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.7</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>
@@ -186,10 +188,11 @@
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#D0FFFF</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.7</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.3</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">4</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.7</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>
@@ -239,10 +242,11 @@
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#FFD0D0</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.7</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.3</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">4</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.7</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>
@@ -280,10 +284,11 @@
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#D0D0FF</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.7</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.3</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">4</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.7</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>
@@ -357,10 +362,11 @@
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#FFFFD0</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.7</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.3</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">4</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.7</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>
@@ -402,10 +408,11 @@
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#D0E0FF</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.7</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.3</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">4</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.7</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>
@@ -435,10 +442,11 @@
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#E8D0FF</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.7</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.3</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">4</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.7</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>
@@ -456,10 +464,11 @@
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#FFD0E8</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.7</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.3</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">4</sld:CssParameter>
               <sld:CssParameter name="stroke-opacity">0.7</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>
