@@ -411,6 +411,39 @@
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
+          <sld:Title>#E8D0FF</sld:Title>
+          <ogc:Filter>
+            <ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>FLORA HILL</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>LONG GULLY</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>LONGLEA</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>SAILORS GULLY</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#E8D0FF</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.7</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.7</sld:CssParameter>
+            </sld:Stroke>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
           <sld:MaxScaleDenominator>1000000.0</sld:MaxScaleDenominator>
           <sld:TextSymbolizer>
             <sld:Label>
