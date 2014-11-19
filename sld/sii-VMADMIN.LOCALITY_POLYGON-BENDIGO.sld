@@ -70,7 +70,7 @@
             <ogc:Or>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
-                <ogc:Literal>ASCOT</ogc:Literal>
+                <ogc:Literal>ASCOT (BENDIGO)</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
@@ -208,7 +208,7 @@
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
-                <ogc:Literal>BIG HILL</ogc:Literal>
+                <ogc:Literal>BIG HILL (BENDIGO)</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
@@ -435,6 +435,27 @@
           <sld:PolygonSymbolizer>
             <sld:Fill>
               <sld:CssParameter name="fill">#E8D0FF</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.7</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.7</sld:CssParameter>
+            </sld:Stroke>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Title>#FFD0E8</sld:Title>
+          <ogc:Filter>
+            <ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>WHITE HILLS</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#FFD0E8</sld:CssParameter>
               <sld:CssParameter name="fill-opacity">0.7</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
