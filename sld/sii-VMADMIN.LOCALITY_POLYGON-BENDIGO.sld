@@ -8,7 +8,7 @@
       <sld:FeatureTypeStyle>
         <sld:Name>name</sld:Name>
         <sld:Rule>
-          <sld:Title>#FFE8D0</sld:Title>
+          <sld:Title></sld:Title>
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsEqualTo>
@@ -65,7 +65,7 @@
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>#D0FFD0</sld:Title>
+          <sld:Title></sld:Title>
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsEqualTo>
@@ -138,7 +138,7 @@
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>#D0FFFF</sld:Title>
+          <sld:Title></sld:Title>
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsEqualTo>
@@ -195,7 +195,7 @@
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>#FFD0D0</sld:Title>
+          <sld:Title></sld:Title>
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsEqualTo>
@@ -248,7 +248,7 @@
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>#D0D0FF</sld:Title>
+          <sld:Title></sld:Title>
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsEqualTo>
@@ -289,7 +289,7 @@
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>#FFFFD0</sld:Title>
+          <sld:Title></sld:Title>
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsEqualTo>
@@ -366,7 +366,7 @@
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>#D0E0FF</sld:Title>
+          <sld:Title></sld:Title>
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsEqualTo>
@@ -411,7 +411,7 @@
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>#E8D0FF</sld:Title>
+          <sld:Title></sld:Title>
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsEqualTo>
@@ -444,7 +444,7 @@
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Title>#FFD0E8</sld:Title>
+          <sld:Title></sld:Title>
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsEqualTo>
@@ -470,7 +470,7 @@
             <sld:Label>
               <ogc:Function name="strReplace">
                 <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
-                <ogc:Literal> (BENDIGO)</ogc:Literal>
+                <ogc:Literal> \(BENDIGO\)</ogc:Literal>
                 <ogc:Literal></ogc:Literal>
                 <ogc:Literal>true</ogc:Literal>
               </ogc:Function>
