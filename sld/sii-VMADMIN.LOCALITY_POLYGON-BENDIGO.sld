@@ -195,6 +195,59 @@
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
+          <sld:Title>#FFD0D0</sld:Title>
+          <ogc:Filter>
+            <ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>AXE CREEK</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>BAGSHOT</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>BIG HILL</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>EAGLEHAWK</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>GOLDEN GULLY</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>KENNINGTON</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>KIMBOLTON</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>LEICHARDT</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>RAYWOOD</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#FFD0D0</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.7</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.7</sld:CssParameter>
+            </sld:Stroke>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
           <sld:MaxScaleDenominator>500000.0</sld:MaxScaleDenominator>
           <sld:TextSymbolizer>
             <sld:Label>
