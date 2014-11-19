@@ -289,6 +289,83 @@
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
+          <sld:Title>#FFFFD0</sld:Title>
+          <ogc:Filter>
+            <ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>BENDIGO</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>CALIFORNIA GULLY</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>EAGLEHAWK NORTH</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>ELMORE</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>EPSOM</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>FOSTERVILLE</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>HEATHCOTE</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>HUNTLY NORTH</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>LAKE EPPALOCK</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>LOCKWOOD SOUTH</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>LYAL</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>MANDURANG</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>MARONG</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>STRATHDALE</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal>TOOLLEEN</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#FFFFD0</sld:CssParameter>
+              <sld:CssParameter name="fill-opacity">0.7</sld:CssParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.7</sld:CssParameter>
+            </sld:Stroke>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
           <sld:MaxScaleDenominator>500000.0</sld:MaxScaleDenominator>
           <sld:TextSymbolizer>
             <sld:Label>
@@ -296,14 +373,13 @@
             </sld:Label>
             <sld:Font>
               <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
-              <sld:CssParameter name="font-size">10</sld:CssParameter>
+              <sld:CssParameter name="font-size">12</sld:CssParameter>
               <sld:CssParameter name="font-style">normal</sld:CssParameter>
-              <sld:CssParameter name="font-weight">bold</sld:CssParameter>
             </sld:Font>
             <sld:Halo>
               <sld:Radius>1</sld:Radius>
               <sld:Fill>
-                <sld:CssParameter name="fill">#EEEEEE</sld:CssParameter>
+                <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
               </sld:Fill>
             </sld:Halo>
             <sld:Fill>
