@@ -468,7 +468,12 @@
           <sld:MaxScaleDenominator>1000000.0</sld:MaxScaleDenominator>
           <sld:TextSymbolizer>
             <sld:Label>
-              <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+              <ogc:Function name="strReplace">
+                <ogc:PropertyName>LOCALITY_NAME</ogc:PropertyName>
+                <ogc:Literal> (BENDIGO)</ogc:Literal>
+                <ogc:Literal></ogc:Literal>
+                <ogc:Literal>true</ogc:Literal>
+              </ogc:Function>
             </sld:Label>
             <sld:Font>
               <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
