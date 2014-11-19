@@ -27,8 +27,8 @@
               <sld:CssParameter name="fill-opacity">0.3</sld:CssParameter>
             </sld:Fill>
             <sld:Stroke>
-              <sld:CssParameter name="fill">#FFFF00</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.7</sld:CssParameter>
+              <sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.7</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>
         </sld:Rule>
@@ -47,11 +47,11 @@
             <sld:Halo>
               <sld:Radius>1</sld:Radius>
               <sld:Fill>
-                <sld:CssParameter name="fill">#E7E7E8</sld:CssParameter>
+                <sld:CssParameter name="fill">#EEEEEE</sld:CssParameter>
               </sld:Fill>
             </sld:Halo>
             <sld:Fill>
-              <sld:CssParameter name="fill">#7d1b7e</sld:CssParameter>
+              <sld:CssParameter name="fill">#000000</sld:CssParameter>
             </sld:Fill>
             <sld:VendorOption name="autoWrap">60</sld:VendorOption>
             <sld:VendorOption name="spaceAround">15</sld:VendorOption>
