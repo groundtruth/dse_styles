@@ -165,7 +165,7 @@
                     </sld:Fill>
                 </sld:Halo>
                 <sld:Fill>
-                    <sld:CssParameter name="fill">#E42217</sld:CssParameter>
+                    <sld:CssParameter name="fill">#505050</sld:CssParameter>
                 </sld:Fill>
                 <sld:VendorOption name="maxAngleDelta">90</sld:VendorOption>
                 <sld:VendorOption name="followLine">true</sld:VendorOption>
@@ -248,7 +248,7 @@
                     </sld:Fill>
                 </sld:Halo>
                 <sld:Fill>
-                    <sld:CssParameter name="fill">#E42217</sld:CssParameter>
+                    <sld:CssParameter name="fill">#505050</sld:CssParameter>
                 </sld:Fill>
                 <sld:VendorOption name="maxAngleDelta">90</sld:VendorOption>
                 <sld:VendorOption name="followLine">true</sld:VendorOption>
@@ -290,7 +290,7 @@
                     </sld:Fill>
                 </sld:Halo>
                 <sld:Fill>
-                    <sld:CssParameter name="fill">#E42217</sld:CssParameter>
+                    <sld:CssParameter name="fill">#505050</sld:CssParameter>
                 </sld:Fill>
                 <sld:VendorOption name="maxAngleDelta">90</sld:VendorOption>
                 <sld:VendorOption name="followLine">true</sld:VendorOption>
@@ -331,7 +331,7 @@
                     </sld:Fill>
                 </sld:Halo>
                 <sld:Fill>
-                    <sld:CssParameter name="fill">#E42217</sld:CssParameter>
+                    <sld:CssParameter name="fill">#505050</sld:CssParameter>
                 </sld:Fill>
                 <sld:VendorOption name="maxAngleDelta">90</sld:VendorOption>
                 <sld:VendorOption name="followLine">true</sld:VendorOption>
@@ -372,7 +372,7 @@
                     </sld:Fill>
                 </sld:Halo>
                 <sld:Fill>
-                    <sld:CssParameter name="fill">#E42217</sld:CssParameter>
+                    <sld:CssParameter name="fill">#505050</sld:CssParameter>
                 </sld:Fill>
                 <sld:VendorOption name="maxAngleDelta">90</sld:VendorOption>
                 <sld:VendorOption name="followLine">true</sld:VendorOption>
