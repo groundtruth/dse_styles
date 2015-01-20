@@ -30,7 +30,7 @@
                     <ogc:PropertyName>EZI_ROAD_NAME_LABEL</ogc:PropertyName>
                 </sld:Label>
                 <sld:Font>
-                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
+                    <sld:CssParameter name="font-family">Arial</sld:CssParameter>
                     <sld:CssParameter name="font-size">14</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
@@ -71,7 +71,7 @@
                     <ogc:PropertyName>EZI_ROAD_NAME_LABEL</ogc:PropertyName>
                 </sld:Label>
                 <sld:Font>
-                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
+                    <sld:CssParameter name="font-family">Arial</sld:CssParameter>
                     <sld:CssParameter name="font-size">12</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
@@ -112,7 +112,7 @@
                     <ogc:PropertyName>EZI_ROAD_NAME_LABEL</ogc:PropertyName>
                 </sld:Label>
                 <sld:Font>
-                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
+                    <sld:CssParameter name="font-family">Arial</sld:CssParameter>
                     <sld:CssParameter name="font-size">15</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
@@ -153,7 +153,7 @@
                     <ogc:PropertyName>EZI_ROAD_NAME_LABEL</ogc:PropertyName>
                 </sld:Label>
                 <sld:Font>
-                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
+                    <sld:CssParameter name="font-family">Arial</sld:CssParameter>
                     <sld:CssParameter name="font-size">12</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
@@ -195,7 +195,7 @@
                     <ogc:PropertyName>EZI_ROAD_NAME_LABEL</ogc:PropertyName>
                 </sld:Label>
                 <sld:Font>
-                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
+                    <sld:CssParameter name="font-family">Arial</sld:CssParameter>
                     <sld:CssParameter name="font-size">16</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
@@ -236,7 +236,7 @@
                     <ogc:PropertyName>EZI_ROAD_NAME_LABEL</ogc:PropertyName>
                 </sld:Label>
                 <sld:Font>
-                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
+                    <sld:CssParameter name="font-family">Arial</sld:CssParameter>
                     <sld:CssParameter name="font-size">16</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
@@ -278,7 +278,7 @@
                     <ogc:PropertyName>EZI_ROAD_NAME_LABEL</ogc:PropertyName>
                 </sld:Label>
                 <sld:Font>
-                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
+                    <sld:CssParameter name="font-family">Arial</sld:CssParameter>
                     <sld:CssParameter name="font-size">15</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
@@ -319,7 +319,7 @@
                     <ogc:PropertyName>EZI_ROAD_NAME_LABEL</ogc:PropertyName>
                 </sld:Label>
                 <sld:Font>
-                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
+                    <sld:CssParameter name="font-family">Arial</sld:CssParameter>
                     <sld:CssParameter name="font-size">18</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
@@ -360,7 +360,7 @@
                     <ogc:PropertyName>EZI_ROAD_NAME_LABEL</ogc:PropertyName>
                 </sld:Label>
                 <sld:Font>
-                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
+                    <sld:CssParameter name="font-family">Arial</sld:CssParameter>
                     <sld:CssParameter name="font-size">17</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
@@ -401,7 +401,7 @@
                     <ogc:PropertyName>EZI_ROAD_NAME_LABEL</ogc:PropertyName>
                 </sld:Label>
                 <sld:Font>
-                    <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
+                    <sld:CssParameter name="font-family">Arial</sld:CssParameter>
                     <sld:CssParameter name="font-size">19</sld:CssParameter>
                     <sld:CssParameter name="font-style">normal</sld:CssParameter>
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
