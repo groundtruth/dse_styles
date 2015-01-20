@@ -36,7 +36,7 @@
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
                 </sld:Font>
                 <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
+                    <sld:Radius>2</sld:Radius>
                     <sld:Fill>
                         <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
                     </sld:Fill>
@@ -78,7 +78,7 @@
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
                 </sld:Font>
                 <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
+                    <sld:Radius>2</sld:Radius>
                     <sld:Fill>
                         <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
                     </sld:Fill>
@@ -120,7 +120,7 @@
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
                 </sld:Font>
                 <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
+                    <sld:Radius>2</sld:Radius>
                     <sld:Fill>
                         <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
                     </sld:Fill>
@@ -162,7 +162,7 @@
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
                 </sld:Font>
                 <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
+                    <sld:Radius>2</sld:Radius>
                     <sld:Fill>
                         <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
                     </sld:Fill>
@@ -205,7 +205,7 @@
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
                 </sld:Font>
                 <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
+                    <sld:Radius>2</sld:Radius>
                     <sld:Fill>
                         <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
                     </sld:Fill>
@@ -247,7 +247,7 @@
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
                 </sld:Font>
                 <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
+                    <sld:Radius>2</sld:Radius>
                     <sld:Fill>
                         <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
                     </sld:Fill>
@@ -290,7 +290,7 @@
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
                 </sld:Font>
                 <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
+                    <sld:Radius>2</sld:Radius>
                     <sld:Fill>
                         <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
                     </sld:Fill>
@@ -332,7 +332,7 @@
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
                 </sld:Font>
                 <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
+                    <sld:Radius>2</sld:Radius>
                     <sld:Fill>
                         <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
                     </sld:Fill>
@@ -374,7 +374,7 @@
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
                 </sld:Font>
                 <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
+                    <sld:Radius>2</sld:Radius>
                     <sld:Fill>
                         <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
                     </sld:Fill>
@@ -416,7 +416,7 @@
                     <sld:CssParameter name="font-weight">normal</sld:CssParameter>
                 </sld:Font>
                 <sld:Halo>
-                    <sld:Radius>1</sld:Radius>
+                    <sld:Radius>2</sld:Radius>
                     <sld:Fill>
                         <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
                     </sld:Fill>
