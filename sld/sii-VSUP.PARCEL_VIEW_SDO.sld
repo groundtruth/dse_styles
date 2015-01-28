@@ -2,7 +2,7 @@
 <!-- Styled by Lotta for Groundtruth (http://www.groundtruth.com.au) -->
 <StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:sld="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:gml="http://www.opengis.net/gml">
     <sld:NamedLayer>
-    <sld:Name>sii:VSUP.PARCEL_VIEW_SDO</Name>
+    <sld:Name>sii:VSUP.PARCEL_VIEW_SDO</sld:Name>
         <sld:UserStyle>
             <sld:Name>Default Styler</sld:Name>
             <sld:FeatureTypeStyle>
