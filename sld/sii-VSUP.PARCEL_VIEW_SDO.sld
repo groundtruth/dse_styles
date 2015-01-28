@@ -8,7 +8,6 @@
             <sld:FeatureTypeStyle>
                 <sld:Name>Parcel</sld:Name>
                 <sld:Title>Parcel outline with label</sld:Title>
-                <sld:FeatureTypeStyle>
 
                 <sld:Rule>
                   <sld:Title>Approved</sld:Title>
