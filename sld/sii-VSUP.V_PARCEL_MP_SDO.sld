@@ -2,7 +2,7 @@
 <!-- Styled by Lotta for Groundtruth (http://www.groundtruth.com.au) -->
 <StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:sld="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:gml="http://www.opengis.net/gml">
     <sld:NamedLayer>
-    <sld:Name>sii:VSUP.PARCEL_VIEW_SDO</sld:Name>
+    <sld:Name>sii:VSUP.V_PARCEL_MP_SDO</sld:Name>
         <sld:UserStyle>
             <sld:Name>Default Styler</sld:Name>
             <sld:FeatureTypeStyle>
@@ -13,7 +13,7 @@
                   <sld:Title>Approved</sld:Title>
                   <ogc:Filter>
                     <ogc:PropertyIsNotEqualTo>
-                       <ogc:PropertyName>pc_stat</ogc:PropertyName>
+                       <ogc:PropertyName>PARCEL_STATUS</ogc:PropertyName>
                        <ogc:Literal>P</ogc:Literal>
                     </ogc:PropertyIsNotEqualTo>
                   </ogc:Filter>
@@ -30,7 +30,7 @@
                   <sld:Title>Proposed</sld:Title>
                   <ogc:Filter>
                     <ogc:PropertyIsEqualTo>
-                       <ogc:PropertyName>pc_stat</ogc:PropertyName>
+                       <ogc:PropertyName>PARCEL_STATUS</ogc:PropertyName>
                        <ogc:Literal>P</ogc:Literal>
                     </ogc:PropertyIsEqualTo>          
                   </ogc:Filter>
@@ -56,7 +56,7 @@
                   <sld:TextSymbolizer>
                     <sld:Label>
                       <ogc:Function name="strReplace">
-                        <ogc:PropertyName>parcel_spi</ogc:PropertyName>
+                        <ogc:PropertyName>PARCEL_SPI</ogc:PropertyName>
                         <ogc:Literal>\\</ogc:Literal>
                         <ogc:Literal>\  </ogc:Literal>
                         <ogc:Literal>true</ogc:Literal>
