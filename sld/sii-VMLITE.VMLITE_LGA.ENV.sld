@@ -20,7 +20,7 @@
                             <ogc:Literal>#CA226B</ogc:Literal>
                          </ogc:Function>
                     </sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">3.8</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">5</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
             <sld:TextSymbolizer>
@@ -63,7 +63,7 @@
                             <ogc:Literal>#CA226B</ogc:Literal>
                          </ogc:Function>
                     </sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">1.2</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">4</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
         </sld:Rule>
@@ -77,7 +77,7 @@
                             <ogc:Literal>#CA226B</ogc:Literal>
                          </ogc:Function>
                     </sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">6.1</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">6</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
         </sld:Rule>
