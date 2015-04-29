@@ -8,7 +8,7 @@
             <sld:FeatureTypeStyle>
                 <sld:Name>name</sld:Name>
                 <sld:Rule>
-                    <sld:MaxScaleDenominator>4200.0</sld:MaxScaleDenominator>
+                    <sld:MaxScaleDenominator>2100.0</sld:MaxScaleDenominator>
                     <sld:TextSymbolizer>
                         <sld:Label>
                             <ogc:PropertyName>NUM_ADDRESS</ogc:PropertyName>
@@ -52,7 +52,7 @@
             <sld:Name>name</sld:Name>
             <sld:Rule>
               <sld:Title>Properties</sld:Title>
-              <sld:MaxScaleDenominator>12500.0</sld:MaxScaleDenominator>
+              <sld:MaxScaleDenominator>6500.0</sld:MaxScaleDenominator>
               <sld:PolygonSymbolizer>
                 <sld:Stroke>
                   <sld:CssParameter name="stroke">#CCCCCC</sld:CssParameter>
