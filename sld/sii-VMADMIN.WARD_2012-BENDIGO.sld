@@ -14,11 +14,11 @@
           <ogc:Filter>
            <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>lga_name</ogc:PropertyName>
+              <ogc:PropertyName>LGA_NAME</ogc:PropertyName>
               <ogc:Literal>GREATER BENDIGO</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ward_name</ogc:PropertyName>
+              <ogc:PropertyName>WARD_NAME</ogc:PropertyName>
               <ogc:Literal>EPPALOCK</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:And>
@@ -36,7 +36,7 @@
           </sld:PolygonSymbolizer>
           <sld:TextSymbolizer>
             <sld:Label>
-              <ogc:PropertyName>ward_name</ogc:PropertyName>
+              <ogc:PropertyName>WARD_NAME</ogc:PropertyName>
             </sld:Label>
             <sld:Font>
               <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
@@ -78,11 +78,11 @@
           <ogc:Filter>
             <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>lga_name</ogc:PropertyName>
+              <ogc:PropertyName>LGA_NAME</ogc:PropertyName>
               <ogc:Literal>GREATER BENDIGO</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ward_name</ogc:PropertyName>
+              <ogc:PropertyName>WARD_NAME</ogc:PropertyName>
               <ogc:Literal>LOCKWOOD</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:And>
@@ -100,7 +100,7 @@
           </PolygonSymbolizer>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>ward_name</ogc:PropertyName>
+              <ogc:PropertyName>WARD_NAME</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Tahoma</CssParameter>
@@ -142,11 +142,11 @@
           <ogc:Filter>
             <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>lga_name</ogc:PropertyName>
+              <ogc:PropertyName>LGA_NAME</ogc:PropertyName>
               <ogc:Literal>GREATER BENDIGO</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ward_name</ogc:PropertyName>
+              <ogc:PropertyName>WARD_NAME</ogc:PropertyName>
               <ogc:Literal>WHIPSTICK</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:And>
@@ -164,7 +164,7 @@
           </PolygonSymbolizer>
            <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>ward_name</ogc:PropertyName>
+              <ogc:PropertyName>WARD_NAME</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Tahoma</CssParameter>
