@@ -94,7 +94,7 @@
                       </sld:Fill>
                     </sld:Halo>
                     <sld:Fill>
-                      <sld:CssParameter name="fill">#0F0F0F</sld:CssParameter>
+                      <sld:CssParameter name="fill">#999999</sld:CssParameter>
                     </sld:Fill>
                       <VendorOption name="spaceAround">3</VendorOption>
                       <VendorOption name="group">true</VendorOption>
