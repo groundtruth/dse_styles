@@ -55,9 +55,9 @@
               <sld:MaxScaleDenominator>6500.0</sld:MaxScaleDenominator>
               <sld:PolygonSymbolizer>
                 <sld:Stroke>
-                  <sld:CssParameter name="stroke">#CCCCCC</sld:CssParameter>
+                  <sld:CssParameter name="stroke">#999999</sld:CssParameter>
                   <sld:CssParameter name="stroke-opacity">0.5</sld:CssParameter>
-                  <sld:CssParameter name="stroke-width">0.3</sld:CssParameter>
+                  <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>
                 </sld:Stroke>
               </sld:PolygonSymbolizer>
             </sld:Rule>
