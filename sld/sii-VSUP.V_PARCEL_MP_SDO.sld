@@ -21,7 +21,7 @@
                   <sld:PolygonSymbolizer>
                     <sld:Stroke>
                       <sld:CssParameter name="stroke">#DDDDDD</sld:CssParameter>
-                      <sld:CssParameter name="stroke-opacity">0.5</sld:CssParameter>
+                      <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
                       <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>
                     </sld:Stroke>
                   </sld:PolygonSymbolizer>
@@ -90,7 +90,7 @@
                         <ogc:Literal>2</ogc:Literal>
                       </sld:Radius>
                       <sld:Fill>
-                        <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
+                        <sld:CssParameter name="fill">#F8F8F8</sld:CssParameter>
                       </sld:Fill>
                     </sld:Halo>
                     <sld:Fill>
