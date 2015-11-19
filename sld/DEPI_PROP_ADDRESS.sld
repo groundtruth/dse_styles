@@ -34,7 +34,7 @@
                             </sld:Fill>
                         </sld:Halo>
                         <sld:Fill>
-                            <sld:CssParameter name="fill">#AAAAAA</sld:CssParameter>
+                            <sld:CssParameter name="fill">#999999</sld:CssParameter>
                         </sld:Fill>
                         <sld:VendorOption name="spaceAround">10</sld:VendorOption>
                     </sld:TextSymbolizer>
@@ -55,9 +55,9 @@
               <sld:MaxScaleDenominator>6500.0</sld:MaxScaleDenominator>
               <sld:PolygonSymbolizer>
                 <sld:Stroke>
-                  <sld:CssParameter name="stroke">#AAAAAA</sld:CssParameter>
+                  <sld:CssParameter name="stroke">#999999</sld:CssParameter>
                   <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
-                  <sld:CssParameter name="stroke-width">0.75</sld:CssParameter>
+                  <sld:CssParameter name="stroke-width">0.65</sld:CssParameter>
                 </sld:Stroke>
               </sld:PolygonSymbolizer>
             </sld:Rule>
