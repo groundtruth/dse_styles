@@ -20,7 +20,7 @@
                   <sld:MaxScaleDenominator>10000.0</sld:MaxScaleDenominator>
                   <sld:PolygonSymbolizer>
                     <sld:Stroke>
-                      <sld:CssParameter name="stroke">#CCCCCC</sld:CssParameter>
+                      <sld:CssParameter name="stroke">#DDDDDD</sld:CssParameter>
                       <sld:CssParameter name="stroke-opacity">0.5</sld:CssParameter>
                       <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>
                     </sld:Stroke>
@@ -45,7 +45,7 @@
                   </sld:PolygonSymbolizer>
                   <sld:PolygonSymbolizer>
                     <sld:Stroke>
-                      <sld:CssParameter name="stroke">#CCCCCC</sld:CssParameter>
+                      <sld:CssParameter name="stroke">#DDDDDD</sld:CssParameter>
                       <sld:CssParameter name="stroke-opacity">1.0</sld:CssParameter>
                       <sld:CssParameter name="stroke-width">2.0</sld:CssParameter>
                       <sld:CssParameter name="stroke-dasharray">4.0 4.0</sld:CssParameter>
@@ -68,7 +68,7 @@
                       <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
                       <sld:CssParameter name="font-size">9</sld:CssParameter>
                       <sld:CssParameter name="font-style">normal</sld:CssParameter>
-                      <sld:CssParameter name="font-weight">bold</sld:CssParameter>
+                      <sld:CssParameter name="font-weight">normal</sld:CssParameter>
                     </sld:Font>
                     <sld:LabelPlacement>
                       <sld:PointPlacement>
