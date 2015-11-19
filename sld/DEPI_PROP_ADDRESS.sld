@@ -34,7 +34,7 @@
                             </sld:Fill>
                         </sld:Halo>
                         <sld:Fill>
-                            <sld:CssParameter name="fill">#BBBBBB</sld:CssParameter>
+                            <sld:CssParameter name="fill">#AAAAAA</sld:CssParameter>
                         </sld:Fill>
                         <sld:VendorOption name="spaceAround">10</sld:VendorOption>
                     </sld:TextSymbolizer>

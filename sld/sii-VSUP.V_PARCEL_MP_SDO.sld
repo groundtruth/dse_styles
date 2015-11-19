@@ -22,7 +22,7 @@
                     <sld:Stroke>
                       <sld:CssParameter name="stroke">#CCCCCC</sld:CssParameter>
                       <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
-                      <sld:CssParameter name="stroke-width">0.25</sld:CssParameter>
+                      <sld:CssParameter name="stroke-width">0.15</sld:CssParameter>
                     </sld:Stroke>
                   </sld:PolygonSymbolizer>
                 </sld:Rule>
