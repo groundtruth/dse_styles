@@ -8,7 +8,7 @@
             <sld:FeatureTypeStyle>
                 <sld:Name>name</sld:Name>
                 <sld:Rule>
-                    <sld:MaxScaleDenominator>2100.0</sld:MaxScaleDenominator>
+                    <sld:MaxScaleDenominator>6500.0</sld:MaxScaleDenominator>
                     <sld:TextSymbolizer>
                         <sld:Label>
                             <ogc:PropertyName>NUM_ADDRESS</ogc:PropertyName>
@@ -57,7 +57,7 @@
                 <sld:Stroke>
                   <sld:CssParameter name="stroke">#AAAAAA</sld:CssParameter>
                   <sld:CssParameter name="stroke-opacity">1</sld:CssParameter>
-                  <sld:CssParameter name="stroke-width">1</sld:CssParameter>
+                  <sld:CssParameter name="stroke-width">0.75</sld:CssParameter>
                 </sld:Stroke>
               </sld:PolygonSymbolizer>
             </sld:Rule>
