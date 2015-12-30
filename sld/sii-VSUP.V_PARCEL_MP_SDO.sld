@@ -87,14 +87,14 @@
                     </sld:LabelPlacement>
                     <sld:Halo>
                       <sld:Radius>
-                        <ogc:Literal>2</ogc:Literal>
+                        <ogc:Literal>1</ogc:Literal>
                       </sld:Radius>
                       <sld:Fill>
-                        <sld:CssParameter name="fill">#F8F8F8</sld:CssParameter>
+                        <sld:CssParameter name="fill">#F1F1F1</sld:CssParameter>
                       </sld:Fill>
                     </sld:Halo>
                     <sld:Fill>
-                      <sld:CssParameter name="fill">#999999</sld:CssParameter>
+                      <sld:CssParameter name="fill">#888888</sld:CssParameter>
                     </sld:Fill>
                       <VendorOption name="spaceAround">3</VendorOption>
                       <VendorOption name="group">true</VendorOption>

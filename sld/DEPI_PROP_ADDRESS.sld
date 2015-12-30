@@ -28,9 +28,9 @@
                             </sld:PointPlacement>
                         </sld:LabelPlacement>
                         <sld:Halo>
-                            <sld:Radius>3</sld:Radius>
+                            <sld:Radius>2</sld:Radius>
                             <sld:Fill>
-                                <sld:CssParameter name="fill">#F8F8F8</sld:CssParameter>
+                                <sld:CssParameter name="fill">#F1F1F1</sld:CssParameter>
                             </sld:Fill>
                         </sld:Halo>
                         <sld:Fill>
