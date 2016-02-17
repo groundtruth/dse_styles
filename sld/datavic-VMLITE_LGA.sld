@@ -13,8 +13,8 @@
             <sld:MinScaleDenominator>8000.0</sld:MinScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
-                    <sld:CssParameter name="stroke">#CA226B</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">2.2</sld:CssParameter>
+                    <sld:CssParameter name="stroke">#c48ca4</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
             <sld:TextSymbolizer>
@@ -35,7 +35,7 @@
                 </sld:Halo>
                 <sld:Fill>
 
-                    <sld:CssParameter name="fill">#CA226B</sld:CssParameter>
+                    <sld:CssParameter name="fill">#c48ca4</sld:CssParameter>
                 </sld:Fill>
                 <sld:VendorOption name="autoWrap">60</sld:VendorOption>
                 <sld:VendorOption name="maxDisplacement">150</sld:VendorOption>
@@ -45,8 +45,8 @@
             <sld:MaxScaleDenominator>8000.0</sld:MaxScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
-                    <sld:CssParameter name="stroke">#CA226B</sld:CssParameter>
-                    <sld:CssParameter name="stroke-width">2.2</sld:CssParameter>
+                    <sld:CssParameter name="stroke">#c48ca4</sld:CssParameter>
+                    <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
                 </sld:Stroke>
             </sld:LineSymbolizer>
         </sld:Rule>
