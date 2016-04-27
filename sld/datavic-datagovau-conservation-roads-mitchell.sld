@@ -39,6 +39,36 @@
             </se:Stroke>
           </se:PolygonSymbolizer>
         </se:Rule>
+
+        <se:Rule>
+          <se:Name>MEDIUM</se:Name>
+          <se:Description>
+            <se:Title>MEDIUM</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>conservati</ogc:PropertyName>
+              <ogc:Literal>Medium</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#082f00</se:SvgParameter>
+              <se:CssParameter name="fill">#082f00</se:CssParameter>
+              <se:CssParameter name="fill-opacity">0.5</se:CssParameter>
+
+            </se:Fill>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#082f00</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1.26</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+              <se:CssParameter name="stroke">#082f00</se:CssParameter>
+              <se:CssParameter name="stroke-width">1.26</se:CssParameter>
+              <se:CssParameter name="stroke-opacity">0.7</se:CssParameter>
+
+            </se:Stroke>
+          </se:PolygonSymbolizer>
+        </se:Rule>
         <se:Rule>
           <se:Name>LOW</se:Name>
           <se:Description>
@@ -68,35 +98,6 @@
               <se:SvgParameter name="stroke-width">1.26</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
               <se:CssParameter name="stroke">#c6c6c6</se:CssParameter>
-              <se:CssParameter name="stroke-width">1.26</se:CssParameter>
-              <se:CssParameter name="stroke-opacity">0.7</se:CssParameter>
-
-            </se:Stroke>
-          </se:PolygonSymbolizer>
-        </se:Rule>
-        <se:Rule>
-          <se:Name>MEDIUM</se:Name>
-          <se:Description>
-            <se:Title>MEDIUM</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>conservati</ogc:PropertyName>
-              <ogc:Literal>Medium</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#082f00</se:SvgParameter>
-              <se:CssParameter name="fill">#082f00</se:CssParameter>
-              <se:CssParameter name="fill-opacity">0.5</se:CssParameter>
-
-            </se:Fill>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#082f00</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">1.26</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-              <se:CssParameter name="stroke">#082f00</se:CssParameter>
               <se:CssParameter name="stroke-width">1.26</se:CssParameter>
               <se:CssParameter name="stroke-opacity">0.7</se:CssParameter>
 
