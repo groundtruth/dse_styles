@@ -27,20 +27,14 @@
             <se:Fill>
               <se:SvgParameter name="fill">#004b1c</se:SvgParameter>
               <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter>
-              <se:CssParameter name="fill">#004b1c</se:CssParameter>
-              <se:CssParameter name="fill-opacity">0.5</se:CssParameter>
             </se:Fill>
             <se:Stroke>
               <se:SvgParameter name="stroke">#004b1c</se:SvgParameter>
               <se:SvgParameter name="stroke-width">2.0</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-              <se:CssParameter name="stroke">#004b1c</se:CssParameter>
-              <se:CssParameter name="stroke-width">2.5</se:CssParameter>
-              <se:CssParameter name="stroke-opacity">0.5</se:CssParameter>
             </se:Stroke>
           </se:PolygonSymbolizer>
         </se:Rule>
-
         <se:Rule>
           <se:Name>MEDIUM</se:Name>
           <se:Description>
@@ -56,18 +50,12 @@
             <se:Fill>
               <se:SvgParameter name="fill">#54b466</se:SvgParameter>
               <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter>
-              <se:CssParameter name="fill">#54b466</se:CssParameter>
-              <se:CssParameter name="fill-opacity">0.5</se:CssParameter>
-
             </se:Fill>
             <se:Stroke>
               <se:SvgParameter name="stroke">#54b466</se:SvgParameter>
               <se:SvgParameter name="stroke-width">2.0</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-              <se:CssParameter name="stroke">#54b466</se:CssParameter>
-              <se:CssParameter name="stroke-width">2.5</se:CssParameter>
-              <se:CssParameter name="stroke-opacity">0.5</se:CssParameter>
-
+              <se:SvgParameter name="stroke-opacity">0.5</se:SvgParameter>
             </se:Stroke>
           </se:PolygonSymbolizer>
         </se:Rule>
@@ -92,18 +80,11 @@
             <se:Fill>
               <se:SvgParameter name="fill">#bebebe</se:SvgParameter>
               <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter>
-              <se:CssParameter name="fill">#bebebe</se:CssParameter>
-              <se:CssParameter name="fill-opacity">0.5</se:CssParameter>
-
             </se:Fill>
             <se:Stroke>
               <se:SvgParameter name="stroke">#bebebe</se:SvgParameter>
               <se:SvgParameter name="stroke-width">2.0</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-              <se:CssParameter name="stroke">#bebebe</se:CssParameter>
-              <se:CssParameter name="stroke-width">2.5</se:CssParameter>
-              <se:CssParameter name="stroke-opacity">0.5</se:CssParameter>
-
             </se:Stroke>
           </se:PolygonSymbolizer>
         </se:Rule>
