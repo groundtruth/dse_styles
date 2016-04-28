@@ -32,6 +32,7 @@
               <se:SvgParameter name="stroke">#004b1c</se:SvgParameter>
               <se:SvgParameter name="stroke-width">2.0</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+              <se:SvgParameter name="stroke-opacity">0.5</se:SvgParameter>
             </se:Stroke>
           </se:PolygonSymbolizer>
         </se:Rule>
@@ -85,6 +86,7 @@
               <se:SvgParameter name="stroke">#bebebe</se:SvgParameter>
               <se:SvgParameter name="stroke-width">2.0</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+              <se:SvgParameter name="stroke-opacity">0.5</se:SvgParameter>
             </se:Stroke>
           </se:PolygonSymbolizer>
         </se:Rule>
