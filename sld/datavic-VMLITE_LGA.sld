@@ -10,7 +10,7 @@
     <sld:FeatureTypeStyle>
         <sld:Name>name</sld:Name>
         <sld:Rule>
-            <sld:MinScaleDenominator>20000.0</sld:MinScaleDenominator>
+            <sld:MinScaleDenominator>40000.0</sld:MinScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
                     <sld:CssParameter name="stroke">#c48ca4</sld:CssParameter>
@@ -42,7 +42,7 @@
             </sld:TextSymbolizer>
         </sld:Rule>
         <sld:Rule>
-            <sld:MaxScaleDenominator>20000.0</sld:MaxScaleDenominator>
+            <sld:MaxScaleDenominator>40000.0</sld:MaxScaleDenominator>
             <sld:LineSymbolizer>
                 <sld:Stroke>
                     <sld:CssParameter name="stroke">#c48ca4</sld:CssParameter>
