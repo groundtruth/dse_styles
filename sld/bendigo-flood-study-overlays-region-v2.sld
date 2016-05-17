@@ -12,7 +12,7 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Zone_Code</ogc:PropertyName>
+              <ogc:PropertyName>zone_code</ogc:PropertyName>
               <ogc:Literal>LSIO1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -29,7 +29,7 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Zone_Code</ogc:PropertyName>
+              <ogc:PropertyName>zone_code</ogc:PropertyName>
               <ogc:Literal>LSIO2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -46,7 +46,7 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Zone_Code</ogc:PropertyName>
+              <ogc:PropertyName>zone_code</ogc:PropertyName>
               <ogc:Literal>LSIO3</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -63,7 +63,7 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Zone_Code</ogc:PropertyName>
+              <ogc:PropertyName>zone_code</ogc:PropertyName>
               <ogc:Literal>SBO1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -80,7 +80,7 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Zone_Code</ogc:PropertyName>
+              <ogc:PropertyName>zone_code</ogc:PropertyName>
               <ogc:Literal>SBO2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
