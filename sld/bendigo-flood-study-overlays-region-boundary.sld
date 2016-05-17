@@ -9,10 +9,10 @@
           <se:Name>Single symbol</se:Name>
           <se:PolygonSymbolizer>
             <se:Fill>
-              <se:SvgParameter name="fill">#4ac150</se:SvgParameter>
+              <se:SvgParameter name="fill">#ae000e</se:SvgParameter>
             </se:Fill>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+              <se:SvgParameter name="stroke">#8c0000</se:SvgParameter>
               <se:SvgParameter name="stroke-width">0.26</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
             </se:Stroke>
