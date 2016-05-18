@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sld", "sld", "{CB7BE954-EEB9-4D0C-9099-14FA2E5F4E3C}"
 	ProjectSection(SolutionItems) = preProject
+		sld\bendigo-flood-study-overlays-region-boundary.sld = sld\bendigo-flood-study-overlays-region-boundary.sld
+		sld\bendigo-flood-study-overlays-region-es01.sld = sld\bendigo-flood-study-overlays-region-es01.sld
+		sld\bendigo-flood-study-overlays-region-v2-sld.sld = sld\bendigo-flood-study-overlays-region-v2-sld.sld
+		sld\bendigo-flood-study-overlays-region-v2.sld = sld\bendigo-flood-study-overlays-region-v2.sld
 		sld\datavic-CATCHMENTS_CMA100.sld = sld\datavic-CATCHMENTS_CMA100.sld
 		sld\datavic-CULTURE_SENSITIVITY.sld = sld\datavic-CULTURE_SENSITIVITY.sld
 		sld\datavic-datagovau-conservation-roads-mitchell.sld = sld\datavic-datagovau-conservation-roads-mitchell.sld
@@ -25,6 +29,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sld", "sld", "{CB7BE954-EEB
 		sld\datavic-VMTRANS_TR_ROAD-labels.sld = sld\datavic-VMTRANS_TR_ROAD-labels.sld
 		sld\DEPI_PROP_ADDRESS.sld = sld\DEPI_PROP_ADDRESS.sld
 		sld\DSE_ADMINISTRATIVE_BOUNDARIES-dse_vmadmin_lga_polygon.sld = sld\DSE_ADMINISTRATIVE_BOUNDARIES-dse_vmadmin_lga_polygon.sld
+		sld\ngsc-wasteroutes.sld = sld\ngsc-wasteroutes.sld
 		sld\sii-BUILDINGREG.BUSHFIRE_PRONE_AREA.sld = sld\sii-BUILDINGREG.BUSHFIRE_PRONE_AREA.sld
 		sld\sii-BUILDINGREG.BUSHFIRE_PRONE_AREA_GEN.sld = sld\sii-BUILDINGREG.BUSHFIRE_PRONE_AREA_GEN.sld
 		sld\sii-CATCHMENTS.BIOLINK500.sld = sld\sii-CATCHMENTS.BIOLINK500.sld
@@ -151,6 +156,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sld", "sld", "{CB7BE954-EEB
 		sld\VICMAP_CLASSIC-gt_vmtrans_road_aggr_lga-labels.sld = sld\VICMAP_CLASSIC-gt_vmtrans_road_aggr_lga-labels.sld
 		sld\VICMAP_CLASSIC-gt_vmtrans_road_aggr_lga-normal.sld = sld\VICMAP_CLASSIC-gt_vmtrans_road_aggr_lga-normal.sld
 		sld\VICMAP_CLASSIC-se_vmlite_vmlite_hy_watercourse.sld = sld\VICMAP_CLASSIC-se_vmlite_vmlite_hy_watercourse.sld
+		sld\ysc-wasteroutes.sld = sld\ysc-wasteroutes.sld
 	EndProjectSection
 EndProject
 Global
