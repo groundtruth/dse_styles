@@ -1237,7 +1237,7 @@
                 <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
                 <sld:TextSymbolizer>
                     <sld:Label>
-                        <ogc:PropertyName>SCHEME_CODE</ogc:PropertyName>
+                        <ogc:PropertyName>ZONE_CODE</ogc:PropertyName>
                     </sld:Label>
                     <sld:Font>
                         <sld:CssParameter name="font-family">Tahoma</sld:CssParameter>
