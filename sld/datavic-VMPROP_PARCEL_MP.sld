@@ -16,7 +16,7 @@
               <ogc:Literal>P</ogc:Literal>
             </ogc:PropertyIsNotEqualTo>
           </ogc:Filter>
-          <sld:MaxScaleDenominator>10000.0</sld:MaxScaleDenominator>
+          <sld:MaxScaleDenominator>25000.0</sld:MaxScaleDenominator>
           <sld:PolygonSymbolizer>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#CCCCCC</sld:CssParameter>
@@ -33,7 +33,7 @@
               <ogc:Literal>P</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <sld:MaxScaleDenominator>10000.0</sld:MaxScaleDenominator>
+          <sld:MaxScaleDenominator>25000.0</sld:MaxScaleDenominator>
           <sld:PolygonSymbolizer>
             <sld:Stroke>
               <sld:CssParameter name="stroke">#FFFFFF</sld:CssParameter>
@@ -51,7 +51,7 @@
           </sld:PolygonSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:MaxScaleDenominator>10000.0</sld:MaxScaleDenominator>
+          <sld:MaxScaleDenominator>25000.0</sld:MaxScaleDenominator>
           <sld:TextSymbolizer>
             <sld:Label>
               <ogc:Function name="strReplace">
